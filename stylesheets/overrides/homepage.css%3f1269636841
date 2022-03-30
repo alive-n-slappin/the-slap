@@ -513,7 +513,7 @@
   float:left;
   height:14px;
   width:18px;
-  background: url('/the-slap/images/themes/default/home/slamp/go.png') no-repeat 0px 2px;
+  background: url('../../the-slap/images/themes/default/home/slamp/go.png') no-repeat 0px 2px;
   text-decoration:none;
 }
 
