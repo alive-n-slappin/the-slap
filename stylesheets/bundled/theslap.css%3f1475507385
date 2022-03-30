@@ -1103,7 +1103,7 @@ form.bp textarea{
     height:250px
 }
 html,body{
-    background-image:url(the-slap/images/themes/default/body_bg.jpg);
+    background-image:url(../../../the-slap/images/themes/default/body_bg.jpg);
     margin:0;
     padding:0
 }
