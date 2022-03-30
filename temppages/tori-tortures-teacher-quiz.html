@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--esi
+<esi:choose>
+  <esi:when test="!$exists($(HTTP_COOKIE{'esi_country_cookie'}))">
+                <esi:assign name="varGeo">$(GEO{country_code})</esi:assign>
+        </esi:when>
+        <esi:otherwise>
+                <esi:assign name="varGeo">$(HTTP_COOKIE{'esi_country_cookie'})</esi:assign>
+        </esi:otherwise>
+</esi:choose>
+
+<esi:choose>
+        <esi:when test="($(varGeo) == 'IL')">$set_redirect('http://nick.walla.co.il/?w=//1744947')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'BR')">$set_redirect('http://www.mundonick.com.br/victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'CH')">$set_redirect('http://www.nick.ch/shows/586-victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'KR')">$set_redirect('http://www.nick.com.kr/victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'PL')">$set_redirect('http://www.nick.com.pl/o_nas.htm')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'DE')">$set_redirect('http://www.nick.de/shows/586-victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'AT')">$set_redirect('http://www.nick.de/shows/586-victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'SA')">$set_redirect('http://www.nickarabia.net/ar/default.aspx')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'BN') || ($(varGeo) == 'KH') || ($(varGeo) == 'CK') || ($(varGeo) == 'FJ') || ($(varGeo) == 'PF') || ($(varGeo) == 'HK') || ($(varGeo) == 'ID') || ($(varGeo) == 'KI') || ($(varGeo) == 'MO') || ($(varGeo) == 'MY') || ($(varGeo) == 'MH') || ($(varGeo) == 'FM') || ($(varGeo) == 'MN') || ($(varGeo) == 'MM') || ($(varGeo) == 'NR') || ($(varGeo) == 'NC') || ($(varGeo) == 'NU') || ($(varGeo) == 'PW') || ($(varGeo) == 'PG') || ($(varGeo) == 'PH') || ($(varGeo) == 'WS') || ($(varGeo) == 'SG') || ($(varGeo) == 'SB') || ($(varGeo) == 'TW') || ($(varGeo) == 'TH') || ($(varGeo) == 'TO') || ($(varGeo) == 'TV') || ($(varGeo) == 'VU') || ($(varGeo) == 'VN')">$set_redirect('http://www.nick-asia.com/victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'BE')">$set_redirect('http://www.nickelodeon.be/tv/programma/250/victorious.html')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'AU')">$set_redirect('http://www.nickelodeon.com.au/theslap')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'TR')">$set_redirect('http://www.nickelodeon.com.tr/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'DK')">$set_redirect('http://www.nickelodeon.dk/nick/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'ES')">$set_redirect('http://www.nickelodeon.es/victorious/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'FI')">$set_redirect('http://www.nickelodeon.fi/nick/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'FR')">$set_redirect('http://www.nickelodeon.fr/tv/emission/victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'NL')">$set_redirect('http://www.nickelodeon.nl/tv/programma/250/victorious.html')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'NO')">$set_redirect('http://www.nickelodeon.no/nick/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'PT')">$set_redirect('http://www.nickelodeon.pt/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'SE')">$set_redirect('http://www.nickelodeon.se/nick/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'AO') || ($(varGeo) == 'BJ') || ($(varGeo) == 'BW') || ($(varGeo) == 'BF') || ($(varGeo) == 'BI') || ($(varGeo) == 'CM') || ($(varGeo) == 'CV') || ($(varGeo) == 'CF') || ($(varGeo) == 'TD') || ($(varGeo) == 'KM') || ($(varGeo) == 'CG') || ($(varGeo) == 'CD') || ($(varGeo) == 'CI') || ($(varGeo) == 'DJ') || ($(varGeo) == 'GQ') || ($(varGeo) == 'ER') || ($(varGeo) == 'ET') || ($(varGeo) == 'GA') || ($(varGeo) == 'GH') || ($(varGeo) == 'GN') || ($(varGeo) == 'GW') || ($(varGeo) == 'KE') || ($(varGeo) == 'LS') || ($(varGeo) == 'LR') || ($(varGeo) == 'MG') || ($(varGeo) == 'MW') || ($(varGeo) == 'ML') || ($(varGeo) == 'MR') || ($(varGeo) == 'MU') || ($(varGeo) == 'MZ') || ($(varGeo) == 'NA') || ($(varGeo) == 'NE') || ($(varGeo) == 'NG') || ($(varGeo) == 'RE') || ($(varGeo) == 'RW') || ($(varGeo) == 'ST') || ($(varGeo) == 'SN') || ($(varGeo) == 'SC') || ($(varGeo) == 'SL') || ($(varGeo) == 'SO') || ($(varGeo) == 'ZA') || ($(varGeo) == 'SD') || ($(varGeo) == 'SZ') || ($(varGeo) == 'TZ') || ($(varGeo) == 'GM') || ($(varGeo) == 'TG') || ($(varGeo) == 'UG') || ($(varGeo) == 'EH') || ($(varGeo) == 'ZM') || ($(varGeo) == 'ZW')">$set_redirect('http://www.nickelodeonafrica.com/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'IN')">$set_redirect('http://www.nickindia.com/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'JP')">$set_redirect('http://www.nickjapan.com/index.html')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'NZ')">$set_redirect('http://www.nicknz.co.nz/Shows/Victorious/')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'CA')">$set_redirect('http://www.ytv.com/shows/victorious/default.aspx')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'AR') || ($(varGeo) == 'BO') || ($(varGeo) == 'CL') || ($(varGeo) == 'CO') || ($(varGeo) == 'CR') || ($(varGeo) == 'DO') || ($(varGeo) == 'EC') || ($(varGeo) == 'SV') || ($(varGeo) == 'GT') || ($(varGeo) == 'HN') || ($(varGeo) == 'MX') || ($(varGeo) == 'NI') || ($(varGeo) == 'PA') || ($(varGeo) == 'PY') || ($(varGeo) == 'PE') || ($(varGeo) == 'UY') || ($(varGeo) == 'VE')">$set_redirect('http://www.mundonick.com/victorious')</esi:when>
+</esi:choose>
+<esi:choose>
+        <esi:when test="($(varGeo) == 'IT')">$set_redirect('http://victorious.nicktv.it/')</esi:when>
+</esi:choose>
+-->
+
+<html xmlns:esi='http://www.edge-delivery.org/esi/1.0' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>
+Tori Tortures Teacher Quiz | TheSlap | Hollywood Arts' Victorious
+</title>
+
+<link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+<script src="/javascripts/bundled/theslap.js?1315406881" type="text/javascript"></script>
+<link href="/stylesheets/bundled/theslap.css?1325708387" media="screen" rel="stylesheet" type="text/css" />
+
+
+<!--[if lt IE 7]>
+<link href="/stylesheets/compiled/ie.css?1325708385" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lt IE 8]>
+<link href="/stylesheets/compiled/ie7.css?1325708387" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+</head>
+<body class='_page bp static_pages'>
+
+<div id='body_container'>
+<div id='header_container'>
+<div id='header'>
+<div id='nav_adornment'></div>
+<script type='text/javascript'>
+  //<![CDATA[
+    var user_menu_template = "    <ul>\n      <% try { %>\n        <li class=\"first\">Hello: <span class=\"user_name\"><%= user.username %><\/span><\/li>\n        <li><a href=\"/my/profile\">My profile<\/a><\/li>\n\n        <% if(user.admin) { %>\n          <li><a href=\"/admin/dashboard\">Admin dashboard<\/a><\/li>\n          <li><a href=\"/\">View site<\/a><\/li>\n        <% } %>\n        <li class=\"last\"><a href=\"/users/logout?return_to_after_logged_out=%2Fstatic_pages%2Ftori-tortures-teacher-quiz\">Logout<\/a><\/li>\n      <% } catch(err) { %>\n        <li><a href=\"/register\">Register<\/a><\/li>\n        <li class=\"last\"><a href=\"/users/login?return_to_if_logged_out=%2Fstatic_pages%2Ftori-tortures-teacher-quiz\" id=\"login_link\">Login<\/a><\/li>\n      <% } %>\n    <\/ul>\n";
+  //]]>
+</script>
+
+<div id='user_menu'>
+<noscript>
+<h3 class='no_javascript_warning'>
+Javascript is required to use TheSlap. Please enable Javascript and reload this page.
+</h3>
+</noscript>
+</div>
+
+<div id='logo'>
+<a href='/'>
+<object data='/swf/slap_logo.swf' height='103' id='slap_animation' type='application/x-shockwave-flash' width='327'>
+<param name='wmode' value='transparent' />
+<param name='movie' value='/swf/slap_logo.swf' />
+<img alt='The Slap' src='/images/themes/default/home_logo.png' />
+</object>
+</a>
+</div>
+<div id='nav'>
+<ul>
+<li class='home first'><a href="/">Home</a></li>
+<li class='characters'><a href="/profiles">Profiles</a></li>
+<li class='videos'><a href="/clips?newest=true">Clips</a></li>
+<li class='photos'><a href="/pix?newest=true">Pix</a></li>
+<li class='songs'><a href="/tunes">Tunes</a></li>
+<li class='games'><a href="/games">Games</a></li>
+<li class='search last'><div id='search'>
+<form action="/search" method="get">
+
+<input class="search_field" id="q" name="q" placeholder="enter text here" size="15" type="text" />
+<button id='search_button' type='submit'>
+Search
+</button>
+</form>
+</div>
+</li>
+</ul>
+<div id='nav_bar_right_cap'></div>
+</div>
+
+</div>
+</div>
+<div id='main_container'>
+<div id='body_shadow_top'></div>
+<div id='body_shadow_left'></div>
+<div id='main'>
+<div id='trivia'>
+<iframe border='0' frameBorder='0' height='600' scrolling='no' src='http://jo.theslap.trivia.production.s3.amazonaws.com/the_slap/tori-tortures-teacher-quiz/index.html' style='' width='950'></iframe>
+</div>
+</div>
+<div id='body_shadow_right'></div>
+</div>
+<div id='body_shadow_bottom'></div>
+<div id='footer_container'>
+<div id='footer'>
+<div id='footer_nav'>
+<div class='link_block top_links'>
+<a href="/">THE SLAP HOME</a>
+<a href="/bump?to=%2Ffaq">FAQ/ABOUT US</a>
+</div>
+<div class='link_block'>
+<a href="/">HOME</a>
+<a href="/bump?to=%2Fprofiles">PROFILES</a>
+<a href="/bump?to=%2Fclips">CLIPS</a>
+<a href="/bump?to=%2Fpix">PIX</a>
+<a href="/bump?to=%2Ftunes">TUNES</a>
+<a href="/bump?to=%2Fgames">GAMES</a>
+</div>
+<div class='link_block'>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fprivacy-policy.html" rel="external">Privacy Policy/Your California Privacy Rights</a>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fterms-of-use.html" rel="external">Terms of Use</a>
+</div>
+<div class='link_block'>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fcopyright.html" rel="external">Copyright Compliance Policy</a>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fsafety-guide.html" rel="external">Safety Guide</a>
+</div>
+<div class='link_block'>
+<a href="/bump?to=http%3A%2F%2Fsrp.mtvn.com%2Fsitefaq.html" class="viacom" rel="external">Ad Choices</a>
+</div>
+<div class='link_block'>
+&copy; Copyright 2012 Viacom International Inc. All Rights Reserved
+</div>
+<div class='link_block'>
+<div class='friends_title'>
+Friends of Victorious
+</div>
+<div class='friends_container'>
+<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_splashface.gif?1269720656" /></a>
+<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="iCarly" src="/images/friends/logo_icarly.png?1269720656" /></a>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com"><img alt="Nick" src="/images/friends/logo_nick_com.png?1269720656" /></a>
+<a href="/bump?to=http%3A%2F%2Fwww.nick.com"><img alt="Nickelodean Kids &amp; Teens" src="/images/friends/logo_nick_kids_teens.gif?1269720656" /></a>
+<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_zaplook.gif?1269720656" /></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

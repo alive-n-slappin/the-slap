@@ -1,0 +1,555 @@
+
+/* ========================================================================================================== */
+/* =                                          HOME PAGES STYLES                                             = */
+/* ========================================================================================================== */
+
+#content_container #s_right_now {
+	background:transparent url('/images/themes/default/home/right_now/bar_bg.png') no-repeat 0 0;
+  width: 219px;
+  height: 414px;
+  display: block;
+  float: left;
+}
+
+#content_container #s_right_now #avatar {
+  width: 58px;
+  height: 57px;
+  margin: 92px 0 0 18px;
+  display: block;
+  float: left;
+}
+
+#content_container #s_right_now #info {
+  width: 135px;
+  height: 65px;
+  margin: 88px 0 0;
+  color: #081845;
+  line-height: 1.8em;
+  display: block;
+  float: right;
+}
+
+#content_container #s_right_now #info p {
+  margin: 0;
+}
+
+#content_container #s_right_now #info #name {
+  font-size: 3em;
+}
+
+#content_container #s_right_now #info #title {
+  font-weight: bold;
+}
+
+#content_container #s_right_now ul {
+  float: left;
+  margin: 10px 16px 0 10px;
+  padding: 0 30px 0 24px;
+  height: 150px;
+  list-style-image: url('/images/themes/default/home/right_now/dot.png');
+  font-size: 1.2em;
+}
+
+#content_container #s_right_now #fother {
+	float: left;
+	color: #081845;
+  font-size: 1.8em;
+	margin: 0 0 0 18px;
+}
+
+#content_container #s_right_now #fother #emotion {
+	height: 33px;
+	width: 33px;
+  position: relative;
+	top: 6px;
+}
+
+#content_container #s_right_now #fother #desc {
+  position: relative;
+	top: 2px;
+}
+
+#content_container #adv_hot_stuff {
+	overflow: hidden;
+	float: right;
+}
+
+#content_container #s_fun_facts {
+	background:transparent url('/images/themes/default/home/fun_facts/bar_bg.png') no-repeat 0 0;
+  width: 744px;
+  height: 93px;
+  display: block;
+  float: right;
+}
+
+#content_container #s_fun_facts .control {
+	width: 600px;
+	height: 14px;
+	float: right;
+	text-align: right;
+	margin: 7px 0;
+}
+
+#content_container #s_fun_facts .control a.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px 0px;
+  text-decoration:none;
+}
+
+#content_container #s_fun_facts .control a:hover.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px -14px;
+  text-decoration:none;
+}
+
+#content_container #s_fun_facts .control a.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px 0px;
+  text-decoration:none;
+}
+
+#content_container #s_fun_facts .control a:hover.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px -14px;
+  text-decoration:none;
+}
+
+#content_container #s_fun_facts #text {
+	padding: 40px 40px 10px 20px;
+	line-height: 1.2em;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff {
+	background:transparent url('/images/themes/default/home/new_stuff/bar_bg.png') no-repeat 0 0;
+  width: 744px;
+  height: 336px;
+  margin: 1px 0 0 0;
+  float: left;
+  display: block;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control {
+	width: 598px;
+	height: 14px;
+	float: right;
+	text-align: right;
+	margin: 7px 0;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control a.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px 0px;
+  text-decoration:none;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control a:hover.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px -14px;
+  text-decoration:none;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control a.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px 0px;
+  text-decoration:none;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control a:hover.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px -14px;
+  text-decoration:none;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control #current {
+  display:inline;
+  float:left;
+  height:10px;
+  width:25px;
+  background: url('/images/themes/default/home/new_stuff/current.png') no-repeat 0px 0px;
+  text-decoration:none;
+  margin: 2px;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff .control #no_current {
+  display:inline;
+  float:left;
+  height:10px;
+  width:23px;
+  background: url('/images/themes/default/home/new_stuff/no_current.png') no-repeat 0px 0px;
+  text-decoration:none;
+  margin: 2px;
+}
+
+
+#content_container #adv_hot_stuff #s_new_stuff .link {
+	width: 190px;
+	height: 18px;
+	float: right;
+	text-align: right;
+	margin: 140px 0 0 0;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff a.check_out {
+  display:inline;
+  float:left;
+  height:18px;
+  width:68px;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff a.check_out:hover {
+  display:inline;
+  float:left;
+  height:18px;
+  width:68px;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff a.click_here {
+  display:inline;
+  float:left;
+  height:18px;
+  width:68px;
+  margin:60px 0 0 0;
+}
+
+#content_container #adv_hot_stuff #s_new_stuff a.click_here:hover {
+  display:inline;
+  float:left;
+  height:18px;
+  width:68px;
+}
+
+#content_container #s_hot_pages {
+	background:transparent url('/images/themes/default/home/hot_pages/bar_bg.png') no-repeat 0 0;
+  width: 974px;
+  height: 145px;
+  margin: -14px 0 2px 0;
+  padding: 0px 10px;
+  float: left;
+  display: block;
+}
+
+#content_container #s_hot_pages #frame {
+	background:transparent url('/images/themes/default/home/hot_pages/frame.png') no-repeat 0 0;
+  width: 136px;
+  height: 99px;
+  margin: 34px 0 0 0;
+  float: left;
+  display: block;
+}
+
+#content_container #s_hot_pages #frame #photo {
+	width: 115px;
+	height: 67px;
+  margin: 7px;
+  position :absolute;
+}
+
+#content_container #s_hot_pages #frame p {
+  margin: 72px 0 0 8px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+#content_container #s_hot_pages #frame #rating {
+  background:transparent url('/images/themes/default/home/hot_pages/rating.png') no-repeat 0 0;
+  height: 23px;
+  width: 23px;
+  margin: 72px 8px 0 0;
+  position: relative;
+  float: right;
+}
+
+
+#content_container #s_photo {
+	background:transparent url('/images/themes/default/home/photo/bar_bg.png') no-repeat 0 0;
+  width: 217px;
+  height: 279px;
+  margin: 0px 7px 0 0;
+  float: left;
+  display: block;
+}
+
+#content_container #s_photo #mouth {
+	background:transparent url('/images/themes/default/home/photo/mouth.png') no-repeat 0 0;
+	width: 208px;
+	height: 80px;
+	float: left;
+	display: block;
+	position: absolute;
+}
+
+#content_container #s_photo img {
+  margin: 45px 0 0 11px;
+  border: 0;
+}
+
+#content_container #s_photo #search {
+  margin: -18px 0px 0 11px;
+  height: 40px;
+}
+
+#content_container #s_photo #search input{
+ border: 1px solid #000066;
+ padding: 4px;
+ width: 152px;
+}
+
+#content_container #s_photo #search #search_button {
+	background-color:transparent;
+	background-repeat:no-repeat;
+	border:0 none;
+	height:37px;
+	left:295px;
+	overflow:hidden;
+	position:absolute;
+	text-align:left;
+	text-indent:-9999em;
+	top:0;
+	width:27px;
+}
+
+
+
+
+
+
+#content_container #s_photo #search .go {
+	width: 40px;
+	height: 32px;
+	float: right;
+	text-align: right;
+	position: relative;
+  top: -4px;
+	left: -14px;
+
+}
+
+#content_container #s_photo #search .go a {
+  display:inline;
+  float:left;
+  height:32px;
+  width:40px;
+  background: url('/images/themes/default/home/photo/go.png') no-repeat 0px 0px;
+  text-decoration:none;
+}
+
+#content_container #s_photo #search .go a:hover {
+  display:inline;
+  float:left;
+  height:32px;
+  width:40px;
+  background: url('/images/themes/default/home/photo/go_hover.png') no-repeat 0px 0px;
+  text-decoration:none;
+}
+
+
+
+
+
+
+#content_container #s_game_month {
+	background:transparent url('/images/themes/default/home/game_month/bar_bg.png') no-repeat 0 0;
+  width: 435px;
+  height: 279px;
+  margin: 0px 2px 0 0;
+  float: left;
+  display: block;
+}
+
+#content_container #s_game_month .control {
+	width: 213px;
+	height: 14px;
+	float: right;
+	text-align: right;
+	margin: 7px 0;
+}
+
+#content_container #s_game_month .control a.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px 0px;
+  text-decoration:none;
+}
+
+#content_container #s_game_month .control a:hover.left {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat 0px -14px;
+  text-decoration:none;
+}
+
+#content_container #s_game_month .control a.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px 0px;
+  text-decoration:none;
+}
+
+#content_container #s_game_month .control a:hover.right {
+  display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/arrow_control.png') no-repeat -20px -14px;
+  text-decoration:none;
+}
+
+#content_container #s_game_month img {
+  margin: 5px 10px;
+  border: 0;
+}
+
+#content_container #photo_gallery {
+	background:transparent url('/images/themes/default/home/photo_gallery/bar_bg.png') no-repeat 0 0;
+  width: 306px;
+  height: 279px;
+  margin: 0;
+  float: right;
+  display: block;
+}
+
+#content_container #photo_gallery img {
+  margin: 32px 10px 0;
+}
+
+#content_container #s_sneak {
+	background:transparent url('/images/themes/default/home/sneak/bar_bg.png') no-repeat 0 0;
+  width: 959px;
+  height: 253px;
+  float: left;
+  display: block;
+  margin: 2px 0;
+  padding: 0 0 0 15px;
+}
+
+#content_container #s_sneak #box {
+	background:transparent url('/images/themes/default/home/sneak/box_bg.png') no-repeat 0 0;
+  width: 215px;
+  height: 232px;
+  float: left;
+  display: block;
+  margin: 10px;
+}
+
+#content_container #s_sneak #box #title {
+  color: white;
+  padding: 2px 10px;
+  font-size: 17px;
+  margin: 0;
+}
+
+#content_container #s_sneak #box img {
+  width:  205px;
+  height: 150px;
+  margin: 0 2px;
+}
+
+#content_container #s_sneak #box #text {
+  text-align: center;
+  padding: 0 14px 0 8px;
+  color: #666666;
+}
+
+#content_container #s_slamp {
+	background:transparent url('/images/themes/default/home/slamp/bar_bg.png') no-repeat 0 0;
+  width: 215px;
+  height: 227px;
+  float: left;
+  display: block;
+  margin: 2px 6px 0 0;
+}
+
+#content_container #s_slamp #text {
+  float: left;
+  display: block;
+  font-weight: bold;
+  color: #823c02;
+  margin: 75px 0 0 12px;
+  width: 108px;
+}
+
+#content_container #s_slamp #go {
+	float: right;
+	margin: 124px 0;
+	width: 72px;
+}
+
+#content_container #s_slamp #go a {
+	display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/home/slamp/go.png') no-repeat 0px 2px;
+  text-decoration:none;
+}
+
+#content_container #s_slamp #go a:hover {
+	display:inline;
+  float:left;
+  height:14px;
+  width:18px;
+  background: url('/images/themes/default/home/slamp/go.png') no-repeat 0px -11px;
+  text-decoration:none;
+}
+
+#content_container #s_link {
+	background:transparent url('/images/themes/default/home/link/bar_bg.png') no-repeat 0 0;
+  width: 745px;
+  height: 227px;
+  float: left;
+  display: block;
+  margin: 2px 0;
+}
+
+#content_container #s_link #links {
+  margin: 45px 25px 0 25px;
+}
+
+#content_container #s_link #links p {
+  margin: 0 0 8px 0;
+}
+#content_container #s_link #links .title {
+  display: inline;
+  font-weight: bold;
+  color: red;
+  margin: 0 10px 0 0;
+}
+
+#content_container #s_link #links a {
+  margin: 0 6px 0 0;
+  white-space: nowrap;
+}

@@ -1,0 +1,26 @@
+
+  <rss version='2.0' xmlns:media='http://search.yahoo.com/mrss/' xmlns:mediaad='http://blip.tv/mediaad'>
+    <channel>
+      <title>TheSlap.com Videos</title>
+      <link>http://www.theslap.com</link>
+      <description>Media RSS feed from TheSlap.com</description>
+      <item>
+        <title><![CDATA[Cat and Robbie's Bad News Songs: The Turtle Song]]></title>
+        <guid>1103</guid>
+        <media:group>
+          <media:content type="text/xml" isDefault="true" duration="1408" url="http://video.theslap.com/videos/cat-and-robbie-s-bad-news-songs-the-turtle-song/mediagen.xml?1347045540">
+            <!--<mediaad:content url='http://ad.doubleclick.net/pfadx/theslap.nol/theslap/c/cv/show/pac{pac}/TheSlap;hub=show;franchise=theslap;clip=cat_and_robbies_bad_news_songs:_the_turtle_song;mode=clip;playlist=TheSlap;loc=default;mtype=contentvideo;pform=network;!category=show;!category=playlist;!category=default;!category=slap;!category=network;psp=0;asc={asc};ssc={ssc};psc={psc};pac={pac};sac={sac};rsc={rsc};rac={rac};gac=;demo=null;!category=theslap;demo=;tile={tile};dcmt=text/xml;u=hub-show|franchise-theslap|clip-cat_and_robbies_bad_news_songs:_the_turtle_song|mode-clip|playlist-TheSlap|loc-default|mtype-contentvideo|pform-network|!category-TheSlap|!category-playlist|!category-default|!category-playlist|psp-0|asc-{asc}|ssc-{ssc}|psc-{psc}|pac-{pac}|sac-{sac}|rsc-{rsc}|rac-{rac}|gac-|!category-theslap|demo-|tile-{tile}|dcmt-text/xml;sz=640x480;ord={ord}'></mediaad:content>-->
+          </media:content>
+          <media:title><![CDATA[Cat and Robbie's Bad News Songs: The Turtle Song]]></media:title>
+          <media:description><![CDATA[We decided to write a song for those with a strange problem: people whose turtle was picked up by a bird and placed on their neighbor's roof. Hey, I'm sure it's happened to someone. ]]></media:description>
+          <media:thumbnail height='48' url='/images/thumb.jpg' width='70'></media:thumbnail>
+          <media:player url='http://media.mtvnservices.com/mgid:cms:item:nick.com:171400'></media:player>
+          <media:rating scheme='urn:simple'>nonadult</media:rating>
+          <media:category label='clip' scheme='urn:mtvn:content_type'>clip</media:category>
+          <media:category label='TheSlap' scheme='urn:mtvn:franchise'>TheSlap</media:category>
+          <media:category label='TheSlap' scheme='urn:mtvn:playlist_title'>TheSlap.com Videos</media:category>
+          <media:category scheme='urn:mtvn:reportable'>true</media:category>
+          <media:category scheme='urn:mtvn:affect_counters'>true</media:category>
+        </media:group>
+      </item>    </channel>
+  </rss>

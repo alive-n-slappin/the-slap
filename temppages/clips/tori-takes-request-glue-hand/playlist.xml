@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8' ?>
+  <configuration>
+    <player>
+      <URL>/mtvn/release.swf?v=4.8.5</URL>
+      <autoPlay>false</autoPlay>
+      <isContinuousPlay>true</isContinuousPlay>
+      <resize>true</resize>
+      <externalResizeMethod>resizePlayer</externalResizeMethod>
+
+      <!-- Feed Link -->
+      <feed>/clips/tori-takes-request-glue-hand/playlist_feed.xml</feed>
+      <config>
+        <playerSettings>
+          
+
+          
+          <demdex enabled="false">
+            <videoEndCall enabled="false"/>
+          </demdex>
+          
+
+          <timedTextEnabled>false</timedTextEnabled>
+
+          <fullEpisodeMode>false</fullEpisodeMode>
+          <maintainAspectRatio>true</maintainAspectRatio>
+          <smoothing>true</smoothing>
+
+        </playerSettings>
+
+        <!-- Ad Settings -->
+        <adSettings>
+          <adServer>freewheel</adServer>
+          <adProps>
+          <numberOfRequests>1</numberOfRequests>
+          </adProps>
+          <adExpression>
+          <term type="op" name="gt" failOn="elapsed time since last ad is less than adTimerMinMillis">
+          <term type="var" name="timeSinceLastAd"/>
+          <term type="literal" value="150000"/>
+          </term>
+          </adExpression>
+        </adSettings>
+
+        <!-- Player Settings Expressions -->
+        <!-- replaced by FreeWheel -->
+
+        <!-- Reporting Settings -->
+        <reportSettings>
+          <playerInfo>
+            <viralPlayerName>viaviralkids</viralPlayerName>
+            <partnerPlayerName>viaviralkids</partnerPlayerName>
+            <networkPlayerName>viaviralkids</networkPlayerName>
+          </playerInfo>
+
+          <googleReporter enabled='false'>
+            <account></account>
+          </googleReporter>
+
+          <videoReporter enabled="true">
+            <mediaTracking enabled="true" />
+            <adTracking enabled="false" />
+            <viralAccount>viaviralkids</viralAccount>
+            <partnerAccount>viaviralkids</partnerAccount>
+            <networkAccount>viaslap</networkAccount>
+            <customFields>
+              <item name="prop18" value="playlist" />
+            </customFields>
+            <charSet>ISO-8859-1</charSet>
+          </videoReporter>
+          <nielsenReporter enabled="true">
+            <clientId>us-300231</clientId>
+            <videoCensusId>c02</videoCensusId>
+          </nielsenReporter>
+          <comScore enabled="true">
+            <primaryId>6059064</primaryId>
+          </comScore>
+          <quantCast enabled="false">
+            <publisherId></publisherId>
+            <demoTargeting enabled="false" />
+          </quantCast>
+        </reportSettings>
+      </config>
+
+    </player>
+  </configuration>
+

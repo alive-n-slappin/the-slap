@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:esi='http://www.edge-delivery.org/esi/1.0' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>
+TheSlap | Robbie and Cat's Bad News Songs: The Mole
+</title>
+<style type='text/css'>
+body{background-color:black;font-family:Helvetica Neue, Arial, Helvetica, sans-serif}body,div,a,p,img,object,video,span,strong{margin:0;border:0;padding:0}.videoContainer{z-index:1000;position:relative}.videoContainer object,.videoContainer video,.videoContainer div{position:absolute}object:focus,a:focus{outline:none}.info{display:none}.playIcon{width:60px;height:60px;display:none}.videoLoadingIndicator{height:32px;display:none}.moreClips{display:none;background-color:#000;overflow:visible}.moreClips .frame{padding:5px}.moreClips a,.moreClips img,.moreClips h3,.moreClips li,.moreClips ol,.moreClips strong,.moreClips span{position:relative}.moreClips h3,.moreClips ol{margin:10px 0 10px 10px}.moreClips span,.moreClips strong{display:block;float:right;width:330px;line-height:1.28;padding-right:10px}.moreClips strong{top:6px;font-size:13.8px}.moreClips span{font-size:12px;top:4px;height:45px;overflow:hidden}.moreClips h3{background-image:url(/images/themes/default/more_clips_title.png);height:19px;width:183px;text-indent:-9999px;overflow:hidden}.moreClips ol{max-height:86%;overflow-x:hidden;overflow-y:auto;padding:0}.moreClips li{list-style:none}.moreClips img{float:left;top:10px;left:13px;width:89px;border:1px solid black}.moreClips a{display:block;color:#1e194b;height:75px;width:456px;margin:0 0 15px 0;top:0;left:0;text-decoration:none;background-image:url(/images/themes/default/more_clips_link_bg.png)}.moreClips a:hover{background-image:url(/images/themes/default/more_clips_link_bg_alt.png)}.moreClips a:after{background-image:url(/images/themes/default/more_clips_link_bg_alt.png);display:none}.moreClips a:active{top:1px;left:1px}
+</style>
+</head>
+<body>
+<div class='videoContainer'>
+<div class='info'>
+src=http://icarlystream-i.akamaihd.net/i/production/theslap/videos/robbie-and-cat-s-bad-news-songs-the-mole/,original-mtvn-169-150k-mobile,original-mtvn-169-450k-mobile,.mp4.csmil/master.m3u8|config=/clips/robbie-and-cat-s-bad-news-songs-the-mole/playlist_no_ads.xml|poster=http://staticassets.www.theslap.com/video_thumbnail_images/6422294/large.png?1343428926|slug=robbie-and-cat-s-bad-news-songs-the-mole|resource_id=1064
+
+</div>
+<div class='clickToPlay videoOverlay'>
+<img alt="Robbie and Cat's Bad News Songs: The Mole" height="321" src="http://staticassets.www.theslap.com/video_thumbnail_images/6422294/large.png?1343428926" width="570" />
+<div class='playIcon'>
+<img alt="Play" height="60" src="/images/play_icon.png?1451922775" width="60" />
+</div>
+<div class='videoLoadingIndicator'>
+<img alt="Loading..." height="32" src="/images/loading_video.gif?1451922775" width="32" />
+</div>
+</div>
+<div class='moreClips videoOverlay'>
+<h3>
+Play Another Clip?
+</h3>
+<ol>
+<li>
+<a href='/clips/robbie-and-cat-s-bad-news-songs-the-mole'>
+<img src='http://staticassets.www.theslap.com/video_thumbnail_images/6422294/small.png?1343428926' />
+<strong>Robbie and Cat's Bad News Songs: The Mole</strong>
+<span>Do you know someone with a large disgusting mole? Well, Cat and I have a brand new "Bad News Song" made just for you! </span>
+</a>
+</li>
+<li>
+<a href='/clips/robbie-sings-i-think-you-re-swell'>
+<img src='http://staticassets.www.theslap.com/video_thumbnail_images/6171722/small.png?1341015713' />
+<strong>Robbie Sings "I Think You're Swell"</strong>
+<span>I wrote a song to cheer up my favorite little redhead. It's maybe sort-of about her. </span>
+</a>
+</li>
+<li>
+<a href='/clips/cat-s-random-thoughts-4'>
+<img src='http://staticassets.www.theslap.com/video_thumbnail_images/6220944/small.png?1341527515' />
+<strong>Cat's Random Thoughts: Swivel Chair</strong>
+<span>Did you know that I am an expert bubble blower? Yep. I am. And, in this video I show off other talents like chair swiveling and judging a book by its cover. Watch me!</span>
+</a>
+</li>
+</ol>
+
+</div>
+</div>
+<script src='/javascripts/jquery/jquery-1.3.2.js' type='text/javascript'></script>
+<script src='/javascripts/support/swfobject.js' type='text/javascript'></script>
+<script src='/javascripts/support/vplayer.js' type='text/javascript'></script>
+<script type='text/javascript'>
+  //<![CDATA[
+    $(function() {
+        // scale to fit browser or iframe width
+        var w = document.body.clientWidth;
+        var h = w * 9 / 16;
+        $('.videoContainer, .videoOverlay, .videoOverlay > img').width(w).height(h);
+        
+        // if html5 is in url params, make it the default video format
+        var support = location.href.indexOf('html5') != -1?
+            ['html', 'mtvn']:
+            ['mtvn', 'html', 'link'];
+            
+        var src = location.href.indexOf('src=') != -1? 
+            location.href.split('src=')[1]:
+            'http://video.theslap.com/videos/robbie-and-cat-s-bad-news-songs-the-mole/original.mp4?1343428927';
+        
+        // generate video player
+        $('.videoContainer').vplayer({
+            width: w,
+            height: h,
+            streaming: true,
+            videoInfo: '.info',
+            support: support,
+            overlay: {start: '.clickToPlay', end: '.moreClips'},
+            videoLoadingIndicator: '.videoLoadingIndicator',   
+            playIcon: '.playIcon',
+            center: ['.playIcon', '.videoLoadingIndicator']
+        });
+        
+        $('.moreClips a').each(function(){
+            this.href += '/play';
+        });
+    });
+  //]]>
+</script>
+
+</body>
+</html>

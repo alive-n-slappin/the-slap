@@ -1,0 +1,32 @@
+  
+  <config>
+ 	<engine>
+ 		<shows>
+ 			<show showName="VicTORIous" thumbURL="images/victorious/show_icon.jpg">
+ 				<song songName="Make It Shine" thumbURL="images/victorious/thumb_make_it_shine.jpg" videoURL="video/victorious/Make It Shine Performance_F8 768Kbps.flv" beatsURL="xml/victorious/beats_make_it_shine.xml" />
+<song songName="You're the Reason" thumbURL="images/victorious/thumb_youre_the_reason.jpg" videoURL="video/victorious/Youre The Reason.flv" beatsURL="xml/victorious/beats_youre_the_reason.xml" />	
+<song songName='Finally Falling' thumbURL="images/victorious/finally_falling.jpg" videoURL="video/victorious/Finally_Falling.flv" beatsURL="xml/victorious/finally_falling.xml" />
+ 			
+	 		</show>
+ 		</shows>
+ 		
+ 	</engine>
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>false</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>false</enableLogin>
+		<enableLeaderboard>false</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>victorious-hollywood-beats</gameName>
+		<urlAlias>URL_ALIAS</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>SHOW_ID</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>victorious-hollywood-beats-hsb</gameID>
+	</leaderboard>
+</config>
