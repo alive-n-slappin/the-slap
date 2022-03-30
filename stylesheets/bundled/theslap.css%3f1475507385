@@ -23,7 +23,7 @@ div#fancy_overlay {
      left: 0;
      width: 40px;
      height: 480px;
-     background: transparent url('/images/fancy_progress.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_progress.png') no-repeat;
 }
  div#fancy_outer {
      position: absolute;
@@ -70,7 +70,7 @@ div#fancy_overlay {
      right: -15px;
      height: 30px;
      width: 30px;
-     background: url('/images/fancy_closebox.png') top left no-repeat;
+     background: url('/the-slap/images/fancy_closebox.png') top left no-repeat;
      cursor: pointer;
      z-index: 181;
      display: none;
@@ -116,11 +116,11 @@ div#fancy_overlay {
 }
  span#fancy_left_ico {
      left: -9999px;
-     background: transparent url('/images/fancy_left.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_left.png') no-repeat;
 }
  span#fancy_right_ico {
      right: -9999px;
-     background: transparent url('/images/fancy_right.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_right.png') no-repeat;
 }
  a#fancy_left:hover, a#fancy_right:hover {
      visibility: visible;
@@ -164,54 +164,54 @@ div#fancy_overlay {
      left: 0;
      width: 100%;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_n.png') repeat-x;
+     background: transparent url('/the-slap/images/fancy_shadow_n.png') repeat-x;
 }
  div#fancy_bg_ne {
      top: -20px;
      right: -20px;
      width: 20px;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_ne.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_shadow_ne.png') no-repeat;
 }
  div#fancy_bg_e {
      right: -20px;
      height: 100%;
      width: 20px;
-     background: transparent url('/images/fancy_shadow_e.png') repeat-y;
+     background: transparent url('/the-slap/images/fancy_shadow_e.png') repeat-y;
 }
  div#fancy_bg_se {
      bottom: -20px;
      right: -20px;
      width: 20px;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_se.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_shadow_se.png') no-repeat;
 }
  div#fancy_bg_s {
      bottom: -20px;
      left: 0;
      width: 100%;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_s.png') repeat-x;
+     background: transparent url('/the-slap/images/fancy_shadow_s.png') repeat-x;
 }
  div#fancy_bg_sw {
      bottom: -20px;
      left: -20px;
      width: 20px;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_sw.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_shadow_sw.png') no-repeat;
 }
  div#fancy_bg_w {
      left: -20px;
      height: 100%;
      width: 20px;
-     background: transparent url('/images/fancy_shadow_w.png') repeat-y;
+     background: transparent url('/the-slap/images/fancy_shadow_w.png') repeat-y;
 }
  div#fancy_bg_nw {
      top: -20px;
      left: -20px;
      width: 20px;
      height: 20px;
-     background: transparent url('/images/fancy_shadow_nw.png') no-repeat;
+     background: transparent url('/the-slap/images/fancy_shadow_nw.png') no-repeat;
 }
  div#fancy_title {
      position: absolute;
@@ -234,16 +234,16 @@ div#fancy_overlay {
  td#fancy_title_left {
      height: 32px;
      width: 15px;
-     background: transparent url('/images/fancy_title_left.png') repeat-x;
+     background: transparent url('/the-slap/images/fancy_title_left.png') repeat-x;
 }
  td#fancy_title_main {
      height: 32px;
-     background: transparent url('/images/fancy_title_main.png') repeat-x;
+     background: transparent url('/the-slap/images/fancy_title_main.png') repeat-x;
 }
  td#fancy_title_right {
      height: 32px;
      width: 15px;
-     background: transparent url('/images/fancy_title_right.png') repeat-x;
+     background: transparent url('/the-slap/images/fancy_title_right.png') repeat-x;
 }
  .dd {
     /*display:inline-block !important;
@@ -264,7 +264,7 @@ div#fancy_overlay {
      height:16px;
 }
  .dd .ddTitle span.arrow {
-     background:url(/images/dd_arrow.gif) no-repeat 0 0;
+     background:url(/the-slap/images/dd_arrow.gif) no-repeat 0 0;
      float:right;
      display:inline-block;
     width:16px;
@@ -414,7 +414,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/stylesheets/jcarousel_skins/tango/next-horizontal.png) no-repeat 0 0;
+     background: transparent url(/the-slap/stylesheets/jcarousel_skins/tango/next-horizontal.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
      background-position: -32px 0;
@@ -433,7 +433,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/stylesheets/jcarousel_skins/tango/prev-horizontal.png) no-repeat 0 0;
+     background: transparent url(/the-slap/stylesheets/jcarousel_skins/tango/prev-horizontal.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
      background-position: -32px 0;
@@ -453,7 +453,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/stylesheets/jcarousel_skins/tango/next-vertical.png) no-repeat 0 0;
+     background: transparent url(/the-slap/stylesheets/jcarousel_skins/tango/next-vertical.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-next-vertical:hover {
      background-position: 0 -32px;
@@ -472,7 +472,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/stylesheets/jcarousel_skins/tango/prev-vertical.png) no-repeat 0 0;
+     background: transparent url(/the-slap/the-slap/stylesheets/jcarousel_skins/tango/prev-vertical.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-prev-vertical:hover {
      background-position: 0 -32px;
@@ -492,7 +492,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/images/themes/default/gallery_controls_sprite_last.png) no-repeat 0 0;
+     background: transparent url(/the-slap/images/themes/default/gallery_controls_sprite_last.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-last-horizontal:hover {
      background-position: -32px 0;
@@ -511,7 +511,7 @@ div#fancy_overlay {
      width: 32px;
      height: 32px;
      cursor: pointer;
-     background: transparent url(/images/themes/default/gallery_controls_sprite_first.png) no-repeat 0 0;
+     background: transparent url(/the-slap/images/themes/default/gallery_controls_sprite_first.png) no-repeat 0 0;
 }
  .jcarousel-skin-tango .jcarousel-first-horizontal:hover {
      background-position: -32px 0;
@@ -844,7 +844,7 @@ body.bp .bottom{
     padding-bottom:0
 }
 body.bp .showgrid{
-    background:url('/images/grid.png?1476818278')
+    background:url('/the-slap/images/grid.png?1476818278')
 }
 body.bp .error{
     padding:.8em;
@@ -1103,7 +1103,7 @@ form.bp textarea{
     height:250px
 }
 html,body{
-    background-image:url(/images/themes/default/body_bg.jpg);
+    background-image:url(/the-slap/images/themes/default/body_bg.jpg);
     margin:0;
     padding:0
 }
@@ -1117,7 +1117,7 @@ body{
     overflow:hidden
 }
 #header_container{
-    background-image:url(/images/themes/default/body_top_bg.png);
+    background-image:url(/the-slap/images/themes/default/body_top_bg.png);
     background-repeat:repeat-x
 }
 #header{
@@ -1223,7 +1223,7 @@ iframe#fancy_bigIframe{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_favorites_add.png);
+    background-image:url(/the-slap/images/themes/default/glyph_favorites_add.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1231,7 +1231,7 @@ iframe#fancy_bigIframe{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_favorites_remove.png);
+    background-image:url(/the-slap/images/themes/default/glyph_favorites_remove.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1240,7 +1240,7 @@ iframe#fancy_bigIframe{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_favorites_send.png);
+    background-image:url(/the-slap/images/themes/default/glyph_favorites_send.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1248,7 +1248,7 @@ iframe#fancy_bigIframe{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_embed.png);
+    background-image:url(/the-slap/images/themes/default/glyph_embed.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1256,7 +1256,7 @@ iframe#fancy_bigIframe{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_favorites_lyrics.png);
+    background-image:url(/the-slap/images/themes/default/glyph_favorites_lyrics.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1315,11 +1315,11 @@ iframe#fancy_bigIframe{
     display:block
 }
 .asset_list_container ul.asset_list li.even{
-    background-image:url(/images/themes/default/asset_item_even_bg.jpg);
+    background-image:url(/the-slap/images/themes/default/asset_item_even_bg.jpg);
     background-color:#CBDEF1
 }
 .asset_list_container ul.asset_list li.odd{
-    background-image:url(/images/themes/default/asset_item_odd_bg.jpg);
+    background-image:url(/the-slap/images/themes/default/asset_item_odd_bg.jpg);
     background-color:#8EB0D1
 }
 .asset_list .meta_data{
@@ -1373,7 +1373,7 @@ iframe#fancy_bigIframe{
     background-color:#000
 }
 .loading{
-    background-image:url(/images/ajax-loader.gif);
+    background-image:url(/the-slap/images/ajax-loader.gif);
     width:16px;
     height:16px;
     display:inline;
@@ -1478,7 +1478,7 @@ div#fancy_ajax img{
     position:relative
 }
 .songs .list_section .subheader,.games .list_section .subheader{
-    background-image:url(/images/themes/default/gradient_subheader_bg.png);
+    background-image:url(/the-slap/images/themes/default/gradient_subheader_bg.png);
     background-repeat:repeat-x;
     height:70px;
     padding:20px 0 0 8px
@@ -1492,7 +1492,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/subheader_playlist.png);
+    background-image:url(/the-slap/images/themes/default/subheader_playlist.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1500,7 +1500,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/subheader_all_games.png);
+    background-image:url(/the-slap/images/themes/default/subheader_all_games.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1520,7 +1520,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/column_header_song_name.png);
+    background-image:url(/the-slap/images/themes/default/column_header_song_name.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1532,7 +1532,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/column_header_time.png);
+    background-image:url(/the-slap/images/themes/default/column_header_time.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     background-position:0 50%
@@ -1544,7 +1544,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/column_header_artist.png);
+    background-image:url(/the-slap/images/themes/default/column_header_artist.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1555,7 +1555,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/column_header_game.png);
+    background-image:url(/the-slap/images/themes/default/column_header_game.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1565,7 +1565,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/column_header_created_on.png);
+    background-image:url(/the-slap/images/themes/default/column_header_created_on.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1682,7 +1682,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_galleries.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_galleries.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1772,12 +1772,12 @@ div#fancy_ajax img{
     background-color:inherit
 }
 .photo_page .photo_section_container .jcarousel-skin-tango .jcarousel-prev-horizontal{
-    background-image:url("/images/themes/default/gallery_controls_sprite_previous.png");
+    background-image:url("/the-slap/images/themes/default/gallery_controls_sprite_previous.png");
     top:60px;
     left:45px
 }
 .photo_page .photo_section_container .jcarousel-skin-tango .jcarousel-next-horizontal{
-    background-image:url("/images/themes/default/gallery_controls_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/gallery_controls_sprite_next.png");
     top:60px;
     right:49px
 }
@@ -1789,11 +1789,11 @@ div#fancy_ajax img{
     top:60px
 }
 .photo_page .photo_section_container .jcarousel-skin-tango .jcarousel-first{
-    background-image:url("/images/themes/default/gallery_controls_sprite_first.png");
+    background-image:url("/the-slap/images/themes/default/gallery_controls_sprite_first.png");
     left:15px
 }
 .photo_page .photo_section_container .jcarousel-skin-tango .jcarousel-last{
-    background-image:url("/images/themes/default/gallery_controls_sprite_last.png");
+    background-image:url("/the-slap/images/themes/default/gallery_controls_sprite_last.png");
     right:18px
 }
 .photo_page .all_slapped_list{
@@ -1815,7 +1815,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_this_photo_is.png);
+    background-image:url(/the-slap/images/themes/default/label_this_photo_is.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1823,7 +1823,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_description.png);
+    background-image:url(/the-slap/images/themes/default/label_description.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     background-position:50% 0
@@ -1836,7 +1836,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_gallery.png);
+    background-image:url(/the-slap/images/themes/default/label_gallery.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1844,7 +1844,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_photo_added_by.png);
+    background-image:url(/the-slap/images/themes/default/label_photo_added_by.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1852,7 +1852,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_gallery_created_by.png);
+    background-image:url(/the-slap/images/themes/default/label_gallery_created_by.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1860,7 +1860,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_who_is_slapped.png);
+    background-image:url(/the-slap/images/themes/default/label_who_is_slapped.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -1870,12 +1870,12 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_clips.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .video_page .player_container{
-    background-image:url(/images/themes/default/video-phone-bg.jpg);
+    background-image:url(/the-slap/images/themes/default/video-phone-bg.jpg);
     background-repeat:no-repeat;
     width:694px;
     height:460px;
@@ -1933,7 +1933,7 @@ div#fancy_ajax img{
     overflow:hidden
 }
 .video_page .player_container #video_player #moreClips h3{
-    background-image:url(/images/themes/default/more_clips_title.png);
+    background-image:url(/the-slap/images/themes/default/more_clips_title.png);
     height:19px;
     width:183px;
     text-indent:-9999em;
@@ -1962,13 +1962,13 @@ div#fancy_ajax img{
     top:0;
     left:0;
     text-decoration:none;
-    background-image:url(/images/themes/default/more_clips_link_bg.png)
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg.png)
 }
 .video_page .player_container #video_player #moreClips a:hover{
-    background-image:url(/images/themes/default/more_clips_link_bg_alt.png)
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg_alt.png)
 }
 .video_page .player_container #video_player #moreClips a:after{
-    background-image:url(/images/themes/default/more_clips_link_bg_alt.png);
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg_alt.png);
     display:none
 }
 .video_page .player_container #video_player #moreClips a:active{
@@ -2017,7 +2017,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_this_clip_is.png);
+    background-image:url(/the-slap/images/themes/default/label_this_clip_is.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2025,7 +2025,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_description.png);
+    background-image:url(/the-slap/images/themes/default/label_description.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2033,7 +2033,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_category.png);
+    background-image:url(/the-slap/images/themes/default/label_category.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2041,7 +2041,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_video_uploaded_by.png);
+    background-image:url(/the-slap/images/themes/default/label_video_uploaded_by.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2049,7 +2049,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/label_who_is_slapped.png);
+    background-image:url(/the-slap/images/themes/default/label_who_is_slapped.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2066,7 +2066,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_arrow_see_all_games.png);
+    background-image:url(/the-slap/images/themes/default/button_arrow_see_all_games.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2082,7 +2082,7 @@ div#fancy_ajax img{
     padding:2px 0 0 18px !important;
     margin:0 !important;
     border:1px solid black !important;
-    background-image:url(/images/themes/default/gradient_playlist_item_bg.gif);
+    background-image:url(/the-slap/images/themes/default/gradient_playlist_item_bg.gif);
     background-repeat:repeat-x
 }
 .asset_list_container .song_list .item a,.asset_list_container .game_list .item a{
@@ -2104,64 +2104,64 @@ div#fancy_ajax img{
     font-size:1px
 }
 .newest .list_container .list_title_container{
-    background-image:url(/images/themes/default/list_header_blue.png)
+    background-image:url(/the-slap/images/themes/default/list_header_blue.png)
 }
 .newest .list_container .asset_list .item.even{
-    background-image:url(/images/themes/default/gradient_vertical_blue.png)
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_blue.png)
 }
 .newest .list_container .asset_list .item.odd{
-    background-image:url(/images/themes/default/gradient_vertical_blue_alt.png)
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_blue_alt.png)
 }
 .newest .list_container .list_footer{
-    background-image:url(/images/themes/default/list_footer_blue.png)
+    background-image:url(/the-slap/images/themes/default/list_footer_blue.png)
 }
 .most_liked .list_container .list_title_container{
-    background-image:url(/images/themes/default/list_header_green.png)
+    background-image:url(/the-slap/images/themes/default/list_header_green.png)
 }
 .most_liked .list_container .asset_list .item.even{
-    background-image:url(/images/themes/default/gradient_vertical_green.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_green.png);
     background-color:#B0D8D0
 }
 .most_liked .list_container .asset_list .item.odd{
-    background-image:url(/images/themes/default/gradient_vertical_green_alt.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_green_alt.png);
     background-color:#69B09E
 }
 .most_liked .list_container .list_footer{
-    background-image:url(/images/themes/default/list_footer_green.png)
+    background-image:url(/the-slap/images/themes/default/list_footer_green.png)
 }
 .playlist .list_container .list_title_container{
-    background-image:url(/images/themes/default/list_header_violet.png)
+    background-image:url(/the-slap/images/themes/default/list_header_violet.png)
 }
 .playlist .list_container .asset_list .item.even{
-    background-image:url(/images/themes/default/gradient_vertical_violet.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_violet.png);
     background-color:#D8CCF0
 }
 .playlist .list_container .asset_list .item.odd{
-    background-image:url(/images/themes/default/gradient_vertical_violet_alt.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_violet_alt.png);
     background-color:#9F7DD1
 }
 .playlist .list_container .list_footer{
-    background-image:url(/images/themes/default/list_footer_violet.png)
+    background-image:url(/the-slap/images/themes/default/list_footer_violet.png)
 }
 .slapped .list_container .list_title_container{
-    background-image:url(/images/themes/default/list_header_orange.png)
+    background-image:url(/the-slap/images/themes/default/list_header_orange.png)
 }
 .slapped .list_container .asset_list .item.even{
-    background-image:url(/images/themes/default/gradient_vertical_orange.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_orange.png);
     background-color:#F6D09B
 }
 .slapped .list_container .asset_list .item.odd{
-    background-image:url(/images/themes/default/gradient_vertical_orange_alt.png);
+    background-image:url(/the-slap/images/themes/default/gradient_vertical_orange_alt.png);
     background-color:#E9A141
 }
 .slapped .list_container .list_footer{
-    background-image:url(/images/themes/default/list_footer_orange.png)
+    background-image:url(/the-slap/images/themes/default/list_footer_orange.png)
 }
 .videos .newest .list_title{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_newest_clips.png);
+    background-image:url(/the-slap/images/themes/default/list_header_newest_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2169,7 +2169,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_most_liked.png);
+    background-image:url(/the-slap/images/themes/default/list_header_most_liked.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2177,7 +2177,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_category.png);
+    background-image:url(/the-slap/images/themes/default/list_header_category.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2185,7 +2185,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_person.png);
+    background-image:url(/the-slap/images/themes/default/list_header_person.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2193,7 +2193,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_newest_pix.png);
+    background-image:url(/the-slap/images/themes/default/list_header_newest_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2201,7 +2201,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_most_liked.png);
+    background-image:url(/the-slap/images/themes/default/list_header_most_liked.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2209,7 +2209,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_gallery.png);
+    background-image:url(/the-slap/images/themes/default/list_header_gallery.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2217,7 +2217,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_person.png);
+    background-image:url(/the-slap/images/themes/default/list_header_person.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -2265,18 +2265,18 @@ div#fancy_ajax img{
     width:218px;
     height:42px;
     padding:1px;
-    background-image:url(/images/themes/default/sidebar_header_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar_header_bg.png)
 }
 #sidebar_container #sidebar_header .title{
     width:201px;
     height:22px;
     margin:12px 7px;
-    background-image:url(/images/themes/default/sidebar_header_title.png)
+    background-image:url(/the-slap/images/themes/default/sidebar_header_title.png)
 }
 #sidebar_container #sidebar_content{
     width:208px;
     height:500px;
-    background-image:url(/images/themes/default/sidebar_bg.jpg);
+    background-image:url(/the-slap/images/themes/default/sidebar_bg.jpg);
     padding:6px;
     margin:0
 }
@@ -2285,7 +2285,7 @@ div#fancy_ajax img{
     height:10px;
     padding:0;
     font-size:1px;
-    background-image:url(/images/themes/default/sidebar_footer_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar_footer_bg.png)
 }
 #sidebar_container #sidebar_game_container{
     display:block;
@@ -2318,12 +2318,12 @@ div#fancy_ajax img{
     height:104px
 }
 #sidebar_container #sidebar_game_container .jcarousel-skin-tango .jcarousel-prev-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png");
     top:-34px;
     left:125px
 }
 #sidebar_container #sidebar_game_container .jcarousel-skin-tango .jcarousel-next-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png");
     top:-34px;
     left:145px
 }
@@ -2368,7 +2368,7 @@ div#fancy_ajax img{
     position:relative
 }
 #content_container .corner{
-    background-image:url(/images/themes/default/content_corners.gif);
+    background-image:url(/the-slap/images/themes/default/content_corners.gif);
     position:absolute;
     height:7px;
     width:7px
@@ -2386,7 +2386,7 @@ div#fancy_ajax img{
     display:block
 }
 #content_container #content_callout_container #content_callout_tab{
-    background-image:url(/images/themes/default/ad_tab_vertical.png);
+    background-image:url(/the-slap/images/themes/default/ad_tab_vertical.png);
     width:12px;
     height:90px;
     display:inline;
@@ -2399,7 +2399,7 @@ div#fancy_ajax img{
     float:left
 }
 #content_container #content_header{
-    background-image:url(/images/themes/default/content_header_bg.jpg);
+    background-image:url(/the-slap/images/themes/default/content_header_bg.jpg);
     margin-top:6px;
     height:89px;
     padding-top:1px
@@ -2419,7 +2419,7 @@ div#fancy_ajax img{
     height:87px;
     margin-bottom:40px;
     margin-top:-87px;
-    background-image:url(/images/themes/default/content_footer.png);
+    background-image:url(/the-slap/images/themes/default/content_footer.png);
     background-repeat:repeat-x
 }
 #main_container #ad_test_container{
@@ -2455,7 +2455,7 @@ div#fancy_ajax img{
     padding:0;
     margin:0;
     position:absolute;
-    background-image:url(/images/themes/default/nav_bar.gif);
+    background-image:url(/the-slap/images/themes/default/nav_bar.gif);
     background-repeat:no-repeat;
     width:699px;
     height:37px;
@@ -2502,7 +2502,7 @@ div#fancy_ajax img{
     text-decoration:underline
 }
 #nav a:hover{
-    background-image:url(/images/themes/default/nav_bar_active.gif)
+    background-image:url(/the-slap/images/themes/default/nav_bar_active.gif)
 }
 #nav .home a{
     width:89px;
@@ -2531,7 +2531,7 @@ div#fancy_ajax img{
 #nav .search{
     width:322px;
     height:37px;
-    background-image:url(/images/themes/default/search_bar.gif);
+    background-image:url(/the-slap/images/themes/default/search_bar.gif);
     background-repeat:no-repeat;
     overflow:hidden;
     display:inline-block;
@@ -2577,16 +2577,16 @@ div#fancy_ajax img{
     text-align:left
 }
 #nav .search form button:hover{
-    background-image:url(/images/themes/default/search_button_hover.gif)
+    background-image:url(/the-slap/images/themes/default/search_button_hover.gif)
 }
 .home #nav .home a,.characters #nav .characters a,.videos #nav .videos a,.photos #nav .photos a,.songs #nav .songs a,.games #nav .games a{
-    background-image:url(/images/themes/default/nav_bar_active.gif)
+    background-image:url(/the-slap/images/themes/default/nav_bar_active.gif)
 }
 #header #logo a,#nav .search form button{
     cursor:pointer
 }
 #nav_bar_right_cap{
-    background-image:url(/images/themes/default/nav_bar_right_cap.png);
+    background-image:url(/the-slap/images/themes/default/nav_bar_right_cap.png);
     background-repeat:no-repeat;
     width:8px;
     height:37px;
@@ -2613,7 +2613,7 @@ div#fancy_ajax img{
 }
 #header #nav_adornment{
     position:absolute;
-    background-image:url(/images/themes/default/nav_adornment.png);
+    background-image:url(/the-slap/images/themes/default/nav_adornment.png);
     background-repeat:no-repeat;
     width:78px;
     height:77px;
@@ -2673,7 +2673,7 @@ div#fancy_ajax img{
     padding:0;
     margin:0;
     position:absolute;
-    background-image:url(/images/themes/default/nav_bar.gif);
+    background-image:url(/the-slap/images/themes/default/nav_bar.gif);
     background-repeat:no-repeat;
     width:699px;
     height:37px;
@@ -2720,7 +2720,7 @@ div#fancy_ajax img{
     text-decoration:underline
 }
 #nav a:hover{
-    background-image:url(/images/themes/default/nav_bar_active.gif)
+    background-image:url(/the-slap/images/themes/default/nav_bar_active.gif)
 }
 #nav .home a{
     width:89px;
@@ -2749,7 +2749,7 @@ div#fancy_ajax img{
 #nav .search{
     width:322px;
     height:37px;
-    background-image:url(/images/themes/default/search_bar.gif);
+    background-image:url(/the-slap/images/themes/default/search_bar.gif);
     background-repeat:no-repeat;
     overflow:hidden;
     display:inline-block;
@@ -2795,16 +2795,16 @@ div#fancy_ajax img{
     text-align:left
 }
 #nav .search form button:hover{
-    background-image:url(/images/themes/default/search_button_hover.gif)
+    background-image:url(/the-slap/images/themes/default/search_button_hover.gif)
 }
 .home #nav .home a,.characters #nav .characters a,.videos #nav .videos a,.photos #nav .photos a,.songs #nav .songs a,.games #nav .games a{
-    background-image:url(/images/themes/default/nav_bar_active.gif)
+    background-image:url(/the-slap/images/themes/default/nav_bar_active.gif)
 }
 #header #logo a,#nav .search form button{
     cursor:pointer
 }
 #nav_bar_right_cap{
-    background-image:url(/images/themes/default/nav_bar_right_cap.png);
+    background-image:url(/the-slap/images/themes/default/nav_bar_right_cap.png);
     background-repeat:no-repeat;
     width:8px;
     height:37px;
@@ -2864,7 +2864,7 @@ div#fancy_ajax img{
     text-decoration:underline
 }
 #footer a.viacom{
-    background-image:url(/images/friends/logo_viacom_ad_choice.png);
+    background-image:url(/the-slap/images/friends/logo_viacom_ad_choice.png);
     background-repeat:no-repeat;
     background-position:right center;
     padding-right:16px;
@@ -2889,7 +2889,7 @@ div#fancy_ajax img{
     display:block
 }
 #body_container{
-    background-image:url(/images/themes/default/body_overlay_top_bg.png);
+    background-image:url(/the-slap/images/themes/default/body_overlay_top_bg.png);
     background-repeat:repeat-x
 }
 #footer_container{
@@ -2900,7 +2900,7 @@ div#fancy_ajax img{
     margin-top:-330px
 }
 #body_shadow_top{
-    background-image:url(/images/themes/default/body_shadow_top_bg.png);
+    background-image:url(/the-slap/images/themes/default/body_shadow_top_bg.png);
     width:1016px;
     height:25px;
     margin:0 auto
@@ -2908,7 +2908,7 @@ div#fancy_ajax img{
 #body_shadow_bottom{
     position:relative;
     z-index:5;
-    background-image:url(/images/themes/default/body_shadow_bottom_bg.png);
+    background-image:url(/the-slap/images/themes/default/body_shadow_bottom_bg.png);
     background-repeat:no-repeat;
     height:28px;
     width:1016px;
@@ -2926,10 +2926,10 @@ div#fancy_ajax img{
     margin-bottom:-10000px
 }
 #body_shadow_left{
-    background-image:url(/images/themes/default/body_shadow_left.png)
+    background-image:url(/the-slap/images/themes/default/body_shadow_left.png)
 }
 #body_shadow_right{
-    background-image:url(/images/themes/default/body_shadow_right.png);
+    background-image:url(/the-slap/images/themes/default/body_shadow_right.png);
     display:inline;
     float:right
 }
@@ -2940,7 +2940,7 @@ div#fancy_ajax img{
 }
 #search_menu .menu_title_container{
     height:28px;
-    background-image:url(/images/themes/default/search_by_header.png);
+    background-image:url(/the-slap/images/themes/default/search_by_header.png);
     margin-botton:4px
 }
 #search_menu .menu_title_container .menu_title{
@@ -2985,13 +2985,13 @@ div#fancy_ajax img{
     background-repeat:no-repeat
 }
 #search_menu ul.search_by li.newest{
-    background-image:url(/images/themes/default/search_by_blue.gif)
+    background-image:url(/the-slap/images/themes/default/search_by_blue.gif)
 }
 #search_menu ul.search_by li.most_liked{
-    background-image:url(/images/themes/default/search_by_green.gif)
+    background-image:url(/the-slap/images/themes/default/search_by_green.gif)
 }
 #search_menu ul.search_by li.playlist{
-    background-image:url(/images/themes/default/search_by_violet.gif);
+    background-image:url(/the-slap/images/themes/default/search_by_violet.gif);
     height:69px;
     position:relative;
     text-indent:-9999em;
@@ -3017,7 +3017,7 @@ div#fancy_ajax img{
     float:left
 }
 #search_menu ul.search_by li.slapped{
-    background-image:url(/images/themes/default/search_by_orange.gif);
+    background-image:url(/the-slap/images/themes/default/search_by_orange.gif);
     background-color:#F0B86A;
     height:auto
 }
@@ -3067,13 +3067,13 @@ div#fancy_ajax img{
     font-weight:normal
 }
 #search_menu ul.search_by .active .arrow{
-    background-image:url(/images/themes/default/search_by_arrow_glyph.png)
+    background-image:url(/the-slap/images/themes/default/search_by_arrow_glyph.png)
 }
 #search_by_footer{
     height:10px;
     width:300px;
     font-size:1px;
-    background-image:url(/images/themes/default/search_by_bottom.png);
+    background-image:url(/the-slap/images/themes/default/search_by_bottom.png);
     background-repeat:no-repeat
 }
 .videos #search_menu .menu_title_container .menu_title,.photos #search_menu .menu_title_container .menu_title{
@@ -3082,7 +3082,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_header_clips.png);
+    background-image:url(/the-slap/images/themes/default/search_by_header_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     background-position:0 0 !important
@@ -3107,56 +3107,56 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_newest_clips.png);
+    background-image:url(/the-slap/images/themes/default/search_by_newest_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     cursor:pointer
 }
 .videos #search_menu li.newest.active a,.videos #search_menu li.newest.hover a,.photos #search_menu li.newest.active a,.photos #search_menu li.newest.hover a{
-    background-image:url(/images/themes/default/search_by_newest_clips_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_newest_clips_active.png)
 }
 .videos #search_menu li.most_liked a,.photos #search_menu li.most_liked a{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_most_liked.png);
+    background-image:url(/the-slap/images/themes/default/search_by_most_liked.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     cursor:pointer
 }
 .videos #search_menu li.most_liked.active a,.videos #search_menu li.most_liked.hover a,.photos #search_menu li.most_liked.active a,.photos #search_menu li.most_liked.hover a{
-    background-image:url(/images/themes/default/search_by_most_liked_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_most_liked_active.png)
 }
 .videos #search_menu li.playlist .title,.photos #search_menu li.playlist .title{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_category.png);
+    background-image:url(/the-slap/images/themes/default/search_by_category.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .videos #search_menu li.playlist.active .title,.videos #search_menu li.playlist.hover .title,.photos #search_menu li.playlist.active .title,.photos #search_menu li.playlist.hover .title{
-    background-image:url(/images/themes/default/search_by_category_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_category_active.png)
 }
 .videos #search_menu li.slapped .title,.photos #search_menu li.slapped .title{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_person.png);
+    background-image:url(/the-slap/images/themes/default/search_by_person.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .videos #search_menu li.slapped .caption,.photos #search_menu li.slapped .caption{
-    background-image:url(/images/themes/default/search_by_person_caption_clips.png)
+    background-image:url(/the-slap/images/themes/default/search_by_person_caption_clips.png)
 }
 .videos #search_menu li.slapped.active .title,.videos #search_menu li.slapped.hover .title,.photos #search_menu li.slapped.active .title,.photos #search_menu li.slapped.hover .title{
-    background-image:url(/images/themes/default/search_by_person_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_person_active.png)
 }
 .photos #search_menu .menu_title_container .menu_title{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_header_pix.png);
+    background-image:url(/the-slap/images/themes/default/search_by_header_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3164,33 +3164,33 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_newest_pix.png);
+    background-image:url(/the-slap/images/themes/default/search_by_newest_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .photos #search_menu li.newest.active a,.photos #search_menu li.newest.hover a{
-    background-image:url(/images/themes/default/search_by_newest_pix_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_newest_pix_active.png)
 }
 .photos #search_menu li.playlist .title{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_by_gallery.png);
+    background-image:url(/the-slap/images/themes/default/search_by_gallery.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .photos #search_menu li.playlist.active .title,.photos #search_menu li.playlist.hover .title{
-    background-image:url(/images/themes/default/search_by_gallery_active.png)
+    background-image:url(/the-slap/images/themes/default/search_by_gallery_active.png)
 }
 .photos #search_menu li.slapped .caption{
-    background-image:url(/images/themes/default/search_by_person_caption_pix.png)
+    background-image:url(/the-slap/images/themes/default/search_by_person_caption_pix.png)
 }
 .mood_container{
     width:86px;
     height:82px;
     padding:1px;
     position:relative;
-    background-image:url(/images/themes/default/mood_box.png)
+    background-image:url(/the-slap/images/themes/default/mood_box.png)
 }
 .mood_container .mood_title{
     color:red;
@@ -3198,7 +3198,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/mood_header.png);
+    background-image:url(/the-slap/images/themes/default/mood_header.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     background-position:0 0;
@@ -3230,7 +3230,7 @@ div#fancy_ajax img{
     margin:1px 6px 0 0;
     width:219px;
     height:412px;
-    background-image:url(/images/themes/default/home/right_now/home_box_right_now_container_bg.png)
+    background-image:url(/the-slap/images/themes/default/home/right_now/home_box_right_now_container_bg.png)
 }
 #right_now_container ul,#right_now_container li{
     list-style:none
@@ -3253,7 +3253,7 @@ div#fancy_ajax img{
     margin:100px 0 30px 8px;
     width:198px;
     height:277px;
-    background-image:url(/images/themes/default/home/right_now/home_box_right_now_item_bg.png)
+    background-image:url(/the-slap/images/themes/default/home/right_now/home_box_right_now_item_bg.png)
 }
 #right_now_container .scrollable .list .status_update_item .header{
     overflow:hidden;
@@ -3343,11 +3343,11 @@ div#fancy_ajax img{
     float:left
 }
 .home_page.ads #right_now_container{
-    background-image:url(/images/themes/default/home/adv/home_box_right_now_bg_ad_page.png);
+    background-image:url(/the-slap/images/themes/default/home/adv/home_box_right_now_bg_ad_page.png);
     background-repeat:no-repeat
 }
 .home_page.ads #right_now_container .status_update_item{
-    background-image:url(/images/themes/default/home/adv/home_box_right_now_item_bg.png);
+    background-image:url(/the-slap/images/themes/default/home/adv/home_box_right_now_item_bg.png);
     margin-top:66px;
     margin-left:7px;
     width:197px;
@@ -3370,7 +3370,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_pix.png);
+    background-image:url(/the-slap/images/themes/default/page_title_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3378,7 +3378,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_clips.png);
+    background-image:url(/the-slap/images/themes/default/page_title_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3386,7 +3386,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_games.png);
+    background-image:url(/the-slap/images/themes/default/page_title_games.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3394,7 +3394,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_tunes.png);
+    background-image:url(/the-slap/images/themes/default/page_title_tunes.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3402,7 +3402,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_profiles.png);
+    background-image:url(/the-slap/images/themes/default/page_title_profiles.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3410,7 +3410,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_user_profile.png);
+    background-image:url(/the-slap/images/themes/default/page_title_user_profile.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3418,7 +3418,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_search.png);
+    background-image:url(/the-slap/images/themes/default/page_title_search.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3426,7 +3426,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_sign_up.png);
+    background-image:url(/the-slap/images/themes/default/page_title_sign_up.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3434,7 +3434,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_faq.png);
+    background-image:url(/the-slap/images/themes/default/page_title_faq.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3442,7 +3442,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_robbies_review.png);
+    background-image:url(/the-slap/images/themes/default/page_title_robbies_review.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3450,7 +3450,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_robbies_blog.png);
+    background-image:url(/the-slap/images/themes/default/page_title_robbies_blog.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3458,7 +3458,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/page_title_my_profile.png);
+    background-image:url(/the-slap/images/themes/default/page_title_my_profile.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3524,7 +3524,7 @@ div#fancy_ajax img{
     left:0
 }
 #content .pagination .prev_page b b{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png")
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png")
 }
 #content .pagination .next_page{
     padding-right:30px
@@ -3533,7 +3533,7 @@ div#fancy_ajax img{
     right:0
 }
 #content .pagination .next_page b b{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png")
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png")
 }
 #content .pagination .page_info{
     background:#2E6AB1;
@@ -3562,7 +3562,7 @@ div#fancy_ajax img{
     overflow:hidden
 }
 .characters .list_container .list_title_container{
-    background-image:url(/images/themes/default/profiles_list_section_title_bg.png);
+    background-image:url(/the-slap/images/themes/default/profiles_list_section_title_bg.png);
     height:28px;
     color:#FFF;
     font-weight:bold;
@@ -3574,7 +3574,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/profiles_list_section_title.png);
+    background-image:url(/the-slap/images/themes/default/profiles_list_section_title.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3656,17 +3656,17 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_go.png);
+    background-image:url(/the-slap/images/themes/default/button_go.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:72px;
     height:50px
 }
 .characters .list_container .character_list .item.even{
-    background-image:url(/images/themes/default/profiles_list_section_gradient.png)
+    background-image:url(/the-slap/images/themes/default/profiles_list_section_gradient.png)
 }
 .characters .list_container .character_list .item.odd{
-    background-image:url(/images/themes/default/profiles_list_section_gradient_alt.png)
+    background-image:url(/the-slap/images/themes/default/profiles_list_section_gradient_alt.png)
 }
 .characters .list_container .character_list .item a,.characters .list_container .character_list .item a:hover{
     text-decoration:none;
@@ -3678,7 +3678,7 @@ div#fancy_ajax img{
 }
 .characters .list_container .list_footer{
     height:16px;
-    background-image:url(/images/themes/default/list_footer_blue.png);
+    background-image:url(/the-slap/images/themes/default/list_footer_blue.png);
     position:relative
 }
 .character_page #content_header{
@@ -3693,7 +3693,7 @@ div#fancy_ajax img{
     margin-right:5px
 }
 .profile_header{
-    background-image:url(/images/themes/default/profile_header_bg_tori.jpg);
+    background-image:url(/the-slap/images/themes/default/profile_header_bg_tori.jpg);
     width:740px;
     height:242px;
     padding:10px 7px 0 7px;
@@ -3765,7 +3765,7 @@ div#fancy_ajax img{
 .profile_header .info .current_status{
     margin-top:6px;
     padding:4px 10px 4px 25px;
-    background-image:url(/images/themes/default/profile_status_bubble_bg.png);
+    background-image:url(/the-slap/images/themes/default/profile_status_bubble_bg.png);
     width:510px;
     height:106px;
     overflow:hidden;
@@ -3801,7 +3801,7 @@ div#fancy_ajax img{
     right:4px
 }
 .profile_header .info .current_status #current_status_pulse{
-    background:url(/images/themes/default/glyph_pulse_dot.png) 0 0 no-repeat;
+    background:url(/the-slap/images/themes/default/glyph_pulse_dot.png) 0 0 no-repeat;
     position:absolute;
     top:75px;
     left:25px;
@@ -3824,7 +3824,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_become_fan.png);
+    background-image:url(/the-slap/images/themes/default/button_become_fan.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:144px;
@@ -3835,7 +3835,7 @@ div#fancy_ajax img{
     color:#fffd95
 }
 .character .wall_item_list_container .list_title_container{
-    background-image:url(/images/themes/default/list_header_green.png);
+    background-image:url(/the-slap/images/themes/default/list_header_green.png);
     height:28px;
     padding:0px 0 0px 6px
 }
@@ -3856,12 +3856,12 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_board.png);
+    background-image:url(/the-slap/images/themes/default/list_header_board.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .character .wall_item_list_container .list .list_item{
-    background-image:url(/images/themes/default/gradient_comments.png);
+    background-image:url(/the-slap/images/themes/default/gradient_comments.png);
     background-repeat:repeat-x;
     background-color:#4BCB99;
     padding:7px;
@@ -3942,7 +3942,7 @@ div#fancy_ajax img{
 #search_profiles .section_title_container{
     height:26px;
     padding:1px;
-    background-image:url(/images/themes/default/search_profiles_section_title_bg.png)
+    background-image:url(/the-slap/images/themes/default/search_profiles_section_title_bg.png)
 }
 #search_profiles .section_title_container .section_title{
     height:24px;
@@ -3951,14 +3951,14 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_profiles_section_title.png);
+    background-image:url(/the-slap/images/themes/default/search_profiles_section_title.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 #search_profiles .section_content{
     height:123px;
     margin-top:3px;
-    background-image:url(/images/themes/default/search_profiles_content_section_bg.png);
+    background-image:url(/the-slap/images/themes/default/search_profiles_content_section_bg.png);
     background-repeat:no-repeat;
     padding:20px 0 0 22px
 }
@@ -3969,7 +3969,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_profiles_content_section.png);
+    background-image:url(/the-slap/images/themes/default/search_profiles_content_section.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -3998,7 +3998,7 @@ div#fancy_ajax img{
     width:72px;
     height:50px;
     background-color:transparent;
-    background-image:url(/images/themes/default/button_go.png);
+    background-image:url(/the-slap/images/themes/default/button_go.png);
     background-repeat:no-repeat;
     border:0px none;
     margin-left:-15px;
@@ -4009,7 +4009,7 @@ div#fancy_ajax img{
     margin:14px 0 0 0
 }
 #block_ad_container #block_ad_tab{
-    background-image:url(/images/themes/default/ad_tab_with_border_bg.png);
+    background-image:url(/the-slap/images/themes/default/ad_tab_with_border_bg.png);
     width:90px;
     height:15px;
     padding-top:2px;
@@ -4062,7 +4062,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/game_title_label.png);
+    background-image:url(/the-slap/images/themes/default/game_title_label.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:130px
@@ -4073,7 +4073,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/game_description_label.png);
+    background-image:url(/the-slap/images/themes/default/game_description_label.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:130px
@@ -4202,7 +4202,7 @@ div#fancy_ajax img{
     border:0 none;
     padding:6px 0 6px 8px;
     background-color:transparent;
-    background-image:url(/images/themes/default/search_results_field_bg.png)
+    background-image:url(/the-slap/images/themes/default/search_results_field_bg.png)
 }
 .search_results #search form input:focus{
     outline:0 none
@@ -4212,7 +4212,7 @@ div#fancy_ajax img{
     height:50px;
     margin-left:12px;
     background-color:transparent;
-    background-image:url(/images/themes/default/search_again_button.png);
+    background-image:url(/the-slap/images/themes/default/search_again_button.png);
     background-repeat:no-repeat;
     border:0px none;
     cursor:pointer;
@@ -4225,7 +4225,7 @@ div#fancy_ajax img{
     margin:4px 13px 12px
 }
 .search_results .search_result_container .section_title_container{
-    background-image:url(/images/themes/default/search_results_header_bg.png);
+    background-image:url(/the-slap/images/themes/default/search_results_header_bg.png);
     height:25px;
     width:655px;
     padding:10px 0 0 46px
@@ -4239,7 +4239,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_results_title_pix.png);
+    background-image:url(/the-slap/images/themes/default/search_results_title_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -4247,7 +4247,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_results_title_clips.png);
+    background-image:url(/the-slap/images/themes/default/search_results_title_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:123px
@@ -4256,7 +4256,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_results_title_profiles_pages.png);
+    background-image:url(/the-slap/images/themes/default/search_results_title_profiles_pages.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:206px
@@ -4265,7 +4265,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_results_title_tunes.png);
+    background-image:url(/the-slap/images/themes/default/search_results_title_tunes.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:132px
@@ -4274,7 +4274,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/search_results_title_games.png);
+    background-image:url(/the-slap/images/themes/default/search_results_title_games.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:136px
@@ -4337,13 +4337,13 @@ div#fancy_ajax img{
     float:left;
     display:block;
     list-style-type:none;
-    background-image:url(/images/themes/default/favorite_tab_bg.png);
+    background-image:url(/the-slap/images/themes/default/favorite_tab_bg.png);
     width:78px;
     height:27px;
     margin-right:2px
 }
 .favorite_tabs_container .favorite_tabs .active{
-    background-image:url(/images/themes/default/favorite_tab_active_bg.png)
+    background-image:url(/the-slap/images/themes/default/favorite_tab_active_bg.png)
 }
 .favorite_tabs_container .favorite_tabs a{
     display:block;
@@ -4354,7 +4354,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/profile_list_header_clips.png);
+    background-image:url(/the-slap/images/themes/default/profile_list_header_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -4362,7 +4362,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/profile_list_header_pix.png);
+    background-image:url(/the-slap/images/themes/default/profile_list_header_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -4370,7 +4370,7 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/profile_list_header_games.png);
+    background-image:url(/the-slap/images/themes/default/profile_list_header_games.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -4378,12 +4378,12 @@ div#fancy_ajax img{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/profile_list_header_tunes.png);
+    background-image:url(/the-slap/images/themes/default/profile_list_header_tunes.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .favorite_tabs_container .favored_type_video .videos,.favorite_tabs_container .favored_type_photo .photos,.favorite_tabs_container .favored_type_song .songs,.favorite_tabs_container .favored_type_game .games{
-    background-image:url(/images/themes/default/favorite_tab_active_bg.png)
+    background-image:url(/the-slap/images/themes/default/favorite_tab_active_bg.png)
 }
 .my_profile .favorite_tabs_container{
     margin-top:10px
@@ -4472,7 +4472,7 @@ div#fancy_ajax img{
     width:175px
 }
 .user_info .avatar_edit_container{
-    background-image:url("/images/themes/default/tab_edit_profile.png");
+    background-image:url("/the-slap/images/themes/default/tab_edit_profile.png");
     width:99px;
     height:21px;
     text-align:center
@@ -4484,10 +4484,10 @@ div#fancy_ajax img{
     margin-right:7px
 }
 .male .photo{
-    background-image:url("/images/themes/default/avatar_default_boy.png")
+    background-image:url("/the-slap/images/themes/default/avatar_default_boy.png")
 }
 .female .photo{
-    background-image:url("/images/themes/default/avatar_default_girl.png")
+    background-image:url("/the-slap/images/themes/default/avatar_default_girl.png")
 }
 .user_info{
     overflow:hidden;
@@ -4538,7 +4538,7 @@ div#fancy_ajax img{
 }
 .user_info .mood_section a.select{
     display:block;
-    background-image:url(/images/themes/default/button_change_mood.png);
+    background-image:url(/the-slap/images/themes/default/button_change_mood.png);
     background-repeat:no-repeat;
     height:36px;
     width:123px
@@ -4571,7 +4571,7 @@ body.user_page h2 em{
     font-style:normal
 }
 #mood_select_modal{
-    background-image:url(/images/themes/default/modal_moods_bg.png);
+    background-image:url(/the-slap/images/themes/default/modal_moods_bg.png);
     height:558px;
     left:50%;
     margin-left:-354px;
@@ -4654,12 +4654,12 @@ body.user_page h2 em{
     right:35px
 }
 #mood_select_modal .close{
-    background-image:url(/images/themes/default/button_modal_close_medium.png);
+    background-image:url(/the-slap/images/themes/default/button_modal_close_medium.png);
     top:11px;
     width:90px
 }
 #mood_select_modal .save{
-    background-image:url(/images/themes/default/button_save.png);
+    background-image:url(/the-slap/images/themes/default/button_save.png);
     bottom:10px;
     width:73px
 }
@@ -4691,7 +4691,7 @@ body.user_page h2 em{
     position:relative
 }
 .game .comments_container .subheader,.video .comments_container .subheader,.photo .comments_container .subheader,.songs .comments_container .subheader,.character .comments_container .subheader{
-    background-image:url(/images/themes/default/gradient_subheader_bg.png);
+    background-image:url(/the-slap/images/themes/default/gradient_subheader_bg.png);
     background-repeat:repeat-x;
     height:38px;
     padding:12px 15px
@@ -4700,7 +4700,7 @@ body.user_page h2 em{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/subheader_comments.png);
+    background-image:url(/the-slap/images/themes/default/subheader_comments.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:240px;
@@ -4708,7 +4708,7 @@ body.user_page h2 em{
     margin-top:17px
 }
 .game .comments_container .list_and_footer_container,.video .comments_container .list_and_footer_container,.photo .comments_container .list_and_footer_container,.songs .comments_container .list_and_footer_container,.character .comments_container .list_and_footer_container{
-    background-image:url(/images/themes/default/gradient_comments.png);
+    background-image:url(/the-slap/images/themes/default/gradient_comments.png);
     background-repeat:repeat-x;
     background-color:#4bcb99;
     font-weight:normal
@@ -4793,14 +4793,14 @@ body.user_page h2 em{
     margin:-7px 10px -4px 25px
 }
 .like_action_icon{
-    background-image:url(/images/themes/default/glyph_like.png)
+    background-image:url(/the-slap/images/themes/default/glyph_like.png)
 }
 .like_action{
     display:inline;
     float:left
 }
 .comment_action_icon{
-    background-image:url(/images/themes/default/glyph_comment.png);
+    background-image:url(/the-slap/images/themes/default/glyph_comment.png);
     margin:-5px 10px -4px 65px
 }
 .comment_action{
@@ -4827,7 +4827,7 @@ body.user_page h2 em{
     background-color:transparent
 }
 div#fancy_close,div.fancy_close{
-    background:url(/images/themes/default/button_modal_close.png);
+    background:url(/the-slap/images/themes/default/button_modal_close.png);
     width:111px;
     height:47px
 }
@@ -4905,7 +4905,7 @@ div#fancy_close,div.fancy_close{
     cursor:pointer
 }
 .slapped_modal div#fancy_outer div#fancy_inner{
-    background:url(/images/themes/default/modal_who_is_slapped_bg.png) !important;
+    background:url(/the-slap/images/themes/default/modal_who_is_slapped_bg.png) !important;
     width:379px;
     height:312px
 }
@@ -4956,7 +4956,7 @@ div#fancy_close,div.fancy_close{
     height:491px
 }
 .send_to_friend_modal div#fancy_outer div#fancy_inner{
-    background-image:url(/images/themes/default/send_to_friend_modal_flat_bg.png);
+    background-image:url(/the-slap/images/themes/default/send_to_friend_modal_flat_bg.png);
     width:745px;
     height:491px
 }
@@ -5010,7 +5010,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_send.png);
+    background-image:url(/the-slap/images/themes/default/button_send.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     background-position:0 0;
@@ -5031,7 +5031,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_username.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_username.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5039,7 +5039,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_password.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_password.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5047,7 +5047,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_your_question.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_your_question.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:163px
@@ -5056,7 +5056,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_your_answer.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_your_answer.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:163px
@@ -5068,7 +5068,7 @@ div#fancy_close,div.fancy_close{
 }
 .embed_modal div#fancy_outer div#fancy_inner{
     position:relative;
-    background-image:url(/images/themes/default/modal_embed_bg.png?v=2);
+    background-image:url(/the-slap/images/themes/default/modal_embed_bg.png?v=2);
     width:452px;
     height:470px;
     margin-top:32px
@@ -5096,7 +5096,7 @@ div#fancy_close,div.fancy_close{
 }
 #embed_view .button{
     cursor:pointer;
-    background-image:url(/images/themes/default/button_embed.png);
+    background-image:url(/the-slap/images/themes/default/button_embed.png);
     background-position:0 0;
     width:169px;
     height:51px;
@@ -5129,7 +5129,7 @@ div#fancy_close,div.fancy_close{
     background-position:bottom left
 }
 .login_modal div#fancy_outer div#fancy_inner{
-    background-image:url(/images/themes/default/login_modal_flat_bg.png);
+    background-image:url(/the-slap/images/themes/default/login_modal_flat_bg.png);
     height:453px;
     width:633px
 }
@@ -5146,7 +5146,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_login.png);
+    background-image:url(/the-slap/images/themes/default/button_login.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:93px;
@@ -5172,7 +5172,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_new_user.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_new_user.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     display:block;
@@ -5191,7 +5191,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_login_register.png);
+    background-image:url(/the-slap/images/themes/default/button_login_register.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     display:block;
@@ -5209,7 +5209,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_login_forgot_password.png);
+    background-image:url(/the-slap/images/themes/default/button_login_forgot_password.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:196px;
@@ -5228,7 +5228,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_login_get_password.png);
+    background-image:url(/the-slap/images/themes/default/button_login_get_password.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:196px;
@@ -5247,7 +5247,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_login.png);
+    background-image:url(/the-slap/images/themes/default/button_login.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:93px;
@@ -5257,7 +5257,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_username.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_username.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5265,7 +5265,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_password.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_password.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5273,7 +5273,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_your_question.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_your_question.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:163px
@@ -5282,7 +5282,7 @@ div#fancy_close,div.fancy_close{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/modal_login_text_your_answer.png);
+    background-image:url(/the-slap/images/themes/default/modal_login_text_your_answer.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:163px
@@ -5340,7 +5340,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/error_heading_text.png);
+    background-image:url(/the-slap/images/themes/default/error_heading_text.png);
     background-repeat:no-repeat;
     height:38px;
     margin-left:-10px
@@ -5383,7 +5383,7 @@ body.sessions p{
 }
 .signup_page form.formtastic .section legend{
     display:block;
-    background-image:url(/images/themes/default/registration_header_bg.png);
+    background-image:url(/the-slap/images/themes/default/registration_header_bg.png);
     width:726px;
     height:32px;
     background-repeat:no-repeat;
@@ -5420,7 +5420,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_username.png);
+    background-image:url(/the-slap/images/themes/default/registration_username.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5428,7 +5428,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_password.png);
+    background-image:url(/the-slap/images/themes/default/registration_password.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5436,7 +5436,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_password_hint.png);
+    background-image:url(/the-slap/images/themes/default/registration_password_hint.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5444,7 +5444,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_birthdate.png);
+    background-image:url(/the-slap/images/themes/default/registration_birthdate.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5452,7 +5452,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_gender.png);
+    background-image:url(/the-slap/images/themes/default/registration_gender.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5460,7 +5460,7 @@ body.sessions p{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/registration_state.png);
+    background-image:url(/the-slap/images/themes/default/registration_state.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5471,7 +5471,7 @@ body.sessions p{
     display:block;
     color:transparent;
     background-color:transparent;
-    background-image:url(/images/themes/default/button_arrow_sign_up.png);
+    background-image:url(/the-slap/images/themes/default/button_arrow_sign_up.png);
     width:117px;
     height:50px;
     border:none;
@@ -5557,7 +5557,7 @@ body.bp h3.no_javascript_warning{
 }
 .module_container .module_header{
     height:27px;
-    background-image:url(/images/themes/default/profile_box_clips_header_bg.png);
+    background-image:url(/the-slap/images/themes/default/profile_box_clips_header_bg.png);
     overflow:hidden;
     display:inline-block
 }
@@ -5573,7 +5573,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_clips.png);
+    background-image:url(/the-slap/images/themes/default/list_header_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     margin:0;
@@ -5585,7 +5585,7 @@ body.bp h3.no_javascript_warning{
     float:left
 }
 .module_container .module_body_container{
-    background-image:url(/images/themes/default/profile_box_clips_body_bg.png);
+    background-image:url(/the-slap/images/themes/default/profile_box_clips_body_bg.png);
     width:300px;
     height:auto;
     padding-top:0;
@@ -5595,7 +5595,7 @@ body.bp h3.no_javascript_warning{
     padding-top:2px
 }
 .module_container .module_body_container .module_body .list_backdrop{
-    background-image:url(/images/themes/default/phone_small_bg.png);
+    background-image:url(/the-slap/images/themes/default/phone_small_bg.png);
     width:292px;
     height:161px;
     margin:7px 0 0 4px
@@ -5604,7 +5604,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_clips_small.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_clips_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     position:absolute;
@@ -5649,7 +5649,7 @@ body.bp h3.no_javascript_warning{
 }
 .character_favorite_videos .module_container .module_footer,.character_favorite_photo_playlists .module_container .module_footer{
     height:6px;
-    background-image:url(/images/themes/default/profile_box_footer_bg.png)
+    background-image:url(/the-slap/images/themes/default/profile_box_footer_bg.png)
 }
 .character_favorite_videos .module_container .module_body_footer a,.character_favorite_photo_playlists .module_container .module_body_footer a{
     bottom:0;
@@ -5731,13 +5731,13 @@ body.bp h3.no_javascript_warning{
     padding-bottom:8px
 }
 .character_favorite_videos .module_container .module_header{
-    background-image:url(/images/themes/default/profile_box_clips_header_bg.png)
+    background-image:url(/the-slap/images/themes/default/profile_box_clips_header_bg.png)
 }
 .character_favorite_videos .module_container .module_header .module_type{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_clips.png);
+    background-image:url(/the-slap/images/themes/default/list_header_clips.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -5746,7 +5746,7 @@ body.bp h3.no_javascript_warning{
     top:161px
 }
 .character_favorite_videos .module_container .module_body_container{
-    background-image:url(/images/themes/default/profile_box_clips_body_bg.png);
+    background-image:url(/the-slap/images/themes/default/profile_box_clips_body_bg.png);
     min-height:253px
 }
 .character_favorite_videos .module_container .module_body_container .module_body .list_backdrop{
@@ -5759,7 +5759,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_clips_small.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_clips_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:114px
@@ -5771,7 +5771,7 @@ body.bp h3.no_javascript_warning{
     width:246px
 }
 .character_favorite_videos .module_container .list .item .primary_container .cell.cover a{
-    background-image:url(/images/themes/default/phone_small_cover.png);
+    background-image:url(/the-slap/images/themes/default/phone_small_cover.png);
     width:301px;
     min-height:195px;
     display:block;
@@ -5786,18 +5786,18 @@ body.bp h3.no_javascript_warning{
     min-height:235px
 }
 .character_favorite_photo_playlists .module_container .module_header{
-    background-image:url(/images/themes/default/profile_box_pix_header_bg.png)
+    background-image:url(/the-slap/images/themes/default/profile_box_pix_header_bg.png)
 }
 .character_favorite_photo_playlists .module_container .module_header .module_type{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/list_header_pix.png);
+    background-image:url(/the-slap/images/themes/default/list_header_pix.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
 .character_favorite_photo_playlists .module_container .module_body_container{
-    background-image:url(/images/themes/default/profile_box_pix_body_bg.png);
+    background-image:url(/the-slap/images/themes/default/profile_box_pix_body_bg.png);
     height:290px;
     padding-bottom:10px
 }
@@ -5808,7 +5808,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_pix_small.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_pix_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:104px
@@ -5870,7 +5870,7 @@ body.bp h3.no_javascript_warning{
     height:32px
 }
 #sidebar_container .module_container .module_body_container{
-    background-image:url(/images/themes/default/sidebar/default_body_bg.png);
+    background-image:url(/the-slap/images/themes/default/sidebar/default_body_bg.png);
     width:208px;
     min-height:100px
 }
@@ -5881,7 +5881,7 @@ body.bp h3.no_javascript_warning{
     background-image:none
 }
 #sidebar_container .module_container .module_footer{
-    background-image:url(/images/themes/default/sidebar/default_footer_bg.png);
+    background-image:url(/the-slap/images/themes/default/sidebar/default_footer_bg.png);
     width:208px;
     height:7px
 }
@@ -5889,19 +5889,19 @@ body.bp h3.no_javascript_warning{
     min-height:106px
 }
 #sidebar_container .sponsored_by .module_header{
-    background-image:url(/images/themes/default/sidebar/sponsored_by/header_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar/sponsored_by/header_bg.png)
 }
 #sidebar_container .the_games .module_header{
-    background-image:url(/images/themes/default/sidebar/games/header_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar/games/header_bg.png)
 }
 #sidebar_container .the_tunes .module_header{
-    background-image:url(/images/themes/default/sidebar/tunes/header_single_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar/tunes/header_single_bg.png)
 }
 #sidebar_container .hottest_pages .module_header{
-    background-image:url(/images/themes/default/sidebar/hottest_pages/header_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar/hottest_pages/header_bg.png)
 }
 #sidebar_container .sponsored_by .module_body_container{
-    background-image:url(/images/themes/default/sidebar/sponsored_by/body_bg.png);
+    background-image:url(/the-slap/images/themes/default/sidebar/sponsored_by/body_bg.png);
     min-height:63px;
     height:63px
 }
@@ -5909,7 +5909,7 @@ body.bp h3.no_javascript_warning{
     margin:0 0 0 35px
 }
 #sidebar_container .sponsored_by .module_footer{
-    background-image:url(/images/themes/default/sidebar/sponsored_by/footer_bg.png)
+    background-image:url(/the-slap/images/themes/default/sidebar/sponsored_by/footer_bg.png)
 }
 #sidebar_container .the_games .module_body a{
     display:block;
@@ -5997,7 +5997,7 @@ body.bp h3.no_javascript_warning{
     left:0
 }
 .home_page.ads #content_container #fun_facts_container .fun_facts_title_container{
-    background-image:url("/images/themes/default/home/adv/home_box_fun_facts_bg_ad_page.png");
+    background-image:url("/the-slap/images/themes/default/home/adv/home_box_fun_facts_bg_ad_page.png");
     width:220px;
     height:118px
 }
@@ -6012,7 +6012,7 @@ body.bp h3.no_javascript_warning{
     margin-top:-94px
 }
 .home_page.ads #content_container #ad_box_container{
-    background-image:url("/images/themes/default/home/adv/box_bg.png?update=t165");
+    background-image:url("/the-slap/images/themes/default/home/adv/box_bg.png?update=t165");
     display:block;
     float:left;
     margin:0;
@@ -6038,7 +6038,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/home/photo_gallery/photo.jpg);
+    background-image:url(/the-slap/images/themes/default/home/photo_gallery/photo.jpg);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -6054,7 +6054,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/home/what_is_theslap.png);
+    background-image:url(/the-slap/images/themes/default/home/what_is_theslap.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -6093,17 +6093,17 @@ body.bp h3.no_javascript_warning{
     height:306px
 }
 .home_page #new_stuff_container .jcarousel-skin-tango .jcarousel-prev-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png");
     top:-25px;
     left:136px
 }
 .home_page #new_stuff_container .jcarousel-skin-tango .jcarousel-next-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png");
     top:-25px;
     left:156px
 }
 .home_page #new_stuff_container .new_stuff_title_container{
-    background-image:url("/images/themes/default/home/new_stuff/home_new_stuff_header_bg.png");
+    background-image:url("/the-slap/images/themes/default/home/new_stuff/home_new_stuff_header_bg.png");
     position:relative;
     width:191px;
     height:23px
@@ -6149,7 +6149,7 @@ body.bp h3.no_javascript_warning{
     position:absolute;
     right:2px;
     top:3px;
-    background:url(/images/themes/default/button_modal_close_small.png?update=t165) !important;
+    background:url(/the-slap/images/themes/default/button_modal_close_small.png?update=t165) !important;
     width:50px;
     height:26px;
     z-index:999
@@ -6174,7 +6174,7 @@ body.bp h3.no_javascript_warning{
     padding-top:140px
 }
 .home_page .stage .loading_overlay .icon{
-    background-image:url('/images/loading_video.gif');
+    background-image:url('/the-slap/images/loading_video.gif');
     background-position:50% 50%;
     background-repeat:no-repeat;
     background-color:black;
@@ -6189,7 +6189,7 @@ body.bp h3.no_javascript_warning{
     -webkit-border-radius:7px
 }
 .home_page .wink_container{
-    background:url("/images/themes/default/home/loading.gif") center center no-repeat;
+    background:url("/the-slap/images/themes/default/home/loading.gif") center center no-repeat;
     top:7px;
     left:7px;
     width:966px;
@@ -6204,7 +6204,7 @@ body.bp h3.no_javascript_warning{
     top:343px
 }
 .home_page .video_container{
-    background-image:url("/images/themes/default/home/video/bg.png")
+    background-image:url("/the-slap/images/themes/default/home/video/bg.png")
 }
 .home_page .video_container .video{
     position:absolute;
@@ -6277,7 +6277,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/button_see_all_clips_small.png);
+    background-image:url(/the-slap/images/themes/default/button_see_all_clips_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     display:block;
@@ -6307,7 +6307,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_like_small.png);
+    background-image:url(/the-slap/images/themes/default/glyph_like_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%
 }
@@ -6315,7 +6315,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/glyph_comment_small.png);
+    background-image:url(/the-slap/images/themes/default/glyph_comment_small.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     margin-left:17px
@@ -6364,7 +6364,7 @@ body.bp h3.no_javascript_warning{
     overflow:hidden
 }
 .home_page .video_container .moreClips h3{
-    background-image:url(/images/themes/default/more_clips_title.png);
+    background-image:url(/the-slap/images/themes/default/more_clips_title.png);
     height:19px;
     width:183px;
     margin-left:11px;
@@ -6394,13 +6394,13 @@ body.bp h3.no_javascript_warning{
     top:0;
     left:0;
     text-decoration:none;
-    background-image:url(/images/themes/default/more_clips_link_bg_home.png)
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg_home.png)
 }
 .home_page .video_container .moreClips a:hover{
-    background-image:url(/images/themes/default/more_clips_link_bg_home_alt.png)
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg_home_alt.png)
 }
 .home_page .video_container .moreClips a:after{
-    background-image:url(/images/themes/default/more_clips_link_bg_home_alt.png);
+    background-image:url(/the-slap/images/themes/default/more_clips_link_bg_home_alt.png);
     display:none
 }
 .home_page .video_container .moreClips a:active{
@@ -6429,17 +6429,17 @@ body.bp h3.no_javascript_warning{
     height:93px
 }
 .home_page #fun_facts_container .jcarousel-skin-tango .jcarousel-prev-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png");
     top:-38px;
     left:136px
 }
 .home_page #fun_facts_container .jcarousel-skin-tango .jcarousel-next-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png");
     top:-38px;
     left:156px
 }
 .home_page #fun_facts_container .fun_facts_title_container{
-    background-image:url("/images/themes/default/home/fun_facts/bar_bg.png");
+    background-image:url("/the-slap/images/themes/default/home/fun_facts/bar_bg.png");
     width:744px;
     height:93px
 }
@@ -6465,7 +6465,7 @@ body.bp h3.no_javascript_warning{
     font-size:14px
 }
 .home_page #hot_pages{
-    background:transparent url('/images/themes/default/home/hot_pages/bar_bg.png') no-repeat 0 0;
+    background:transparent url('/the-slap/images/themes/default/home/hot_pages/bar_bg.png') no-repeat 0 0;
     width:974px;
     height:145px;
     margin:-14px 0 2px 0;
@@ -6502,15 +6502,15 @@ body.bp h3.no_javascript_warning{
     cursor:default
 }
 .home_page #hot_pages .jcarousel-prev{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png");
     left:158px
 }
 .home_page #hot_pages .jcarousel-next{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png");
     left:178px
 }
 .home_page #hot_pages .frame{
-    background:transparent url('/images/themes/default/home/hot_pages/frame.png') no-repeat 0 0;
+    background:transparent url('/the-slap/images/themes/default/home/hot_pages/frame.png') no-repeat 0 0;
     width:136px;
     height:99px;
     margin:34px 0 0 0;
@@ -6545,7 +6545,7 @@ body.bp h3.no_javascript_warning{
     overflow:hidden
 }
 .home_page #hot_pages .frame .notification_badge .sprite{
-    background:transparent url('/images/themes/default/sprite_badge_numbers.png') no-repeat 0 0;
+    background:transparent url('/the-slap/images/themes/default/sprite_badge_numbers.png') no-repeat 0 0;
     width:25px;
     height:500px;
     position:relative;
@@ -6576,17 +6576,17 @@ body.bp h3.no_javascript_warning{
     height:228px
 }
 .home_page #game_of_months_container .jcarousel-skin-tango .jcarousel-prev-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_prev.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_prev.png");
     top:-35px;
     left:160px
 }
 .home_page #game_of_months_container .jcarousel-skin-tango .jcarousel-next-horizontal{
-    background-image:url("/images/themes/default/home/click_arrow_sprite_next.png");
+    background-image:url("/the-slap/images/themes/default/home/click_arrow_sprite_next.png");
     top:-35px;
     left:180px
 }
 .home_page #game_of_months_container .game_of_months_title_container{
-    background-image:url("/images/themes/default/home/game_month/bar_bg.png");
+    background-image:url("/the-slap/images/themes/default/home/game_month/bar_bg.png");
     width:435px;
     height:279px
 }
@@ -6632,7 +6632,7 @@ body.bp h3.no_javascript_warning{
     width:712px;
     height:427px;
     position:relative;
-    background-image:url("/images/themes/default/bump/bumper_ad_warning_bg.png")
+    background-image:url("/the-slap/images/themes/default/bump/bumper_ad_warning_bg.png")
 }
 .bump_page #main_container #main #bump_container .continue,.bump_page #main_container #main #bump_container .go_back{
     display:block;
@@ -6644,7 +6644,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/bump/button_bumper_go_back.png);
+    background-image:url(/the-slap/images/themes/default/bump/button_bumper_go_back.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:317px;
@@ -6654,7 +6654,7 @@ body.bp h3.no_javascript_warning{
     text-indent:-9999em;
     overflow:hidden;
     text-align:left;
-    background-image:url(/images/themes/default/bump/button_bumper_continue.png);
+    background-image:url(/the-slap/images/themes/default/bump/button_bumper_continue.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
     width:319px;
@@ -6665,11 +6665,11 @@ body.bp h3.no_javascript_warning{
 }
 @font-face{
     font-family:'DesyrelRegular';
-    src:local('☺'), url('/fonts/desyrel-webfont.woff') format('woff'), url('/fonts/desyrel-webfont.ttf') format('truetype')
+    src:local('☺'), url('/the-slap/fonts/desyrel-webfont.woff') format('woff'), url('/the-slap/fonts/desyrel-webfont.ttf') format('truetype')
 }
 @font-face{
     font-family:'KomikaRegular';
-    src:local('☺'), url('/fonts/komika-webfont.woff') format('woff'), url('/fonts/komika-webfont.ttf') format('truetype')
+    src:local('☺'), url('/the-slap/fonts/komika-webfont.woff') format('woff'), url('/the-slap/fonts/komika-webfont.ttf') format('truetype')
 }
 .songs .control_bar{
     background-color:black;
@@ -6686,7 +6686,7 @@ body.bp h3.no_javascript_warning{
 }
 .songs .control_bar form,.songs .control_bar a,.songs .control_bar label.volume,.songs .control_bar .ui-slider,.songs .control_bar .time-bg,.songs .control_bar .time-buffer{
     background-color:transparent;
-    background-image:url(/images/controlbar-skin.png);
+    background-image:url(/the-slap/images/controlbar-skin.png);
     backround-repeat:no-repeat;
     height:25px
 }
