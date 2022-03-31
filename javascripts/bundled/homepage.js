@@ -55,7 +55,7 @@ var swfobject=function(){var D="undefined",r="object",S="Shockwave Flash",W="Sho
         autoplay: false
     };           
     $.vplayer.defaults.flowplayer = {
-        swf: 'swf/flowplayer.commercial-3.2.7.swf',
+        swf: '/swf/flowplayer.commercial-3.2.7.swf',
         id: 'flowplayer',   
         scaling: 'fit',   
         autoBuffering: true,  
@@ -243,9 +243,9 @@ var swfobject=function(){var D="undefined",r="object",S="Shockwave Flash",W="Sho
         defaults: {
             support: ['mtvn', 'html'],
             mtvn: {
-                configUrl: 'videoxml/playlist002.xml', 
+                configUrl: '/videoxml/playlist002.xml', 
                 id: 'mtvnPlayer',
-                player: 'mtvn/vplayer.swf?v=037'
+                player: '/mtvn/vplayer.swf?v=037'
             }
         },
         mtvnState: {
