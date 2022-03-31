@@ -6218,7 +6218,8 @@ body.bp h3.no_javascript_warning{
     display:none;
     overflow:hidden;
     position:absolute;
-    top:0
+    top:0;
+    z-index:-1
 }
 .home_page .video_container .fancy_info_block{
     background-color:transparent;
