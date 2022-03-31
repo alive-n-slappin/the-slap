@@ -448,7 +448,7 @@ $(document).ready(function(){
     });
     //make video links on homepage play the video
     var new_stuff = $('#new_stuff_container');
-    $('a[href*="/clips/"], a[href*="%2Fclips%2F"]', new_stuff).click(function(){   
+    $('a[href*="/the-slap/clips/"], a[href*="%2Fclips%2F"]', new_stuff).click(function(){   
         //loading display
         $('.loading_overlay', new_stuff).css('background-image', $(this).parent().parent().css('background-image')).show();
         $('.loading_overlay .icon', new_stuff).hide().fadeIn(800);
@@ -477,13 +477,13 @@ $(document).ready(function(){
             });          
             $('.loading_overlay', new_stuff).fadeOut();
             $('.moreClips a').each(function(){
-                this.href = '/bump?to=%2Fclips%2F' + encodeURIComponent(this.href.split('/clips/')[1]);
+                this.href = '/the-slap/bump?to=%2Fclips%2F' + encodeURIComponent(this.href.split('/clips/')[1]);
             }).click(function(){
                 $('.clickToPlay > img').hide();
             });
         });
         //generate fancy info box
-        $('.fancy_info_block', new_stuff).hide().load(unescape(this.href).replace('/bump?to=', '') + '/fancy_info', function(){
+        $('.fancy_info_block', new_stuff).hide().load(unescape(this.href).replace('/the-slap/bump?to=', '') + '/fancy_info', function(){
              $('.fancy_info_block').fadeIn();
         });
         return false;
