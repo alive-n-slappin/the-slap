@@ -41,8 +41,7 @@ TheSlap- Ad Bump
   //<![CDATA[
     var acceptAds = function() {
       $.cookie('_theslap_bumper', 'yes');
-      var urlParams = new URLSearchParams(window.location.search);
-      window.location.href = "/the-slap/" += String(urlParams.get('to'));
+      window.location = "/the-slap/";
     }
     $.fn.pngFix = function(){}
   //]]>
