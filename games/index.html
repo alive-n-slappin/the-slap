@@ -1,1056 +1,873 @@
 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-                
-        
-
-
-
 <html xmlns:esi='http://www.edge-delivery.org/esi/1.0' xmlns='http://www.w3.org/1999/xhtml'>
-<head>
-<title>
-Games | TheSlap | Hollywood Arts' Victorious
-</title>
-
-<link href='/the-slap/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
-<script src="/the-slap/javascripts/bundled/theslap.js" type="text/javascript"></script>
-<link href="/the-slap/stylesheets/bundled/theslap.css" media="screen" rel="stylesheet" type="text/css" />
-<script src="/the-slap/javascripts/games.js" type="text/javascript"></script>
-<script src="/the-slap/javascripts/bundled/assets.js" type="text/javascript"></script>
-
-
-<!--[if lt IE 7]>
-<link href="/stylesheets/compiled/ie.css?1451924669" media="screen" rel="stylesheet" type="text/css" />
-<![endif]-->
-<!--[if lt IE 8]>
-<link href="/stylesheets/compiled/ie7.css?1451924671" media="screen" rel="stylesheet" type="text/css" />
-<![endif]-->
-
-</head>
-<body class='bp games games_page'>
-
-<div id='body_container'>
-<div id='header_container'>
-<div id='header'>
-<div id='nav_adornment'></div>
-<div id='logo_bg'></div>
-<!--<script type='text/javascript'>
-  //<![CDATA[
-    var user_menu_template = "    <ul>\n      <% try { %>\n        <li class=\"first\">Hello: <span class=\"user_name\"><%= user.username %><\/span><\/li>\n        <li><a href=\"/my/profile\">My profile<\/a><\/li>\n\n        <% if(user.admin) { %>\n          <li><a href=\"/admin/dashboard\">Admin dashboard<\/a><\/li>\n          <li><a href=\"/\">View site<\/a><\/li>\n        <% } %>\n        <li class=\"last\"><a href=\"/users/logout?return_to_after_logged_out=%2Fgames\">Logout<\/a><\/li>\n      <% } catch(err) { %>\n        <li><a href=\"/register\">Register<\/a><\/li>\n        <li class=\"last\"><a href=\"/users/pickles?return_to_if_logged_out=%2Fgames\" id=\"login_link\">Login<\/a><\/li>\n      <% } %>\n    <\/ul>\n";
-  //]]>
-</script>-->
-
-<a href='http://www.theslap.com/users/pickles' id='admin_login_link'></a>
-<div id='deprecated_user_menu'>
-<noscript>
-<h3 class='no_javascript_warning'>
-Javascript is required to use TheSlap. Please enable Javascript and reload this page.
-</h3>
-</noscript>
-</div>
-
-<div id='logo'>
-<a href='/the-slap/'>
-<object data='/the-slap/swf/slap_logo.swf' height='103' id='slap_animation' type='application/x-shockwave-flash' width='327'>
-<param name='wmode' value='transparent' />
-<param name='movie' value='/the-slap/swf/slap_logo.swf' />
-<img alt='The Slap' src='/the-slap/images/themes/default/home_logo.png' />
-</object>
-</a>
-</div>
-<div id='nav'>
-<ul>
-<li class='home first'><a href="/the-slap/">Home</a></li>
-<li class='characters'><a href="/the-slap/profiles">Profiles</a></li>
-<li class='videos'><a href="/the-slap/clips?newest=true">Clips</a></li>
-<li class='photos'><a href="/the-slap/pix?newest=true">Pix</a></li>
-<li class='songs'><a href="/the-slap/tunes">Tunes</a></li>
-<li class='games'><a href="/the-slap/games">Games</a></li>
-<li class='search last'><div id='search'>
-<form action="/search" method="get">
-
-<input class="search_field" id="q" name="q" placeholder="enter text here" size="15" type="text" />
-<button id='search_button' type='submit'>
-Search
-</button>
-</form>
-</div>
-</li>
-</ul>
-<div id='nav_bar_right_cap'></div>
-</div>
-
-</div>
-</div>
-<div id='main_container'>
-<div id='body_shadow_top'></div>
-<div id='body_shadow_left'></div>
-<div id='main'>
-<div id='content_container'>
-<div id='content_callout_container'>
-<div id='content_callout_tab'>
-<div id='content_callout'>
-<div id='banner_ad'>
-<script type='text/javascript'>
-  //<![CDATA[
-    mtvn.btg.Controller.placeAd({size:'728x90',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone});
-  //]]>
-</script>
-</div>
-</div>
-</div>
-</div>
-
-<div id='content_header'>
-<h1>All Games</h1>
-<div id='header_controls'></div>
-
-</div>
-<div class='games' id='content'>
-
-<div id='content_top'><div class='coverflow_container'>
-<div id='coverflow' style='width: 732px; height: 270px'></div>
-
-<div class='coverflow_control_bar_container'>
-<div class='coverflow_control_bar'>
-<div class='left_button'>
-<button type='button'>
-Left
-</button>
-</div>
-<div class='center_button'>
-<a href="#">Play Now!</a>
-</div>
-<div class='right_button'>
-<button type='button'>
-Right
-</button>
-</div>
-</div>
-</div>
-<div class='game_info'>
-<h3 class='title'></h3>
-<div class='description'></div>
-</div>
-</div>
-
-</div>
-<div id='content_bottom'>
-<div id='col_secondary'><div id='block_ad_container'>
-<div id='block_ad_tab'>
-<div class='title'>
-advertisement
-</div>
-</div>
-<div id='block_ad'>
-<script type='text/javascript'>
-  //<![CDATA[
-    mtvn.btg.Controller.placeAd({size:'300x250',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone})
-  //]]>
-</script>
-</div>
-</div>
-
-</div>
-<div id='col_primary'><div class='list_section'>
-<div class='subheader'>
-<div class='title games'>
-All Games
-</div>
-<div class='list_header'>
-<div class='game'>
-Game
-</div>
-<div class='created_on'>
-Created on
-</div>
-</div>
-</div>
-<div class='list_container asset_list_container game_list_container'>
-<ul class='list asset_list game_list'>
-<li class='item asset_item game_item' id='game_1358'>
-<div class='cell title'>
-<a href="/games/cats-heartbreaker-game">Cats Heartbreaker Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/cats-heartbreaker-game">February 2013</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1358_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1301'>
-<div class='cell title'>
-<a href="/games/sinjin-sock-hop">Sinjin Sock Hop</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/sinjin-sock-hop">January 2013</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1301_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1245'>
-<div class='cell title'>
-<a href="/games/skate-with-cat-game">Skate with Cat Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/skate-with-cat-game">December 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1245_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1176'>
-<div class='cell title'>
-<a href="/games/jades-zombie-smasher-game">Jades Zombie Smasher Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/jades-zombie-smasher-game">October 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1176_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1123'>
-<div class='cell title'>
-<a href="/games/wankos-warehouse-game">Wankos Warehouse Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/wankos-warehouse-game">September 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1123_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1096'>
-<div class='cell title'>
-<a href="/games/kwakoo-sushi-tower-game">Kwakoo Sushi Tower Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/kwakoo-sushi-tower-game">August 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1096_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_1065'>
-<div class='cell title'>
-<a href="/games/mood-match">Mood Match</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/mood-match">July 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_1065_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_988'>
-<div class='cell title'>
-<a href="/games/becks-wave-rider-game">Becks Wave Rider Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/becks-wave-rider-game">June 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_988_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_971'>
-<div class='cell title'>
-<a href="/games/theslaps-campy-quiz">TheSlap's Campy Quiz</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/theslaps-campy-quiz">June 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_971_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_929'>
-<div class='cell title'>
-<a href="/games/toris-platinum-audition">Toris Platinum Audition</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/toris-platinum-audition">May 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_929_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_911'>
-<div class='cell title'>
-<a href="/games/the-gorilla-game">The Gorilla Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/the-gorilla-game">April 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_911_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_892'>
-<div class='cell title'>
-<a href="/games/victorious-episode-quiz">Victorious Episode Quiz</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/victorious-episode-quiz">April 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_892_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_886'>
-<div class='cell title'>
-<a href="/games/sikowitz-coconut-catcher">Sikowitz Coconut Catcher </a>
-</div>
-<div class='cell created_on'>
-<a href="/games/sikowitz-coconut-catcher">March 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_886_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_857'>
-<div class='cell title'>
-<a href="/games/who-s-your-spring-break-soul-mate">Who's Your Spring Break Soul Mate?</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/who-s-your-spring-break-soul-mate">March 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_857_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_836'>
-<div class='cell title'>
-<a href="/games/grub-truck-challenge">Grub Truck Challenge</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/grub-truck-challenge">February 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_836_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_794'>
-<div class='cell title'>
-<a href="/games/andres-date-defense">Andre's Date Defense</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/andres-date-defense">February 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_794_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_807'>
-<div class='cell title'>
-<a href="/games/could-you-be-beck-s-new-girl">COULD YOU BE BECK'S NEW GIRL?</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/could-you-be-beck-s-new-girl">February 2012</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_807_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_438'>
-<div class='cell title'>
-<a href="/games/cats-alien-wipeout">Cat's Alien Winter Wipeout Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/cats-alien-wipeout">April 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_438_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_716'>
-<div class='cell title'>
-<a href="/games/rexs-dunk-for-a-buck">Rex's Dunk For A Buck</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/rexs-dunk-for-a-buck">November 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_716_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_676'>
-<div class='cell title'>
-<a href="/games/cupcake-getaway">Cupcake Getaway</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/cupcake-getaway">October 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_676_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_620'>
-<div class='cell title'>
-<a href="/games/graffiti-cleanup-2">Sikowitz's Graffiti Cleanup</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/graffiti-cleanup-2">September 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_620_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_590'>
-<div class='cell title'>
-<a href="/games/status-update-trivia">Status Update Trivia</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/status-update-trivia">September 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_590_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_576'>
-<div class='cell title'>
-<a href="/games/hollywood-beats-2">Hollywood Beats</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/hollywood-beats-2">August 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_576_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_589'>
-<div class='cell title'>
-<a href="/games/iparty-extended-edition-trivia">iParty: Extended Edition Trivia! </a>
-</div>
-<div class='cell created_on'>
-<a href="/games/iparty-extended-edition-trivia">August 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_589_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_582'>
-<div class='cell title'>
-<a href="/games/water-balloon-dodgeball">Victorious Water Balloon Dodgeball</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/water-balloon-dodgeball">August 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_582_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_539'>
-<div class='cell title'>
-<a href="/games/locked-up">Locked Up: The Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/locked-up">July 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_539_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_502'>
-<div class='cell title'>
-<a href="/games/iparty-with-victorious">iParty with Victorious</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/iparty-with-victorious">June 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_502_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_477'>
-<div class='cell title'>
-<a href="/games/jades-prom-wrecker">Jade's Prom Wrecker</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/jades-prom-wrecker">May 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_477_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_457'>
-<div class='cell title'>
-<a href="/games/beck-or-freddie">Are You More Beck or Freddie?</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/beck-or-freddie">April 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_457_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_417'>
-<div class='cell title'>
-<a href="/games/are-you-more-tori-or-more-carly">Are You More Tori or More Carly?</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/are-you-more-tori-or-more-carly">April 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_417_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_372'>
-<div class='cell title'>
-<a href="/games/rex-loves-money">Rex Loves Money</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/rex-loves-money">March 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_372_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_355'>
-<div class='cell title'>
-<a href="/games/toris-mustache-bash">Tori's Mustache Bash</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/toris-mustache-bash">February 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_355_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_338'>
-<div class='cell title'>
-<a href="/games/hollywood-arts-quote-time">Hollywood Arts' Quote Time! </a>
-</div>
-<div class='cell created_on'>
-<a href="/games/hollywood-arts-quote-time">January 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_338_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_329'>
-<div class='cell title'>
-<a href="/games/diddly-bops-food-drop">Diddly Bops' Food Drop</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/diddly-bops-food-drop">January 2011</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_329_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_284'>
-<div class='cell title'>
-<a href="/games/cookie-wrap">Cookie Wrap</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/cookie-wrap">December 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_284_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_269'>
-<div class='cell title'>
-<a href="/games/freak-the-freak-out-confused-karaoke">Freak the Freak Out: Confused Karaoke!</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/freak-the-freak-out-confused-karaoke">November 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_269_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_28'>
-<div class='cell title'>
-<a href="/games/hollywood-beats">Hollywood Beats</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/hollywood-beats">March 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_28_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_235'>
-<div class='cell title'>
-<a href="/games/ditch-the-fish">Ditch the Fish</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/ditch-the-fish">October 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_235_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_222'>
-<div class='cell title'>
-<a href="/games/the-great-ping-pong-game">The Great Ping-Pong Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/the-great-ping-pong-game">October 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_222_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_186'>
-<div class='cell title'>
-<a href="/games/toris-raceway">Tori's Raceway</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/toris-raceway">September 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_186_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_162'>
-<div class='cell title'>
-<a href="/games/floating-rex">Floating Rex</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/floating-rex">August 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_162_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_138'>
-<div class='cell title'>
-<a href="/games/beck-and-jade-s-rv-racer">Beck and Jade's RV Racer</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/beck-and-jade-s-rv-racer">June 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_138_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_89'>
-<div class='cell title'>
-<a href="/games/beck-escapes-hollywood-hotties">Beck Escapes Hollywood Hotties!</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/beck-escapes-hollywood-hotties">May 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_89_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-<li class='item asset_item game_item' id='game_67'>
-<div class='cell title'>
-<a href="/games/sinjins-locker-game">Sinjin’s Locker Game</a>
-</div>
-<div class='cell created_on'>
-<a href="/games/sinjins-locker-game">April 2010</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='game_67_asset_actions'>
-
-
-
-</div>
-
-</div>
-</li>
-
-</ul>
-</div>
-</div>
-
-</div>
-<script type='text/javascript'>
-  //<![CDATA[
-    var activePlaylist = [{"description":"Cupid Cat is out to see how many hearts she can break! We're just thankful this is a game and not real life","title":"Cats Heartbreaker Game","albumImageUrl":"http://staticassets.www.theslap.com/images/7367725/large.png?1360006532","url":"/games/cats-heartbreaker-game"},{"description":"Sinjin's socks puppets all ran away! (Hey, can you blame them?) Now, Sinin needs your help to get 'em back! Play our new game!","title":"Sinjin Sock Hop","albumImageUrl":"http://staticassets.www.theslap.com/images/7250122/large.png?1357953275","url":"/games/sinjin-sock-hop"},{"description":"Skating in real life is fun -- but sooooo cold! So why not stay inside and Skate with Cat? You won't twist your ankle playing our game either! We promise! ","title":"Skate with Cat Game","albumImageUrl":"http://staticassets.www.theslap.com/images/7094807/large.png?1354920113","url":"/games/skate-with-cat-game"},{"description":"It's time for Jade's favorite holiday, Halloween! Celebrate by playing her wicked new game: Jade's Zombie Smasher! ","title":"Jades Zombie Smasher Game","albumImageUrl":"http://staticassets.www.theslap.com/images/6890230/large.png?1350690073","url":"/games/jades-zombie-smasher-game"},{"description":"Robbie got busted sneaking into Wanko's, so now he's gotta work there for free! Help him out by stacking a bunch 'o boxes and rack up some points!","title":"Wankos Warehouse Game","albumImageUrl":"http://staticassets.www.theslap.com/images/6784742/large.png?1348345044","url":"/games/wankos-warehouse-game"},{"description":"Kwakoo\u2019s already disappointed his father in many ways. Help him make his dad proud by stacking his perfectly-made sushi into a delicious fish tower! Play our new game now! ","title":"Kwakoo Sushi Tower Game","albumImageUrl":"http://staticassets.www.theslap.com/images/6646031/large.png?1345851346","url":"/games/kwakoo-sushi-tower-game"},{"description":"Wanna play a game that will put you in a fantastic mood? Play our new Mood Match Game on TheSlap! Match the moods and win! ","title":"Mood Match","albumImageUrl":"http://staticassets.www.theslap.com/images/6423645/large.png?1343440112","url":"/games/mood-match"},{"description":"It's summer and we're stoked! Ride the waves with Beck and try to avoid a nasty wipeout. Wait, why are you still reading this? Go play it! ","title":"Becks Wave Rider Game","albumImageUrl":"http://staticassets.www.theslap.com/images/5996015/large.png?1339282851","url":"/games/becks-wave-rider-game"},{"description":"Summer's almost here and we're pumped! Take our NEW quiz and find out what camp you should go to and with which Hollywood Art-er!","title":"TheSlap's Campy Quiz","albumImageUrl":"http://staticassets.www.theslap.com/images/5929844/large.png?1338591458","url":"/games/theslaps-campy-quiz"},{"description":"Tori's going platinum! Help her get ready for the biggest night of her life: opening the Platinum Music Awards! Watch the new one-hour Victorious special Sat May 19th @ 8!","title":"Toris Platinum Audition","albumImageUrl":"http://staticassets.www.theslap.com/images/5763672/large.png?1336776101","url":"/games/toris-platinum-audition"},{"description":"Tori's back at the Gorilla Club to prove she's STILL a risk taker! Help her give that big ape a beat down! (And watch out for the evil bunnies! Yikes!)","title":"The Gorilla Game","albumImageUrl":"http://staticassets.www.theslap.com/images/5688801/large.png?1335582291","url":"/games/the-gorilla-game"},{"description":"Have you seen every episode of Victorious ever?!? Well, then you'll do great on our new trivia game! If not, you better start watching them all right now! ","title":"Victorious Episode Quiz","albumImageUrl":"http://staticassets.www.theslap.com/images/5550704/large.png?1333725163","url":"/games/victorious-episode-quiz"},{"description":"Help Sikowitz collect some falling coconuts with the help of his trusty shopping cart. How many can you catch in a row? ","title":"Sikowitz Coconut Catcher ","albumImageUrl":"http://staticassets.www.theslap.com/images/5495900/large.png?1333146968","url":"/games/sikowitz-coconut-catcher"},{"description":"Find your Spring Break Soul Mate! Take our quiz now and see which Victorious star you are most vacation compatible! ","title":"Who's Your Spring Break Soul Mate?","albumImageUrl":"http://staticassets.www.theslap.com/images/5353445/large.png?1331344824","url":"/games/who-s-your-spring-break-soul-mate"},{"description":"It's lunch time at the Grub Truck and it's up to YOU to feed the Hollywood Arts students before they get hungry! You won't like them when they're hungry. ","title":"Grub Truck Challenge","albumImageUrl":"http://staticassets.www.theslap.com/images/5267153/large.png?1330207871","url":"/games/grub-truck-challenge"},{"description":"Andre's got a hot night out with a pop star but the paparazzi won't leave them alone. Help save Andre's love life! Play our new game: Andre's Date Defense! ","title":"Andre's Date Defense","albumImageUrl":"http://staticassets.www.theslap.com/images/5118958/large.png?1328392550","url":"/games/andres-date-defense"},{"description":"Are you and Beck compatible? Take our quiz and see if you could be part of Hollywood Arts' NEW hot couple. ","title":"COULD YOU BE BECK'S NEW GIRL?","albumImageUrl":"http://staticassets.www.theslap.com/images/5163656/large.png?1329005199","url":"/games/could-you-be-beck-s-new-girl"},{"description":"Forget Sugar Plums, this winter, Cat's dreaming about Aliens! TheSlap's most awesome game is back! Play Cat's Alien Winter Wipeout Game now!","title":"Cat's Alien Winter Wipeout Game","albumImageUrl":"http://staticassets.www.theslap.com/images/2645951/large.png?1324614936","url":"/games/cats-alien-wipeout"},{"description":"The Hollywood Arts gang is in the hot seat for a charity event to raise $$ for the Big Showcase! Help Rex dunk them for big bucks! (Rex LOVES this!)","title":"Rex's Dunk For A Buck","albumImageUrl":"http://staticassets.www.theslap.com/images/4585802/large.png?1321058461","url":"/games/rexs-dunk-for-a-buck"},{"description":"Help the Victorious gang escape in their giant cupcake! Curious? Play our new game!","title":"Cupcake Getaway","albumImageUrl":"http://staticassets.www.theslap.com/images/4421554/large.png?1318616265","url":"/games/cupcake-getaway"},{"description":"Help Sikowitz stop the Hollywood Arts graffiti bandit in our NEW game. And as you know Sikowitz needs A LOT of help! ","title":"Sikowitz's Graffiti Cleanup","albumImageUrl":"http://staticassets.www.theslap.com/images/4224662/large.jpg?1316032199","url":"/games/graffiti-cleanup-2"},{"description":"So you're here, you might as well take a quiz! See if you can match the Hollywood Arts peeps with their status updates! ","title":"Status Update Trivia","albumImageUrl":"http://staticassets.www.theslap.com/images/4132252/large.png?1315000317","url":"/games/status-update-trivia"},{"description":"Who's got the beat? Find out by playing the new Hollywood Beats! Now featuring Andre\u2019s hit tune  \u201cSong 2 You\u201d!","title":"Hollywood Beats","albumImageUrl":"http://staticassets.www.theslap.com/images/3988931/large.jpg?1313596795","url":"/games/hollywood-beats-2"},{"description":"Trivia you'd ONLY know if you watched iParty with Victorious -- The Extended Version!","title":"iParty: Extended Edition Trivia! ","albumImageUrl":"http://staticassets.www.theslap.com/images/4077157/large.png?1314430413","url":"/games/iparty-extended-edition-trivia"},{"description":"Have you ever wanted to smack Jade, Beck, and/or Robbie with water balloons? Well, here's your chance! Play it now! ","title":"Victorious Water Balloon Dodgeball","albumImageUrl":"http://staticassets.www.theslap.com/images/3993052/large.png?1313617318","url":"/games/water-balloon-dodgeball"},{"description":"Tori's escaped from prison! Help her run to safety! And if you're wondering WHY she was in jail, you gotta watch the all-new episode \"Victorious: Locked Up!\" July 30th at 8PM on Nick! ","title":"Locked Up: The Game","albumImageUrl":"http://staticassets.www.theslap.com/images/3615776/large.png?1311213021","url":"/games/locked-up"},{"description":"Help Carly and Tori kick that party-crashing panda out the door and get back to the most epic party ever! ","title":"iParty with Victorious","albumImageUrl":"http://staticassets.www.theslap.com/images/2924112/large.png?1306972953","url":"/games/iparty-with-victorious"},{"description":"Jade's trying to destroy the prom! Avoid her \"Prom Wreckers\"! If they hit you, your night is over! ","title":"Jade's Prom Wrecker","albumImageUrl":"http://staticassets.www.theslap.com/images/2799764/large.png?1305569809","url":"/games/jades-prom-wrecker"},{"description":"","title":"Are You More Beck or Freddie?","albumImageUrl":"http://staticassets.www.theslap.com/images/2705844/large.png?1304121700","url":"/games/beck-or-freddie"},{"description":"","title":"Are You More Tori or More Carly?","albumImageUrl":"http://staticassets.www.theslap.com/images/2561656/large.png?1302301755","url":"/games/are-you-more-tori-or-more-carly"},{"description":"Play \"Rex Loves Money\" and help Rex get that green!","title":"Rex Loves Money","albumImageUrl":"http://staticassets.www.theslap.com/images/2415871/large.png?1300308392","url":"/games/rex-loves-money"},{"description":"Everyone loves mustaches... so we figure everyone will love our new mustache game! Give it a whirl!","title":"Tori's Mustache Bash","albumImageUrl":"http://staticassets.www.theslap.com/images/2290409/large.png?1298502692","url":"/games/toris-mustache-bash"},{"description":"Who Said What?","title":"Hollywood Arts' Quote Time! ","albumImageUrl":"http://staticassets.www.theslap.com/images/2122348/large.png?1296264447","url":"/games/hollywood-arts-quote-time"},{"description":"Haven't got enough of the Diddly Bops yet? Play TheSlap's new game Diddly Bops' Food Drop! It's Foodtastic!","title":"Diddly Bops' Food Drop","albumImageUrl":"http://staticassets.www.theslap.com/images/2037299/large.png?1295306563","url":"/games/diddly-bops-food-drop"},{"description":"Cat's trying to make some cookies, but she's totally confused. Help her out! It's as easy as pie... er, cookie.","title":"Cookie Wrap","albumImageUrl":"http://staticassets.www.theslap.com/images/1739059/large.png?1292009253","url":"/games/cookie-wrap"},{"description":"You think you know the lyrics to our latest songs? Play our new karaoke game and find out!","title":"Freak the Freak Out: Confused Karaoke!","albumImageUrl":"http://staticassets.www.theslap.com/images/1622830/large.png?1290635691","url":"/games/freak-the-freak-out-confused-karaoke"},{"description":"Who's got the beat? Find out by playing Hollywood Beats 3 now featuring Beck and Zombie Tori singing their monster hit \u201cFinally Falling!\u201d","title":"Hollywood Beats","albumImageUrl":"http://staticassets.www.theslap.com/images/92/large.jpg?1284767672","url":"/games/hollywood-beats"},{"description":"Play TheSlap's newest game Ditch the Fish and help Trina get rid of those pesky foot-feedin' fish once and for all!","title":"Ditch the Fish","albumImageUrl":"http://staticassets.www.theslap.com/images/1371441/large.png?1286580541","url":"/games/ditch-the-fish"},{"description":"In case you didn\u2019t know, Rex is one of the best Ping Pong Players EVER! See if you've got what it takes to beat him in this BRAND NEW GAME only on TheSlap!","title":"The Great Ping-Pong Game","albumImageUrl":"http://staticassets.www.theslap.com/images/1358397/large.png?1286310891","url":"/games/the-great-ping-pong-game"},{"description":"We got a new game for ya: Tori's Raceway","title":"Tori's Raceway","albumImageUrl":"http://staticassets.www.theslap.com/images/1227715/large.jpg?1284213650","url":"/games/toris-raceway"},{"description":"Play Floating Rex and see how long you can keep Hollywood Arts' favorite tiny student afloat. ","title":"Floating Rex","albumImageUrl":"http://staticassets.www.theslap.com/images/992955/large.jpg?1281749603","url":"/games/floating-rex"},{"description":"Help Jade and Beck smoke their competition in our NEW racing game. Oh and Beck lives in his RV so you're pretty much driving his house as fast as you can! Play It!","title":"Beck and Jade's RV Racer","albumImageUrl":"http://staticassets.www.theslap.com/images/511699/large.jpg?1277513129","url":"/games/beck-and-jade-s-rv-racer"},{"description":"There are two things we love here on TheSlap.com -- relationship drama and video games. So, we combined them in this Beck and Jade game!","title":"Beck Escapes Hollywood Hotties!","albumImageUrl":"http://staticassets.www.theslap.com/images/105684/large.png?1272837276","url":"/games/beck-escapes-hollywood-hotties"},{"description":"Sinjin\u2019s chewed food-locker is so famous at school that someone actually made a game about it. It\u2019s totally fun and we promise it doesn\u2019t smell!","title":"Sinjin\u2019s Locker Game","albumImageUrl":"http://staticassets.www.theslap.com/images/57054/large.png?1271563616","url":"/games/sinjins-locker-game"}];
-  //]]>
-</script>
-
-
-</div>
-
-</div>
-<div id='content_footer'></div>
-</div>
-<div id='sidebar_container'>
-<div id='sidebar_header'>
-<div class='title'></div>
-</div>
-<div id='sidebar_content'>
-<div class='module_container the_games'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='list_container' id='sidebar_game_container'>
-<div class='game_of_months_title_container'></div>
-<ul class='list game_of_months jcarousel-skin-tango'>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7367786/small.png?1360007882')">
-<div class='link default_link'><a href="/games/cats-heartbreaker-game" title="Heartbreaker Game"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7255379/small.png?1358033925')">
-<div class='link default_link'><a href="/games/sinjin-sock-hop" title="Sinjin Sock Puppet Game"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7094958/small.png?1354921421')">
-<div class='link default_link'><a href="/games/skate-with-cat-game" title="Skate with Cat promo"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/6890337/small.png?1350691328')">
-<div class='link default_link'><a href="/games/jades-zombie-smasher-game" title="Jade's Zombie Smasher"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/6799490/small.png?1348611239')">
-<div class='link default_link'><a href="/games/wankos-warehouse-game" title="Wanko's Warehouse"></a></div>
-</li>
-</ul>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-<div class='module_container the_tunes'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='sidebar_songs_container'>
-<a href="/tunes#here-s-to-us" style="background-image: url(http://staticassets.www.theslap.com/images/6938293/sidebar.jpg?1352174971)">Here's 2 Us</a>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-<div class='hottest_pages module_container'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='hottest_pages_links_container'>
-<a href="/profiles/tori-vega" title="Tori Vega"><img alt="Tori Vega" src="http://staticassets.www.theslap.com/unprocessed_images/146931/original.jpg?1273857395" /></a>
-<a href="/profiles/andre-harris" title="Andre Harris"><img alt="Andre Harris" src="http://staticassets.www.theslap.com/unprocessed_images/146930/original.jpg?1273857393" /></a>
-<a href="/profiles/trina-vega" title="Trina Vega"><img alt="Trina Vega" src="http://staticassets.www.theslap.com/unprocessed_images/146929/original.jpg?1273857392" /></a>
-<a href="/profiles/robbie-shapiro" title="Robbie Shapiro"><img alt="Robbie Shapiro" src="http://staticassets.www.theslap.com/unprocessed_images/146928/original.jpg?1273857391" /></a>
-<a href="/profiles/cat-valentine" title="Cat Valentine"><img alt="Cat Valentine" src="http://staticassets.www.theslap.com/unprocessed_images/146927/original.jpg?1273857390" /></a>
-<a href="/profiles/beck-oliver" title="Beck Oliver"><img alt="Beck Oliver" src="http://staticassets.www.theslap.com/unprocessed_images/146926/original.jpg?1273857389" /></a>
-<a href="/profiles/jade-west" title="Jade West"><img alt="Jade West" src="http://staticassets.www.theslap.com/unprocessed_images/146925/original.jpg?1273857387" /></a>
-<a href="/profiles/rex-powers" title="Rex Powers"><img alt="Rex Powers" src="http://staticassets.www.theslap.com/unprocessed_images/146924/original.jpg?1273857386" /></a>
-<a href="/profiles/sinjin-van-cleef" title="Sinjin Van Cleef"><img alt="Sinjin Van Cleef" src="http://staticassets.www.theslap.com/unprocessed_images/948376/original.jpg?1281388313" /></a>
-<a href="/profiles/erwin-sikowitz" title="Erwin Sikowitz"><img alt="Erwin Sikowitz" src="http://staticassets.www.theslap.com/unprocessed_images/1219697/original.jpg?1284055516" /></a>
-<a href="/profiles/lane-alexander" title="Lane Alexander"><img alt="Lane Alexander" src="http://staticassets.www.theslap.com/unprocessed_images/4108536/original.png?1314733249" /></a>
-<a href="/profiles/festus" title="Festus"><img alt="Festus" src="http://staticassets.www.theslap.com/unprocessed_images/5635405/original.jpg?1334777370" /></a>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-</div>
-<div id='sidebar_footer'></div>
-
-</div>
-</div>
-<div id='body_shadow_right'></div>
-</div>
-<div id='body_shadow_bottom'></div>
-<div id='footer_container'>
-<div id='footer'>
-<div id='footer_nav'>
-<div class='link_block top_links'>
-<a href="/">THE SLAP HOME</a>
-<a href="/%2Ffaq">FAQ/ABOUT US</a>
-</div>
-<div class='link_block'>
-<a href="/">HOME</a>
-<a href="/%2Fprofiles">PROFILES</a>
-<a href="/%2Fclips">CLIPS</a>
-<a href="/%2Fpix">PIX</a>
-<a href="/%2Ftunes">TUNES</a>
-<a href="/%2Fgames">GAMES</a>
-</div>
-<div class='link_block'>
-<a href="http://www.nick.com/legal/nickelodeon-privacy-policy/" rel="external">Privacy Policy/Your California Privacy Rights (updated 2/9/2016)</a>
-<a href="/http%3A%2F%2Fwww.nick.com%2Fclub%2Fparents-terms-of-use.html" rel="external">Terms of Use</a>
-</div>
-<div class='link_block'>
-<a href="/http%3A%2F%2Fwww.nick.com%2Finfo%2Fcopyright.html" rel="external">Copyright Compliance Policy</a>
-<a href="/http%3A%2F%2Fwww.nick.com%2Finfo%2Fsafety-guide.html" rel="external">Safety Guide</a>
-</div>
-<div class='link_block'>
-<a href="/http%3A%2F%2Fsrp.mtvn.com%2Fsitefaq.html" class="viacom" rel="external">Ad Choices</a>
-</div>
-<div class='link_block'>
-&copy; Copyright 2018 Viacom International Inc. All Rights Reserved
-</div>
-<div class='link_block'>
-<div class='friends_title'>
-Friends of Victorious
-</div>
-<div class='friends_container'>
-<a href="/http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_splashface.gif?1451922775" /></a>
-<a href="/http%3A%2F%2Fwww.icarly.com"><img alt="iCarly" src="/images/friends/logo_icarly.png?1451922775" /></a>
-<a href="/http%3A%2F%2Fwww.nick.com"><img alt="Nick" src="/images/friends/logo_nick_com.png?1451922775" /></a>
-<a href="/http%3A%2F%2Fwww.nick.com"><img alt="Nickelodean Kids &amp; Teens" src="/images/friends/logo_nick_kids_teens.gif?1451922775" /></a>
-<a href="/http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_zaplook.gif?1451922775" /></a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</body>
+	<head>
+		<title>
+			Games | TheSlap | Hollywood Arts' Victorious
+		</title>
+		<link href='/the-slap/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+		<script src="/the-slap/javascripts/bundled/theslap.js" type="text/javascript"></script>
+		<link href="/the-slap/stylesheets/bundled/theslap.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="/the-slap/javascripts/games.js" type="text/javascript"></script>
+		<script src="/the-slap/javascripts/bundled/assets.js" type="text/javascript"></script>
+	</head>
+	<body class='bp games games_page'>
+		<div id='body_container'>
+			<div id='header_container'>
+				<div id='header'>
+					<div id='nav_adornment'></div>
+					<div id='logo_bg'></div>
+					<a href='http://www.theslap.com/users/pickles' id='admin_login_link'></a>
+					<div id='deprecated_user_menu'>
+						<noscript>
+							<h3 class='no_javascript_warning'>
+								Javascript is required to use TheSlap. Please enable Javascript and reload this page.
+							</h3>
+						</noscript>
+					</div>
+					<div id='logo'>
+						<a href='/the-slap/'>
+							<object data='/the-slap/swf/slap_logo.swf' height='103' id='slap_animation' type='application/x-shockwave-flash' width='327'>
+								<param name='wmode' value='transparent' />
+								<param name='movie' value='/the-slap/swf/slap_logo.swf' />
+								<img alt='The Slap' src='/the-slap/images/themes/default/home_logo.png' />
+							</object>
+						</a>
+					</div>
+					<div id='nav'>
+						<ul>
+							<li class='home first'><a href="/the-slap/">Home</a></li>
+							<li class='characters'><a href="/the-slap/profiles">Profiles</a></li>
+							<li class='videos'><a href="/the-slap/clips?newest=true">Clips</a></li>
+							<li class='photos'><a href="/the-slap/pix?newest=true">Pix</a></li>
+							<li class='songs'><a href="/the-slap/tunes">Tunes</a></li>
+							<li class='games'><a href="/the-slap/games">Games</a></li>
+							<li class='search last'>
+								<div id='search'>
+									<form action="/search" method="get">
+										<input class="search_field" id="q" name="q" placeholder="enter text here" size="15" type="text" />
+										<button id='search_button' type='submit'>
+										Search
+										</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<div id='nav_bar_right_cap'></div>
+					</div>
+				</div>
+			</div>
+			<div id='main_container'>
+				<div id='body_shadow_top'></div>
+				<div id='body_shadow_left'></div>
+				<div id='main'>
+					<div id='content_container'>
+						<div id='content_callout_container'>
+							<div id='content_callout_tab'>
+								<div id='content_callout'>
+									<div id='banner_ad'>
+										<script type='text/javascript'>
+											//<![CDATA[
+											  mtvn.btg.Controller.placeAd({size:'728x90',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone});
+											//]]>
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id='content_header'>
+							<h1>All Games</h1>
+							<div id='header_controls'></div>
+						</div>
+						<div class='games' id='content'>
+							<div id='content_top'>
+								<div class='coverflow_container'>
+									<div id='coverflow' style='width: 732px; height: 270px'></div>
+									<div class='coverflow_control_bar_container'>
+										<div class='coverflow_control_bar'>
+											<div class='left_button'>
+												<button type='button'>
+												Left
+												</button>
+											</div>
+											<div class='center_button'>
+												<a href="#">Play Now!</a>
+											</div>
+											<div class='right_button'>
+												<button type='button'>
+												Right
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class='game_info'>
+										<h3 class='title'></h3>
+										<div class='description'></div>
+									</div>
+								</div>
+							</div>
+							<div id='content_bottom'>
+								<div id='col_secondary'>
+									<div id='block_ad_container'>
+										<div id='block_ad_tab'>
+											<div class='title'>
+												advertisement
+											</div>
+										</div>
+										<div id='block_ad'>
+											<script type='text/javascript'>
+												//<![CDATA[
+												  mtvn.btg.Controller.placeAd({size:'300x250',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone})
+												//]]>
+											</script>
+										</div>
+									</div>
+								</div>
+								<div id='col_primary'>
+									<div class='list_section'>
+										<div class='subheader'>
+											<div class='title games'>
+												All Games
+											</div>
+											<div class='list_header'>
+												<div class='game'>
+													Game
+												</div>
+												<div class='created_on'>
+													Created on
+												</div>
+											</div>
+										</div>
+										<div class='list_container asset_list_container game_list_container'>
+											<ul class='list asset_list game_list'>
+												<li class='item asset_item game_item' id='game_1358'>
+													<div class='cell title'>
+														<a href="/the-slap/games/cats-heartbreaker-game">Cats Heartbreaker Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/cats-heartbreaker-game">February 2013</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1358_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1301'>
+													<div class='cell title'>
+														<a href="/the-slap/games/sinjin-sock-hop">Sinjin Sock Hop</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/sinjin-sock-hop">January 2013</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1301_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1245'>
+													<div class='cell title'>
+														<a href="/the-slap/games/skate-with-cat-game">Skate with Cat Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/skate-with-cat-game">December 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1245_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1176'>
+													<div class='cell title'>
+														<a href="/the-slap/games/jades-zombie-smasher-game">Jades Zombie Smasher Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/jades-zombie-smasher-game">October 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1176_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1123'>
+													<div class='cell title'>
+														<a href="/the-slap/games/wankos-warehouse-game">Wankos Warehouse Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/wankos-warehouse-game">September 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1123_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1096'>
+													<div class='cell title'>
+														<a href="/the-slap/games/kwakoo-sushi-tower-game">Kwakoo Sushi Tower Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/kwakoo-sushi-tower-game">August 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1096_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_1065'>
+													<div class='cell title'>
+														<a href="/the-slap/games/mood-match">Mood Match</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/mood-match">July 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_1065_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_988'>
+													<div class='cell title'>
+														<a href="/the-slap/games/becks-wave-rider-game">Becks Wave Rider Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/becks-wave-rider-game">June 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_988_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_971'>
+													<div class='cell title'>
+														<a href="/the-slap/games/theslaps-campy-quiz">TheSlap's Campy Quiz</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/theslaps-campy-quiz">June 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_971_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_929'>
+													<div class='cell title'>
+														<a href="/the-slap/games/toris-platinum-audition">Toris Platinum Audition</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/toris-platinum-audition">May 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_929_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_911'>
+													<div class='cell title'>
+														<a href="/the-slap/games/the-gorilla-game">The Gorilla Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/the-gorilla-game">April 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_911_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_892'>
+													<div class='cell title'>
+														<a href="/the-slap/games/victorious-episode-quiz">Victorious Episode Quiz</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/victorious-episode-quiz">April 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_892_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_886'>
+													<div class='cell title'>
+														<a href="/the-slap/games/sikowitz-coconut-catcher">Sikowitz Coconut Catcher </a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/sikowitz-coconut-catcher">March 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_886_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_857'>
+													<div class='cell title'>
+														<a href="/the-slap/games/who-s-your-spring-break-soul-mate">Who's Your Spring Break Soul Mate?</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/who-s-your-spring-break-soul-mate">March 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_857_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_836'>
+													<div class='cell title'>
+														<a href="/the-slap/games/grub-truck-challenge">Grub Truck Challenge</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/grub-truck-challenge">February 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_836_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_794'>
+													<div class='cell title'>
+														<a href="/the-slap/games/andres-date-defense">Andre's Date Defense</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/andres-date-defense">February 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_794_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_807'>
+													<div class='cell title'>
+														<a href="/the-slap/games/could-you-be-beck-s-new-girl">COULD YOU BE BECK'S NEW GIRL?</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/could-you-be-beck-s-new-girl">February 2012</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_807_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_438'>
+													<div class='cell title'>
+														<a href="/the-slap/games/cats-alien-wipeout">Cat's Alien Winter Wipeout Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/cats-alien-wipeout">April 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_438_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_716'>
+													<div class='cell title'>
+														<a href="/the-slap/games/rexs-dunk-for-a-buck">Rex's Dunk For A Buck</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/rexs-dunk-for-a-buck">November 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_716_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_676'>
+													<div class='cell title'>
+														<a href="/the-slap/games/cupcake-getaway">Cupcake Getaway</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/cupcake-getaway">October 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_676_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_620'>
+													<div class='cell title'>
+														<a href="/the-slap/games/graffiti-cleanup-2">Sikowitz's Graffiti Cleanup</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/graffiti-cleanup-2">September 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_620_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_590'>
+													<div class='cell title'>
+														<a href="/the-slap/games/status-update-trivia">Status Update Trivia</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/status-update-trivia">September 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_590_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_576'>
+													<div class='cell title'>
+														<a href="/the-slap/games/hollywood-beats-2">Hollywood Beats</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/hollywood-beats-2">August 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_576_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_589'>
+													<div class='cell title'>
+														<a href="/the-slap/games/iparty-extended-edition-trivia">iParty: Extended Edition Trivia! </a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/iparty-extended-edition-trivia">August 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_589_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_582'>
+													<div class='cell title'>
+														<a href="/the-slap/games/water-balloon-dodgeball">Victorious Water Balloon Dodgeball</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/water-balloon-dodgeball">August 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_582_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_539'>
+													<div class='cell title'>
+														<a href="/the-slap/games/locked-up">Locked Up: The Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/locked-up">July 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_539_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_502'>
+													<div class='cell title'>
+														<a href="/the-slap/games/iparty-with-victorious">iParty with Victorious</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/iparty-with-victorious">June 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_502_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_477'>
+													<div class='cell title'>
+														<a href="/the-slap/games/jades-prom-wrecker">Jade's Prom Wrecker</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/jades-prom-wrecker">May 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_477_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_457'>
+													<div class='cell title'>
+														<a href="/the-slap/games/beck-or-freddie">Are You More Beck or Freddie?</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/beck-or-freddie">April 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_457_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_417'>
+													<div class='cell title'>
+														<a href="/the-slap/games/are-you-more-tori-or-more-carly">Are You More Tori or More Carly?</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/are-you-more-tori-or-more-carly">April 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_417_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_372'>
+													<div class='cell title'>
+														<a href="/the-slap/games/rex-loves-money">Rex Loves Money</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/rex-loves-money">March 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_372_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_355'>
+													<div class='cell title'>
+														<a href="/the-slap/games/toris-mustache-bash">Tori's Mustache Bash</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/toris-mustache-bash">February 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_355_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_338'>
+													<div class='cell title'>
+														<a href="/the-slap/games/hollywood-arts-quote-time">Hollywood Arts' Quote Time! </a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/hollywood-arts-quote-time">January 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_338_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_329'>
+													<div class='cell title'>
+														<a href="/the-slap/games/diddly-bops-food-drop">Diddly Bops' Food Drop</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/diddly-bops-food-drop">January 2011</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_329_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_284'>
+													<div class='cell title'>
+														<a href="/the-slap/games/cookie-wrap">Cookie Wrap</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/cookie-wrap">December 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_284_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_269'>
+													<div class='cell title'>
+														<a href="/the-slap/games/freak-the-freak-out-confused-karaoke">Freak the Freak Out: Confused Karaoke!</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/freak-the-freak-out-confused-karaoke">November 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_269_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_28'>
+													<div class='cell title'>
+														<a href="/the-slap/games/hollywood-beats">Hollywood Beats</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/hollywood-beats">March 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_28_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_235'>
+													<div class='cell title'>
+														<a href="/the-slap/games/ditch-the-fish">Ditch the Fish</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/ditch-the-fish">October 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_235_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_222'>
+													<div class='cell title'>
+														<a href="/the-slap/games/the-great-ping-pong-game">The Great Ping-Pong Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/the-great-ping-pong-game">October 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_222_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_186'>
+													<div class='cell title'>
+														<a href="/the-slap/games/toris-raceway">Tori's Raceway</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/toris-raceway">September 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_186_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_162'>
+													<div class='cell title'>
+														<a href="/the-slap/games/floating-rex">Floating Rex</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/floating-rex">August 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_162_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_138'>
+													<div class='cell title'>
+														<a href="/the-slap/games/beck-and-jade-s-rv-racer">Beck and Jade's RV Racer</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/beck-and-jade-s-rv-racer">June 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_138_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_89'>
+													<div class='cell title'>
+														<a href="/the-slap/games/beck-escapes-hollywood-hotties">Beck Escapes Hollywood Hotties!</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/beck-escapes-hollywood-hotties">May 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_89_asset_actions'>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item game_item' id='game_67'>
+													<div class='cell title'>
+														<a href="/the-slap/games/sinjins-locker-game">Sinjin’s Locker Game</a>
+													</div>
+													<div class='cell created_on'>
+														<a href="/the-slap/games/sinjins-locker-game">April 2010</a>
+													</div>
+													<div class='cell actions'>
+														<div class='asset_actions' id='game_67_asset_actions'>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<script type='text/javascript'>
+									var activePlaylist = 
+                  [{"description":"Cupid Cat is out to see how many hearts she can break! We're just thankful this is a game and not real life","title":"Cats Heartbreaker Game","albumImageUrl":"/the-slap/images/staticassets/images/7367725_large.png","url":"/the-slap/the-slap/games/cats-heartbreaker-game"},
+                    {"description":"Sinjin's socks puppets all ran away! (Hey, can you blame them?) Now, Sinin needs your help to get 'em back! Play our new game!","title":"Sinjin Sock Hop","albumImageUrl":"/the-slap/images/staticassets/images/7250122_large.png","url":"/the-slap/the-slap/games/sinjin-sock-hop"},
+                    {"description":"Skating in real life is fun -- but sooooo cold! So why not stay inside and Skate with Cat? You won't twist your ankle playing our game either! We promise! ","title":"Skate with Cat Game","albumImageUrl":"/the-slap/images/staticassets/images/7094807_large.png","url":"/the-slap/the-slap/games/skate-with-cat-game"},
+                    {"description":"It's time for Jade's favorite holiday, Halloween! Celebrate by playing her wicked new game: Jade's Zombie Smasher! ","title":"Jades Zombie Smasher Game","albumImageUrl":"/the-slap/images/staticassets/images/6890230_large.png","url":"/the=slap/the-slap/games/jades-zombie-smasher-game"},
+                    {"description":"Robbie got busted sneaking into Wanko's, so now he's gotta work there for free! Help him out by stacking a bunch 'o boxes and rack up some points!","title":"Wankos Warehouse Game","albumImageUrl":"/the-slap/images/staticassets/images/6784742_large.png","url":"/the-slap/games/wankos-warehouse-game"},
+                    {"description":"Kwakoo\u2019s already disappointed his father in many ways. Help him make his dad proud by stacking his perfectly-made sushi into a delicious fish tower! Play our new game now! ","title":"Kwakoo Sushi Tower Game","albumImageUrl":"/the-slap/images/staticassets/images/6646031_large.png","url":"/the-slap/games/kwakoo-sushi-tower-game"},
+                    {"description":"Wanna play a game that will put you in a fantastic mood? Play our new Mood Match Game on TheSlap! Match the moods and win! ","title":"Mood Match","albumImageUrl":"/the-slap/images/staticassets/images/6423645_large.png","url":"/the-slap/games/mood-match"},
+                    {"description":"It's summer and we're stoked! Ride the waves with Beck and try to avoid a nasty wipeout. Wait, why are you still reading this? Go play it! ","title":"Becks Wave Rider Game","albumImageUrl":"/the-slap/images/staticassets/images/5996015_large.png","url":"/the-slap/games/becks-wave-rider-game"},
+                    {"description":"Summer's almost here and we're pumped! Take our NEW quiz and find out what camp you should go to and with which Hollywood Art-er!","title":"TheSlap's Campy Quiz","albumImageUrl":"/the-slap/images/staticassets/images/5929844_large.png","url":"/the-slap/games/theslaps-campy-quiz"},
+                    {"description":"Tori's going platinum! Help her get ready for the biggest night of her life: opening the Platinum Music Awards! Watch the new one-hour Victorious special Sat May 19th @ 8!","title":"Toris Platinum Audition","albumImageUrl":"/the-slap/images/staticassets/images/5763672_large.png","url":"/the-slap/games/toris-platinum-audition"},
+                    {"description":"Tori's back at the Gorilla Club to prove she's STILL a risk taker! Help her give that big ape a beat down! (And watch out for the evil bunnies! Yikes!)","title":"The Gorilla Game","albumImageUrl":"/the-slap/images/staticassets/images/5688801_large.png","url":"/the-slap/games/the-gorilla-game"},
+                    {"description":"Have you seen every episode of Victorious ever?!? Well, then you'll do great on our new trivia game! If not, you better start watching them all right now! ","title":"Victorious Episode Quiz","albumImageUrl":"/the-slap/images/staticassets/images/5550704_large.png","url":"/the-slap/games/victorious-episode-quiz"},
+                    {"description":"Help Sikowitz collect some falling coconuts with the help of his trusty shopping cart. How many can you catch in a row? ","title":"Sikowitz Coconut Catcher ","albumImageUrl":"/the-slap/images/staticassets/images/5495900_large.png","url":"/the-slap/games/sikowitz-coconut-catcher"},
+                    {"description":"Find your Spring Break Soul Mate! Take our quiz now and see which Victorious star you are most vacation compatible! ","title":"Who's Your Spring Break Soul Mate?","albumImageUrl":"/the-slap/images/staticassets/images/5353445_large.png","url":"/the-slap/games/who-s-your-spring-break-soul-mate"},
+                    {"description":"It's lunch time at the Grub Truck and it's up to YOU to feed the Hollywood Arts students before they get hungry! You won't like them when they're hungry. ","title":"Grub Truck Challenge","albumImageUrl":"/the-slap/images/staticassets/images/5267153_large.png","url":"/the-slap/games/grub-truck-challenge"},
+                    {"description":"Andre's got a hot night out with a pop star but the paparazzi won't leave them alone. Help save Andre's love life! Play our new game: Andre's Date Defense! ","title":"Andre's Date Defense","albumImageUrl":"/the-slap/images/staticassets/images/5118958_large.png","url":"/the-slap/games/andres-date-defense"},
+                    {"description":"Are you and Beck compatible? Take our quiz and see if you could be part of Hollywood Arts' NEW hot couple. ","title":"COULD YOU BE BECK'S NEW GIRL?","albumImageUrl":"/the-slap/images/staticassets/images/5163656_large.png","url":"/the-slap/games/could-you-be-beck-s-new-girl"},
+                    {"description":"Forget Sugar Plums, this winter, Cat's dreaming about Aliens! TheSlap's most awesome game is back! Play Cat's Alien Winter Wipeout Game now!","title":"Cat's Alien Winter Wipeout Game","albumImageUrl":"/the-slap/images/staticassets/images/2645951_large.png","url":"/the-slap/games/cats-alien-wipeout"},
+                    {"description":"The Hollywood Arts gang is in the hot seat for a charity event to raise $$ for the Big Showcase! Help Rex dunk them for big bucks! (Rex LOVES this!)","title":"Rex's Dunk For A Buck","albumImageUrl":"/the-slap/images/staticassets/images/4585802_large.png","url":"/the-slap/games/rexs-dunk-for-a-buck"},
+                    {"description":"Help the Victorious gang escape in their giant cupcake! Curious? Play our new game!","title":"Cupcake Getaway","albumImageUrl":"/the-slap/images/staticassets/images/4421554_large.png","url":"/the-slap/games/cupcake-getaway"},
+                    {"description":"Help Sikowitz stop the Hollywood Arts graffiti bandit in our NEW game. And as you know Sikowitz needs A LOT of help! ","title":"Sikowitz's Graffiti Cleanup","albumImageUrl":"/the-slap/images/staticassets/images/4224662_large.jpg","url":"/the-slap/games/graffiti-cleanup-2"},
+                    {"description":"So you're here, you might as well take a quiz! See if you can match the Hollywood Arts peeps with their status updates! ","title":"Status Update Trivia","albumImageUrl":"/the-slap/images/staticassets/images/4132252_large.png","url":"/the-slap/games/status-update-trivia"},
+                    {"description":"Who's got the beat? Find out by playing the new Hollywood Beats! Now featuring Andre\u2019s hit tune  \u201cSong 2 You\u201d!","title":"Hollywood Beats","albumImageUrl":"/the-slap/images/staticassets/images/3988931_large.jpg","url":"/the-slap/games/hollywood-beats-2"},
+                    {"description":"Trivia you'd ONLY know if you watched iParty with Victorious -- The Extended Version!","title":"iParty: Extended Edition Trivia! ","albumImageUrl":"/the-slap/images/staticassets/images/4077157_large.png","url":"/the-slap/games/iparty-extended-edition-trivia"},
+                    {"description":"Have you ever wanted to smack Jade, Beck, and/or Robbie with water balloons? Well, here's your chance! Play it now! ","title":"Victorious Water Balloon Dodgeball","albumImageUrl":"/the-slap/images/staticassets/images/3993052_large.png","url":"/the-slap/games/water-balloon-dodgeball"},
+                    {"description":"Tori's escaped from prison! Help her run to safety! And if you're wondering WHY she was in jail, you gotta watch the all-new episode \"Victorious: Locked Up!\" July 30th at 8PM on Nick! ","title":"Locked Up: The Game","albumImageUrl":"/the-slap/images/staticassets/images/3615776_large.png","url":"/the-slap/games/locked-up"},
+                    {"description":"Help Carly and Tori kick that party-crashing panda out the door and get back to the most epic party ever! ","title":"iParty with Victorious","albumImageUrl":"/the-slap/images/staticassets/images/2924112_large.png","url":"/the-slap/games/iparty-with-victorious"},
+                    {"description":"Jade's trying to destroy the prom! Avoid her \"Prom Wreckers\"! If they hit you, your night is over! ","title":"Jade's Prom Wrecker","albumImageUrl":"/the-slap/images/staticassets/images/2799764_large.png","url":"/the-slap/games/jades-prom-wrecker"},
+                    {"description":"","title":"Are You More Beck or Freddie?","albumImageUrl":"/the-slap/images/staticassets/images/2705844_large.png","url":"/the-slap/games/beck-or-freddie"},
+                    {"description":"","title":"Are You More Tori or More Carly?","albumImageUrl":"/the-slap/images/staticassets/images/2561656_large.png","url":"/the-slap/games/are-you-more-tori-or-more-carly"},
+                    {"description":"Play \"Rex Loves Money\" and help Rex get that green!","title":"Rex Loves Money","albumImageUrl":"/the-slap/images/staticassets/images/2415871_large.png","url":"/the-slap/games/rex-loves-money"},
+                    {"description":"Everyone loves mustaches... so we figure everyone will love our new mustache game! Give it a whirl!","title":"Tori's Mustache Bash","albumImageUrl":"/the-slap/images/staticassets/images/2290409_large.png","url":"/the-slap/games/toris-mustache-bash"},
+                    {"description":"Who Said What?","title":"Hollywood Arts' Quote Time! ","albumImageUrl":"/the-slap/images/staticassets/images/2122348_large.png","url":"/the-slap/games/hollywood-arts-quote-time"},
+                    {"description":"Haven't got enough of the Diddly Bops yet? Play TheSlap's new game Diddly Bops' Food Drop! It's Foodtastic!","title":"Diddly Bops' Food Drop","albumImageUrl":"/the-slap/images/staticassets/images/2037299_large.png","url":"/the-slap/games/diddly-bops-food-drop"},
+                    {"description":"Cat's trying to make some cookies, but she's totally confused. Help her out! It's as easy as pie... er, cookie.","title":"Cookie Wrap","albumImageUrl":"/the-slap/images/staticassets/images/1739059_large.png","url":"/the-slap/games/cookie-wrap"},
+                    {"description":"You think you know the lyrics to our latest songs? Play our new karaoke game and find out!","title":"Freak the Freak Out: Confused Karaoke!","albumImageUrl":"/the-slap/images/staticassets/images/1622830_large.png","url":"/the-slap/games/freak-the-freak-out-confused-karaoke"},
+                    {"description":"Who's got the beat? Find out by playing Hollywood Beats 3 now featuring Beck and Zombie Tori singing their monster hit \u201cFinally Falling!\u201d","title":"Hollywood Beats","albumImageUrl":"/the-slap/images/staticassets/images/92_large.jpg","url":"/the-slap/games/hollywood-beats"},
+                    {"description":"Play TheSlap's newest game Ditch the Fish and help Trina get rid of those pesky foot-feedin' fish once and for all!","title":"Ditch the Fish","albumImageUrl":"/the-slap/images/staticassets/images/1371441_large.png","url":"/the-slap/games/ditch-the-fish"},
+                    {"description":"In case you didn\u2019t know, Rex is one of the best Ping Pong Players EVER! See if you've got what it takes to beat him in this BRAND NEW GAME only on TheSlap!","title":"The Great Ping-Pong Game","albumImageUrl":"/the-slap/images/staticassets/images/1358397_large.png","url":"/the-slap/games/the-great-ping-pong-game"},
+                    {"description":"We got a new game for ya: Tori's Raceway","title":"Tori's Raceway","albumImageUrl":"/the-slap/images/staticassets/images/1227715_large.jpg","url":"/the-slap/games/toris-raceway"},
+                    {"description":"Play Floating Rex and see how long you can keep Hollywood Arts' favorite tiny student afloat. ","title":"Floating Rex","albumImageUrl":"/the-slap/images/staticassets/images/992955_large.jpg","url":"/the-slap/games/floating-rex"},
+                    {"description":"Help Jade and Beck smoke their competition in our NEW racing game. Oh and Beck lives in his RV so you're pretty much driving his house as fast as you can! Play It!","title":"Beck and Jade's RV Racer","albumImageUrl":"/the-slap/images/staticassets/images/511699_large.jpg","url":"/the-slap/games/beck-and-jade-s-rv-racer"},
+                    {"description":"There are two things we love here on TheSlap.com -- relationship drama and video games. So, we combined them in this Beck and Jade game!","title":"Beck Escapes Hollywood Hotties!","albumImageUrl":"/the-slap/images/staticassets/images/105684_large.png","url":"/the-slap/games/beck-escapes-hollywood-hotties"},
+                    {"description":"Sinjin\u2019s chewed food-locker is so famous at school that someone actually made a game about it. It\u2019s totally fun and we promise it doesn\u2019t smell!","title":"Sinjin\u2019s Locker Game","albumImageUrl":"/the-slap/images/staticassets/images/57054_large.png","url":"/the-slap/games/sinjins-locker-game"}];
+								</script>
+							</div>
+						</div>
+						<div id='content_footer'></div>
+					</div>
+					<div id='sidebar_container'>
+						<div id='sidebar_header'>
+							<div class='title'></div>
+						</div>
+						<div id='sidebar_content'>
+							<div class='module_container the_games'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='list_container' id='sidebar_game_container'>
+											<div class='game_of_months_title_container'></div>
+											<ul class='list game_of_months jcarousel-skin-tango'>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7367786_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/cats-heartbreaker-game" title="Heartbreaker Game"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7255379_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/sinjin-sock-hop" title="Sinjin Sock Puppet Game"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7094958_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/skate-with-cat-game" title="Skate with Cat promo"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/6890337_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/jades-zombie-smasher-game" title="Jade's Zombie Smasher"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/6799490_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/wankos-warehouse-game" title="Wanko's Warehouse"></a></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+							<div class='module_container the_tunes'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='sidebar_songs_container'>
+											<a href="/tunes#here-s-to-us" style="background-image: url(/the-slap/images/staticassets/images/6938293/sidebar.jpg?1352174971)">Here's 2 Us</a>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+							<div class='hottest_pages module_container'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='hottest_pages_links_container'>
+											<a href="/the-slap/profiles/tori-vega" title="Tori Vega"><img alt="Tori Vega" src="/the-slap/images/staticassets/unprocessed_images/146931_original.jpg" /></a>
+											<a href="/the-slap/profiles/andre-harris" title="Andre Harris"><img alt="Andre Harris" src="/the-slap/images/staticassets/unprocessed_images/146930_original.jpg" /></a>
+											<a href="/the-slap/profiles/trina-vega" title="Trina Vega"><img alt="Trina Vega" src="/the-slap/images/staticassets/unprocessed_images/146929_original.jpg" /></a>
+											<a href="/the-slap/profiles/robbie-shapiro" title="Robbie Shapiro"><img alt="Robbie Shapiro" src="/the-slap/images/staticassets/unprocessed_images/146928_original.jpg" /></a>
+											<a href="/the-slap/profiles/cat-valentine" title="Cat Valentine"><img alt="Cat Valentine" src="/the-slap/images/staticassets/unprocessed_images/146927_original.jpg" /></a>
+											<a href="/the-slap/profiles/beck-oliver" title="Beck Oliver"><img alt="Beck Oliver" src="/the-slap/images/staticassets/unprocessed_images/146926_original.jpg" /></a>
+											<a href="/the-slap/profiles/jade-west" title="Jade West"><img alt="Jade West" src="/the-slap/images/staticassets/unprocessed_images/146925_original.jpg" /></a>
+											<a href="/the-slap/profiles/rex-powers" title="Rex Powers"><img alt="Rex Powers" src="/the-slap/images/staticassets/unprocessed_images/146924_original.jpg" /></a>
+											<a href="/the-slap/profiles/sinjin-van-cleef" title="Sinjin Van Cleef"><img alt="Sinjin Van Cleef" src="/the-slap/images/staticassets/unprocessed_images/948376_original.jpg" /></a>
+											<a href="/the-slap/profiles/erwin-sikowitz" title="Erwin Sikowitz"><img alt="Erwin Sikowitz" src="/the-slap/images/staticassets/unprocessed_images/1219697_original.jpg" /></a>
+											<a href="/the-slap/profiles/lane-alexander" title="Lane Alexander"><img alt="Lane Alexander" src="/the-slap/images/staticassets/unprocessed_images/4108536_original.png" /></a>
+											<a href="/the-slap/profiles/festus" title="Festus"><img alt="Festus" src="/the-slap/images/staticassets/unprocessed_images/5635405_original.jpg" /></a>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+						</div>
+						<div id='sidebar_footer'></div>
+					</div>
+				</div>
+				<div id='body_shadow_right'></div>
+			</div>
+			<div id='body_shadow_bottom'></div>
+			<div id='footer_container'>
+				<div id='footer'>
+					<div id='footer_nav'>
+						<div class='link_block top_links'>
+							<a href="/the-slap/">THE SLAP HOME</a>
+							<a href="/the-slap/faq">FAQ/ABOUT US</a>
+						</div>
+						<div class='link_block'>
+							<a href="/the-slap/">HOME</a>
+							<a href="/the-slap/profiles">PROFILES</a>
+							<a href="/the-slap/clips">CLIPS</a>
+							<a href="/the-slap/pix">PIX</a>
+							<a href="/the-slap/tunes">TUNES</a>
+							<a href="/the-slap/games">GAMES</a>
+						</div>
+						<div class='link_block'>
+							<a href="http://www.nick.com/legal/nickelodeon-privacy-policy/" rel="external">Privacy Policy/Your California Privacy Rights (updated 2/9/2016)</a>
+							<a href="http://www.nick.com%2Fclub/parents-terms-of-use.html" rel="external">Terms of Use</a>
+						</div>
+						<div class='link_block'>
+							<a href="http://www.nick.com/info/copyright.html" rel="external">Copyright Compliance Policy</a>
+							<a href="http://www.nick.com/info/safety-guide.html" rel="external">Safety Guide</a>
+						</div>
+						<div class='link_block'>
+						</div>
+						<div class='link_block'>
+							&copy; Copyright 2017 Viacom International Inc. All Rights Reserved
+						</div>
+						<div class='link_block'>
+							<div class='friends_title'>
+								Friends of Victorious
+							</div>
+							<div class='friends_container'>
+								<a href="http://www.icarly.com"><img alt="SplashFace" src="/the-slap/images/friends/logo_splashface.gif" /></a>
+								<a href="http://www.icarly.com"><img alt="iCarly" src="/the-slap/images/friends/logo_icarly.png" /></a>
+								<a href="http://www.nick.com"><img alt="Nick" src="/the-slap/images/friends/logo_nick_com.png" /></a>
+								<a href="http://www.nick.com"><img alt="Nickelodean Kids &amp; Teens" src="/the-slap/images/friends/logo_nick_kids_teens.gif" /></a>
+								<a href="http://www.icarly.com"><img alt="SplashFace" src="/the-slap/images/friends/logo_zaplook.gif" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
-
 

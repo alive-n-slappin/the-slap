@@ -1,895 +1,754 @@
 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-                
-        
-
-
-
 <html xmlns:esi='http://www.edge-delivery.org/esi/1.0' xmlns='http://www.w3.org/1999/xhtml'>
-<head>
-<title>
-Tunes | TheSlap | Hollywood Arts' Victorious
-</title>
-
-<link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
-<script src="/javascripts/bundled/theslap.js?1451922776" type="text/javascript"></script>
-<link href="/stylesheets/bundled/theslap.css?1451924671" media="screen" rel="stylesheet" type="text/css" />
-<script src="/javascripts/songs.js?1451922776" type="text/javascript"></script><script src="/javascripts/bundled/assets.js?1451922776" type="text/javascript"></script>
-<script src="/javascripts/flowplayer-3.1.4.min.js?1451922776" type="text/javascript"></script>
-<script src="/javascripts/support/swfobject.js?1451922776" type="text/javascript"></script>
-<script src="/javascripts/support/vplayer.js?1451922776" type="text/javascript"></script>
-<script src="/javascripts/custom/video/init.js?1451922776" type="text/javascript"></script>
-
-
-<!--[if lt IE 7]>
-<link href="/stylesheets/compiled/ie.css?1451924669" media="screen" rel="stylesheet" type="text/css" />
-<![endif]-->
-<!--[if lt IE 8]>
-<link href="/stylesheets/compiled/ie7.css?1451924671" media="screen" rel="stylesheet" type="text/css" />
-<![endif]-->
-
-</head>
-<body class='bp songs songs_page'>
-<script src="/javascripts/support/adunit.js?1451922776" type="text/javascript"></script>
-<script src="http://btg.mtvnservices.com/aria/coda.html?site=theslap.com" type="text/javascript"></script>
-<script src="/javascripts/support/coda_config.js?1451922776" type="text/javascript"></script>
-
-<div id='body_container'>
-<div id='header_container'>
-<div id='header'>
-<div id='nav_adornment'></div>
-<div id='logo_bg'></div>
-<script type='text/javascript'>
-  //<![CDATA[
-    var user_menu_template = "    <ul>\n      <% try { %>\n        <li class=\"first\">Hello: <span class=\"user_name\"><%= user.username %><\/span><\/li>\n        <li><a href=\"/my/profile\">My profile<\/a><\/li>\n\n        <% if(user.admin) { %>\n          <li><a href=\"/admin/dashboard\">Admin dashboard<\/a><\/li>\n          <li><a href=\"/\">View site<\/a><\/li>\n        <% } %>\n        <li class=\"last\"><a href=\"/users/logout?return_to_after_logged_out=%2Ftunes\">Logout<\/a><\/li>\n      <% } catch(err) { %>\n        <li><a href=\"/register\">Register<\/a><\/li>\n        <li class=\"last\"><a href=\"/users/pickles?return_to_if_logged_out=%2Ftunes\" id=\"login_link\">Login<\/a><\/li>\n      <% } %>\n    <\/ul>\n";
-  //]]>
-</script>
-
-<a href='http://www.theslap.com/users/pickles' id='admin_login_link'></a>
-<div id='deprecated_user_menu'>
-<noscript>
-<h3 class='no_javascript_warning'>
-Javascript is required to use TheSlap. Please enable Javascript and reload this page.
-</h3>
-</noscript>
-</div>
-
-<div id='logo'>
-<a href='/'>
-<object data='/swf/slap_logo.swf' height='103' id='slap_animation' type='application/x-shockwave-flash' width='327'>
-<param name='wmode' value='transparent' />
-<param name='movie' value='/swf/slap_logo.swf' />
-<img alt='The Slap' src='/images/themes/default/home_logo.png' />
-</object>
-</a>
-</div>
-<div id='nav'>
-<ul>
-<li class='home first'><a href="/">Home</a></li>
-<li class='characters'><a href="/profiles">Profiles</a></li>
-<li class='videos'><a href="/clips?newest=true">Clips</a></li>
-<li class='photos'><a href="/pix?newest=true">Pix</a></li>
-<li class='songs'><a href="/tunes">Tunes</a></li>
-<li class='games'><a href="/games">Games</a></li>
-<li class='search last'><div id='search'>
-<form action="/search" method="get">
-
-<input class="search_field" id="q" name="q" placeholder="enter text here" size="15" type="text" />
-<button id='search_button' type='submit'>
-Search
-</button>
-</form>
-</div>
-</li>
-</ul>
-<div id='nav_bar_right_cap'></div>
-</div>
-
-</div>
-</div>
-<div id='main_container'>
-<div id='body_shadow_top'></div>
-<div id='body_shadow_left'></div>
-<div id='main'>
-<div id='content_container'>
-<div id='content_callout_container'>
-<div id='content_callout_tab'>
-<div id='content_callout'>
-<div id='banner_ad'>
-<script type='text/javascript'>
-  //<![CDATA[
-    mtvn.btg.Controller.placeAd({size:'728x90',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone});
-  //]]>
-</script>
-</div>
-</div>
-</div>
-</div>
-
-<div id='content_header'>
-<h1>Tunes</h1>
-<div id='header_controls'></div>
-
-</div>
-<div class='songs' id='content'>
-
-<div id='content_top'><div class='player_container'>
-<div id='coverflow' style='width: 732px; height: 270px'></div>
-
-<div id='player' style='display:block;width:400px;height:24px'></div>
-<div class='control_bar'></div>
-</div>
-
-</div>
-<div id='content_bottom'>
-<div id='col_secondary'><div id='block_ad_container'>
-<div id='block_ad_tab'>
-<div class='title'>
-advertisement
-</div>
-</div>
-<div id='block_ad'>
-<script type='text/javascript'>
-  //<![CDATA[
-    mtvn.btg.Controller.placeAd({size:'300x250',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone})
-  //]]>
-</script>
-</div>
-</div>
-
-</div>
-<div id='col_primary'><div class='list_section'>
-<div class='subheader'>
-<div class='title songs'>
-The Playlist
-</div>
-<div class='list_header'>
-<div class='song_name'>
-Song Name
-</div>
-<div class='time'>
-Time
-</div>
-<div class='artist'>
-Artist
-</div>
-</div>
-</div>
-<div class='list_container asset_list_container song_list_container'>
-<ul class='list asset_list song_list'>
-<li class='item asset_item song_item' comments_url='/tunes/here-s-to-us/comments/index_with_likes' id='song_1189'>
-<div class='cell_container' title="Here's 2 Us – Victoria Justice">
-<div class='cell title'>
-<a href="/tunes#here-s-to-us">Here's 2 Us</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#here-s-to-us">3:21</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#here-s-to-us">Victoria Justice</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#here-s-to-us">Victorious 3.0</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_1189_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/la-boyz/comments/index_with_likes' id='song_1188'>
-<div class='cell_container' title='LA Boyz  – Victoria and Ariana'>
-<div class='cell title'>
-<a href="/tunes#la-boyz">LA Boyz </a>
-</div>
-<div class='cell length'>
-<a href="/tunes#la-boyz">2:59</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#la-boyz">Victoria and Ariana</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#la-boyz">Victorious 3.0</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_1188_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/bad-boys/comments/index_with_likes' id='song_1187'>
-<div class='cell_container' title='Bad Boys – Victoria Justice'>
-<div class='cell title'>
-<a href="/tunes#bad-boys">Bad Boys</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#bad-boys">3:17</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#bad-boys">Victoria Justice</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#bad-boys">Victorious 3.0</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_1187_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/you-don-t-know-me-3/comments/index_with_likes' id='song_1197'>
-<div class='cell_container' title="You Don't Know Me – Elizabeth Gillies">
-<div class='cell title'>
-<a href="/tunes#you-don-t-know-me-3">You Don't Know Me</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#you-don-t-know-me-3">2:54</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#you-don-t-know-me-3">Elizabeth Gillies</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#you-don-t-know-me-3">Victorious 3.0</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_1197_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/faster-than-the-boyz/comments/index_with_likes' id='song_1185'>
-<div class='cell_container' title='Faster Than The Boyz – Victoria Justice'>
-<div class='cell title'>
-<a href="/tunes#faster-than-the-boyz">Faster Than The Boyz</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#faster-than-the-boyz">3:14</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#faster-than-the-boyz">Victoria Justice</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#faster-than-the-boyz">Victorious 3.0</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_1185_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/5-fingaz/comments/index_with_likes' id='song_895'>
-<div class='cell_container' title='5 Fingaz  – Dr. Rhapsody'>
-<div class='cell title'>
-<a href="/tunes#5-fingaz">5 Fingaz </a>
-</div>
-<div class='cell length'>
-<a href="/tunes#5-fingaz">1:55</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#5-fingaz">Dr. Rhapsody</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#5-fingaz">Victorious Music</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_895_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/shut-up-n-dance/comments/index_with_likes' id='song_864'>
-<div class='cell_container' title="Shut Up 'N Dance – Victorious">
-<div class='cell title'>
-<a href="/tunes#shut-up-n-dance">Shut Up 'N Dance</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#shut-up-n-dance">1:49</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#shut-up-n-dance">Victorious</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#shut-up-n-dance">Victorious Music</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_864_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/take-a-hint/comments/index_with_likes' id='song_855'>
-<div class='cell_container' title='Take A Hint – Tori and Jade'>
-<div class='cell title'>
-<a href="/tunes#take-a-hint">Take A Hint</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#take-a-hint">2:06</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#take-a-hint">Tori and Jade</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#take-a-hint">Victorious Music</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_855_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/countdown/comments/index_with_likes' id='song_811'>
-<div class='cell_container' title='Countdown – Andre and Victoria'>
-<div class='cell title'>
-<a href="/tunes#countdown">Countdown</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#countdown">1:59</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#countdown">Andre and Victoria</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#countdown">Victorious Music</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_811_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/don-t-you-forget-about-me/comments/index_with_likes' id='song_764'>
-<div class='cell_container' title="Don't You Forget About Me – Victorious Cast">
-<div class='cell title'>
-<a href="/tunes#don-t-you-forget-about-me">Don't You Forget About Me</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#don-t-you-forget-about-me">4:10</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#don-t-you-forget-about-me">Victorious Cast</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#don-t-you-forget-about-me">The Breakfast Bunch</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_764_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/in-this-together/comments/index_with_likes' id='song_763'>
-<div class='cell_container' title='In This Together – '>
-<div class='cell title'>
-<a href="/tunes#in-this-together">In This Together</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#in-this-together">0:52</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#in-this-together"></a>
-</div>
-<div class='cell album'>
-<a href="/tunes#in-this-together">The Breakfast Bunch</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_763_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/run-run-run-away/comments/index_with_likes' id='song_762'>
-<div class='cell_container' title='Run Run Run Away – '>
-<div class='cell title'>
-<a href="/tunes#run-run-run-away">Run Run Run Away</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#run-run-run-away">0:46</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#run-run-run-away"></a>
-</div>
-<div class='cell album'>
-<a href="/tunes#run-run-run-away">The Breakfast Bunch</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_762_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/it-s-not-christmas-without-you/comments/index_with_likes' id='song_736'>
-<div class='cell_container' title="It's Not Christmas Without You – Tori/Cat/Jade/Andre">
-<div class='cell title'>
-<a href="/tunes#it-s-not-christmas-without-you">It's Not Christmas Without You</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#it-s-not-christmas-without-you">2:32</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#it-s-not-christmas-without-you">Tori/Cat/Jade/Andre</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#it-s-not-christmas-without-you">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_736_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/song-to-you/comments/index_with_likes' id='song_334'>
-<div class='cell_container' title='Song2You – Andre Harris'>
-<div class='cell title'>
-<a href="/tunes#song-to-you">Song2You</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#song-to-you">2:45</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#song-to-you">Andre Harris</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#song-to-you">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_334_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/favorite-food/comments/index_with_likes' id='song_333'>
-<div class='cell_container' title='Favorite Food – The Diddly Bops'>
-<div class='cell title'>
-<a href="/tunes#favorite-food">Favorite Food</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#favorite-food">1:54</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#favorite-food">The Diddly Bops</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#favorite-food">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_333_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/give-it-up/comments/index_with_likes' id='song_275'>
-<div class='cell_container' title='Give It Up – '>
-<div class='cell title'>
-<a href="/tunes#give-it-up">Give It Up</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#give-it-up">2:43</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#give-it-up"></a>
-</div>
-<div class='cell album'>
-<a href="/tunes#give-it-up">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_275_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/freak-the-freak-out-2/comments/index_with_likes' id='song_274'>
-<div class='cell_container' title='Freak The Freak Out – '>
-<div class='cell title'>
-<a href="/tunes#freak-the-freak-out-2">Freak The Freak Out</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#freak-the-freak-out-2">3:56</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#freak-the-freak-out-2"></a>
-</div>
-<div class='cell album'>
-<a href="/tunes#freak-the-freak-out-2">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_274_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/forever-baby/comments/index_with_likes' id='song_273'>
-<div class='cell_container' title='Forever Baby – '>
-<div class='cell title'>
-<a href="/tunes#forever-baby">Forever Baby</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#forever-baby">0:24</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#forever-baby"></a>
-</div>
-<div class='cell album'>
-<a href="/tunes#forever-baby">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_273_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/tell-me-that-you-love-me-2/comments/index_with_likes' id='song_220'>
-<div class='cell_container' title='Tell Me That You Love Me – Andre Harris'>
-<div class='cell title'>
-<a href="/tunes#tell-me-that-you-love-me-2">Tell Me That You Love Me</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#tell-me-that-you-love-me-2">2:44</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#tell-me-that-you-love-me-2">Andre Harris</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#tell-me-that-you-love-me-2">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_220_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/robbie-s-big-toe-2/comments/index_with_likes' id='song_155'>
-<div class='cell_container' title="Robbie's Big Toe – Robbie Shapiro">
-<div class='cell title'>
-<a href="/tunes#robbie-s-big-toe-2">Robbie's Big Toe</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#robbie-s-big-toe-2">1:21</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#robbie-s-big-toe-2">Robbie Shapiro</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#robbie-s-big-toe-2">Robbie's Songs</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_155_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/finally-falling/comments/index_with_likes' id='song_103'>
-<div class='cell_container' title='Finally Falling – Tori Vega/Beck Oliver'>
-<div class='cell title'>
-<a href="/tunes#finally-falling">Finally Falling</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#finally-falling">3:02</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#finally-falling">Tori Vega/Beck Oliver</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#finally-falling">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_103_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/you-re-the-reason/comments/index_with_likes' id='song_76'>
-<div class='cell_container' title="You're the Reason – Tori Vega">
-<div class='cell title'>
-<a href="/tunes#you-re-the-reason">You're the Reason</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#you-re-the-reason">2:53</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#you-re-the-reason">Tori Vega</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#you-re-the-reason">You're The Reason</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_76_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-<li class='item asset_item song_item' comments_url='/tunes/make-it-shine/comments/index_with_likes' id='song_27'>
-<div class='cell_container' title='Make it Shine – Tori Vega'>
-<div class='cell title'>
-<a href="/tunes#make-it-shine">Make it Shine</a>
-</div>
-<div class='cell length'>
-<a href="/tunes#make-it-shine">3:07</a>
-</div>
-<div class='cell artist'>
-<a href="/tunes#make-it-shine">Tori Vega</a>
-</div>
-<div class='cell album'>
-<a href="/tunes#make-it-shine">Hollywood Arts High</a>
-</div>
-<div class='cell actions'>
-<div class='asset_actions' id='song_27_asset_actions'>
-
-
-
-</div>
-
-</div>
-</div>
-</li>
-
-</ul>
-</div>
-</div>
-<div id='comments_holder'></div>
-
-</div>
-<script type='text/javascript'>
-  //<![CDATA[
-    var activePlaylist = [{"artist":"Victoria Justice","title":"Here's 2 Us","duration":201,"albumImageUrl":"http://staticassets.www.theslap.com/images/6938293/large.jpg?1352174971","url":"http://staticassets.www.theslap.com/songs/here-s-to-us/original.mp3?1351638765"},{"artist":"Victoria and Ariana","title":"LA Boyz ","duration":179,"albumImageUrl":"http://staticassets.www.theslap.com/images/6938291/large.jpg?1352174992","url":"http://staticassets.www.theslap.com/songs/la-boyz/original.mp3?1351635238"},{"artist":"Victoria Justice","title":"Bad Boys","duration":197,"albumImageUrl":"http://staticassets.www.theslap.com/images/6938279/large.jpg?1352175010","url":"http://staticassets.www.theslap.com/songs/bad-boys/original.mp3?1351635192"},{"artist":"Elizabeth Gillies","title":"You Don't Know Me","duration":174,"albumImageUrl":"http://staticassets.www.theslap.com/images/6963792/large.jpg?1352176724","url":"http://staticassets.www.theslap.com/songs/you-don-t-know-me-3/original.mp3?1352176725"},{"artist":"Victoria Justice","title":"Faster Than The Boyz","duration":194,"albumImageUrl":"http://staticassets.www.theslap.com/images/6938264/large.jpg?1352175076","url":"http://staticassets.www.theslap.com/songs/faster-than-the-boyz/original.mp3?1351635055"},{"artist":"Dr. Rhapsody","title":"5 Fingaz ","duration":115,"albumImageUrl":"http://staticassets.www.theslap.com/images/5606907/large.png?1334366905","url":"http://staticassets.www.theslap.com/songs/5-fingaz/original.mp3?1334366909"},{"artist":"Victorious","title":"Shut Up 'N Dance","duration":109,"albumImageUrl":"http://staticassets.www.theslap.com/images/5441507/large.png?1332546501","url":"http://staticassets.www.theslap.com/songs/shut-up-n-dance/original.mp3?1332546504"},{"artist":"Tori and Jade","title":"Take A Hint","duration":126,"albumImageUrl":"http://staticassets.www.theslap.com/images/5302635/large.png?1330735997","url":"http://staticassets.www.theslap.com/songs/take-a-hint/original.mp3?1330735999"},{"artist":"Andre and Victoria","title":"Countdown","duration":119,"albumImageUrl":"http://staticassets.www.theslap.com/images/5205591/large.png?1329524058","url":"http://staticassets.www.theslap.com/songs/countdown/original.mp3?1329524061"},{"artist":"Victorious Cast","title":"Don't You Forget About Me","duration":250,"albumImageUrl":"http://staticassets.www.theslap.com/images/5068356/large.png?1327717940","url":"http://staticassets.www.theslap.com/songs/don-t-you-forget-about-me/original.mp3?1327797391"},{"artist":"","title":"In This Together","duration":52,"albumImageUrl":"http://staticassets.www.theslap.com/images/5068342/large.png?1327717862","url":"http://staticassets.www.theslap.com/songs/in-this-together/original.mp3?1327717863"},{"artist":"","title":"Run Run Run Away","duration":46,"albumImageUrl":"http://staticassets.www.theslap.com/images/5068339/large.png?1327717832","url":"http://staticassets.www.theslap.com/songs/run-run-run-away/original.mp3?1327717833"},{"artist":"Tori/Cat/Jade/Andre","title":"It's Not Christmas Without You","duration":152,"albumImageUrl":"http://staticassets.www.theslap.com/images/4714601/large.jpg20111203-1288-ag66x6-0?1322878320","url":"http://staticassets.www.theslap.com/songs/it-s-not-christmas-without-you/original.mp3?1322878320"},{"artist":"Andre Harris","title":"Song2You","duration":165,"albumImageUrl":"http://staticassets.www.theslap.com/images/2038304/large.png?1295312876","url":"http://staticassets.www.theslap.com/songs/song-to-you/original.mp3?1295310539"},{"artist":"The Diddly Bops","title":"Favorite Food","duration":114,"albumImageUrl":"http://staticassets.www.theslap.com/images/2038277/large.png?1295310450","url":"http://staticassets.www.theslap.com/songs/favorite-food/original.mp3?1295310452"},{"artist":"","title":"Give It Up","duration":163,"albumImageUrl":"http://staticassets.www.theslap.com/images/1677910/large.png?1291143692","url":"http://staticassets.www.theslap.com/songs/give-it-up/original.mp3?1291143694"},{"artist":"","title":"Freak The Freak Out","duration":236,"albumImageUrl":"http://staticassets.www.theslap.com/images/1675896/large.png?1291082955","url":"http://staticassets.www.theslap.com/songs/freak-the-freak-out-2/original.mp3?1291082957"},{"artist":"","title":"Forever Baby","duration":24,"albumImageUrl":"http://staticassets.www.theslap.com/images/1675861/large.png?1291082821","url":"http://staticassets.www.theslap.com/songs/forever-baby/original.mp3?1291082823"},{"artist":"Andre Harris","title":"Tell Me That You Love Me","duration":164,"albumImageUrl":"http://staticassets.www.theslap.com/images/1327734/large.png?1285973005","url":"http://staticassets.www.theslap.com/songs/tell-me-that-you-love-me-2/original.mp3?1286064615"},{"artist":"Robbie Shapiro","title":"Robbie's Big Toe","duration":81,"albumImageUrl":"http://staticassets.www.theslap.com/images/771558/large.png?1279932647","url":"http://staticassets.www.theslap.com/songs/robbie-s-big-toe-2/original.mp3?1279932649"},{"artist":"Tori Vega/Beck Oliver","title":"Finally Falling","duration":182,"albumImageUrl":"http://staticassets.www.theslap.com/images/121131/large.jpg?1273359060","url":"http://staticassets.www.theslap.com/songs/finally-falling/original.mp3?1273359008"},{"artist":"Tori Vega","title":"You're the Reason","duration":173,"albumImageUrl":"http://staticassets.www.theslap.com/images/85957/large.jpg?1272238587","url":"http://staticassets.www.theslap.com/songs/you-re-the-reason/original.mp3?1272234524"},{"artist":"Tori Vega","title":"Make it Shine","duration":187,"albumImageUrl":"http://staticassets.www.theslap.com/images/23488/large.jpg?1270124943","url":"http://staticassets.www.theslap.com/songs/make-it-shine/original.mp3?1269736708"}];
-  //]]>
-</script>
-
-
-</div>
-
-</div>
-<div id='content_footer'></div>
-</div>
-<div id='sidebar_container'>
-<div id='sidebar_header'>
-<div class='title'></div>
-</div>
-<div id='sidebar_content'>
-<div class='module_container the_games'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='list_container' id='sidebar_game_container'>
-<div class='game_of_months_title_container'></div>
-<ul class='list game_of_months jcarousel-skin-tango'>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7367786/small.png?1360007882')">
-<div class='link default_link'><a href="/games/cats-heartbreaker-game" title="Heartbreaker Game"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7255379/small.png?1358033925')">
-<div class='link default_link'><a href="/games/sinjin-sock-hop" title="Sinjin Sock Puppet Game"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/7094958/small.png?1354921421')">
-<div class='link default_link'><a href="/games/skate-with-cat-game" title="Skate with Cat promo"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/6890337/small.png?1350691328')">
-<div class='link default_link'><a href="/games/jades-zombie-smasher-game" title="Jade's Zombie Smasher"></a></div>
-</li>
-<li class='item' style="background-image: url('http://staticassets.www.theslap.com/game_of_month_images/6799490/small.png?1348611239')">
-<div class='link default_link'><a href="/games/wankos-warehouse-game" title="Wanko's Warehouse"></a></div>
-</li>
-</ul>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-<div class='module_container the_tunes'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='sidebar_songs_container'>
-<a href="/tunes#here-s-to-us" style="background-image: url(http://staticassets.www.theslap.com/images/6938293/sidebar.jpg?1352174971)">Here's 2 Us</a>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-<div class='hottest_pages module_container'>
-<div class='module_header'>
-<div class='module_title'>
-
-</div>
-<div class='module_controls'>
-<div class='button_backward'></div>
-<div class='button_forward'></div>
-</div>
-</div>
-<div class='module_body_container'>
-<div class='module_body'>
-<div class='hottest_pages_links_container'>
-<a href="/profiles/tori-vega" title="Tori Vega"><img alt="Tori Vega" src="http://staticassets.www.theslap.com/unprocessed_images/146931/original.jpg?1273857395" /></a>
-<a href="/profiles/andre-harris" title="Andre Harris"><img alt="Andre Harris" src="http://staticassets.www.theslap.com/unprocessed_images/146930/original.jpg?1273857393" /></a>
-<a href="/profiles/trina-vega" title="Trina Vega"><img alt="Trina Vega" src="http://staticassets.www.theslap.com/unprocessed_images/146929/original.jpg?1273857392" /></a>
-<a href="/profiles/robbie-shapiro" title="Robbie Shapiro"><img alt="Robbie Shapiro" src="http://staticassets.www.theslap.com/unprocessed_images/146928/original.jpg?1273857391" /></a>
-<a href="/profiles/cat-valentine" title="Cat Valentine"><img alt="Cat Valentine" src="http://staticassets.www.theslap.com/unprocessed_images/146927/original.jpg?1273857390" /></a>
-<a href="/profiles/beck-oliver" title="Beck Oliver"><img alt="Beck Oliver" src="http://staticassets.www.theslap.com/unprocessed_images/146926/original.jpg?1273857389" /></a>
-<a href="/profiles/jade-west" title="Jade West"><img alt="Jade West" src="http://staticassets.www.theslap.com/unprocessed_images/146925/original.jpg?1273857387" /></a>
-<a href="/profiles/rex-powers" title="Rex Powers"><img alt="Rex Powers" src="http://staticassets.www.theslap.com/unprocessed_images/146924/original.jpg?1273857386" /></a>
-<a href="/profiles/sinjin-van-cleef" title="Sinjin Van Cleef"><img alt="Sinjin Van Cleef" src="http://staticassets.www.theslap.com/unprocessed_images/948376/original.jpg?1281388313" /></a>
-<a href="/profiles/erwin-sikowitz" title="Erwin Sikowitz"><img alt="Erwin Sikowitz" src="http://staticassets.www.theslap.com/unprocessed_images/1219697/original.jpg?1284055516" /></a>
-<a href="/profiles/lane-alexander" title="Lane Alexander"><img alt="Lane Alexander" src="http://staticassets.www.theslap.com/unprocessed_images/4108536/original.png?1314733249" /></a>
-<a href="/profiles/festus" title="Festus"><img alt="Festus" src="http://staticassets.www.theslap.com/unprocessed_images/5635405/original.jpg?1334777370" /></a>
-</div>
-
-</div>
-<div class='module_body_footer'>
-
-</div>
-</div>
-<div class='module_footer'></div>
-</div>
-
-</div>
-<div id='sidebar_footer'></div>
-
-</div>
-</div>
-<div id='body_shadow_right'></div>
-</div>
-<div id='body_shadow_bottom'></div>
-<div id='footer_container'>
-<div id='footer'>
-<div id='footer_nav'>
-<div class='link_block top_links'>
-<a href="/">THE SLAP HOME</a>
-<a href="/bump?to=%2Ffaq">FAQ/ABOUT US</a>
-</div>
-<div class='link_block'>
-<a href="/">HOME</a>
-<a href="/bump?to=%2Fprofiles">PROFILES</a>
-<a href="/bump?to=%2Fclips">CLIPS</a>
-<a href="/bump?to=%2Fpix">PIX</a>
-<a href="/bump?to=%2Ftunes">TUNES</a>
-<a href="/bump?to=%2Fgames">GAMES</a>
-</div>
-<div class='link_block'>
-<a href="http://www.nick.com/legal/nickelodeon-privacy-policy/" rel="external">Privacy Policy/Your California Privacy Rights (updated 2/9/2016)</a>
-<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Fclub%2Fparents-terms-of-use.html" rel="external">Terms of Use</a>
-</div>
-<div class='link_block'>
-<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fcopyright.html" rel="external">Copyright Compliance Policy</a>
-<a href="/bump?to=http%3A%2F%2Fwww.nick.com%2Finfo%2Fsafety-guide.html" rel="external">Safety Guide</a>
-</div>
-<div class='link_block'>
-<a href="/bump?to=http%3A%2F%2Fsrp.mtvn.com%2Fsitefaq.html" class="viacom" rel="external">Ad Choices</a>
-</div>
-<div class='link_block'>
-&copy; Copyright 2018 Viacom International Inc. All Rights Reserved
-</div>
-<div class='link_block'>
-<div class='friends_title'>
-Friends of Victorious
-</div>
-<div class='friends_container'>
-<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_splashface.gif?1451922775" /></a>
-<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="iCarly" src="/images/friends/logo_icarly.png?1451922775" /></a>
-<a href="/bump?to=http%3A%2F%2Fwww.nick.com"><img alt="Nick" src="/images/friends/logo_nick_com.png?1451922775" /></a>
-<a href="/bump?to=http%3A%2F%2Fwww.nick.com"><img alt="Nickelodean Kids &amp; Teens" src="/images/friends/logo_nick_kids_teens.gif?1451922775" /></a>
-<a href="/bump?to=http%3A%2F%2Fwww.icarly.com"><img alt="SplashFace" src="/images/friends/logo_zaplook.gif?1451922775" /></a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</body>
+	<head>
+		<title>
+			Tunes | TheSlap | Hollywood Arts' Victorious
+		</title>
+		<link href='/the-slap/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+		<script src="/the-slap/javascripts/bundled/theslap.js" type="text/javascript"></script>
+		<link href="/the-slap/stylesheets/bundled/theslap.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="/the-slap/javascripts/songs.js" type="text/javascript"></script><script src="/the-slap/javascripts/bundled/assets.js" type="text/javascript"></script>
+	</head>
+	<body class='bp songs songs_page'>
+		<div id='body_container'>
+			<div id='header_container'>
+				<div id='header'>
+					<div id='nav_adornment'></div>
+					<div id='logo_bg'></div>
+					<a href='http://www.theslap.com/users/pickles' id='admin_login_link'></a>
+					<div id='deprecated_user_menu'>
+						<noscript>
+							<h3 class='no_javascript_warning'>
+								Javascript is required to use TheSlap. Please enable Javascript and reload this page.
+							</h3>
+						</noscript>
+					</div>
+					<div id='logo'>
+						<a href='/the-slap/'>
+							<object data='/the-slap/swf/slap_logo.swf' height='103' id='slap_animation' type='application/x-shockwave-flash' width='327'>
+								<param name='wmode' value='transparent' />
+								<param name='movie' value='/the-slap/swf/slap_logo.swf' />
+								<img alt='The Slap' src='/the-slap/images/themes/default/home_logo.png' />
+							</object>
+						</a>
+					</div>
+					<div id='nav'>
+						<ul>
+							<li class='home first'><a href="/the-slap/">Home</a></li>
+							<li class='characters'><a href="/the-slap/profiles">Profiles</a></li>
+							<li class='videos'><a href="/the-slap/clips?newest=true">Clips</a></li>
+							<li class='photos'><a href="/the-slap/pix?newest=true">Pix</a></li>
+							<li class='songs'><a href="/the-slap/tunes">Tunes</a></li>
+							<li class='games'><a href="/the-slap/games">Games</a></li>
+							<li class='search last'>
+								<div id='search'>
+									<form action="/the-slap/search" method="get">
+										<input class="search_field" id="q" name="q" placeholder="enter text here" size="15" type="text" />
+										<button id='search_button' type='submit'>
+										Search
+										</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<div id='nav_bar_right_cap'></div>
+					</div>
+				</div>
+			</div>
+			<div id='main_container'>
+				<div id='body_shadow_top'></div>
+				<div id='body_shadow_left'></div>
+				<div id='main'>
+					<div id='content_container'>
+						<div id='content_callout_container'>
+							<div id='content_callout_tab'>
+								<div id='content_callout'>
+									<div id='banner_ad'></div>
+								</div>
+							</div>
+						</div>
+						<div id='content_header'>
+							<h1>Tunes</h1>
+							<div id='header_controls'></div>
+						</div>
+						<div class='songs' id='content'>
+							<div id='content_top'>
+								<div class='player_container'>
+									<div id='coverflow' style='width: 732px; height: 270px'></div>
+									<div id='player' style='display:block;width:400px;height:24px'></div>
+									<div class='control_bar'></div>
+								</div>
+							</div>
+							<div id='content_bottom'>
+								<div id='col_secondary'>
+									<div id='block_ad_container'>
+										<div id='block_ad_tab'>
+											<div class='title'>
+												advertisement
+											</div>
+										</div>
+										<div id='block_ad'></div>
+									</div>
+								</div>
+								<div id='col_primary'>
+									<div class='list_section'>
+										<div class='subheader'>
+											<div class='title songs'>
+												The Playlist
+											</div>
+											<div class='list_header'>
+												<div class='song_name'>
+													Song Name
+												</div>
+												<div class='time'>
+													Time
+												</div>
+												<div class='artist'>
+													Artist
+												</div>
+											</div>
+										</div>
+										<div class='list_container asset_list_container song_list_container'>
+											<ul class='list asset_list song_list'>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/here-s-to-us/comments/index_with_likes' id='song_1189'>
+													<div class='cell_container' title="Here's 2 Us – Victoria Justice">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#here-s-to-us">Here's 2 Us</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#here-s-to-us">3:21</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#here-s-to-us">Victoria Justice</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#here-s-to-us">Victorious 3.0</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_1189_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/la-boyz/comments/index_with_likes' id='song_1188'>
+													<div class='cell_container' title='LA Boyz  – Victoria and Ariana'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#la-boyz">LA Boyz </a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#la-boyz">2:59</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#la-boyz">Victoria and Ariana</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#la-boyz">Victorious 3.0</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_1188_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/bad-boys/comments/index_with_likes' id='song_1187'>
+													<div class='cell_container' title='Bad Boys – Victoria Justice'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#bad-boys">Bad Boys</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#bad-boys">3:17</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#bad-boys">Victoria Justice</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#bad-boys">Victorious 3.0</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_1187_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/you-don-t-know-me-3/comments/index_with_likes' id='song_1197'>
+													<div class='cell_container' title="You Don't Know Me – Elizabeth Gillies">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#you-don-t-know-me-3">You Don't Know Me</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#you-don-t-know-me-3">2:54</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#you-don-t-know-me-3">Elizabeth Gillies</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#you-don-t-know-me-3">Victorious 3.0</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_1197_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/faster-than-the-boyz/comments/index_with_likes' id='song_1185'>
+													<div class='cell_container' title='Faster Than The Boyz – Victoria Justice'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#faster-than-the-boyz">Faster Than The Boyz</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#faster-than-the-boyz">3:14</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#faster-than-the-boyz">Victoria Justice</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#faster-than-the-boyz">Victorious 3.0</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_1185_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/5-fingaz/comments/index_with_likes' id='song_895'>
+													<div class='cell_container' title='5 Fingaz  – Dr. Rhapsody'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#5-fingaz">5 Fingaz </a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#5-fingaz">1:55</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#5-fingaz">Dr. Rhapsody</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#5-fingaz">Victorious Music</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_895_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/shut-up-n-dance/comments/index_with_likes' id='song_864'>
+													<div class='cell_container' title="Shut Up 'N Dance – Victorious">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#shut-up-n-dance">Shut Up 'N Dance</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#shut-up-n-dance">1:49</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#shut-up-n-dance">Victorious</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#shut-up-n-dance">Victorious Music</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_864_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/take-a-hint/comments/index_with_likes' id='song_855'>
+													<div class='cell_container' title='Take A Hint – Tori and Jade'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#take-a-hint">Take A Hint</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#take-a-hint">2:06</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#take-a-hint">Tori and Jade</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#take-a-hint">Victorious Music</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_855_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/countdown/comments/index_with_likes' id='song_811'>
+													<div class='cell_container' title='Countdown – Andre and Victoria'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#countdown">Countdown</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#countdown">1:59</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#countdown">Andre and Victoria</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#countdown">Victorious Music</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_811_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/don-t-you-forget-about-me/comments/index_with_likes' id='song_764'>
+													<div class='cell_container' title="Don't You Forget About Me – Victorious Cast">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#don-t-you-forget-about-me">Don't You Forget About Me</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#don-t-you-forget-about-me">4:10</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#don-t-you-forget-about-me">Victorious Cast</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#don-t-you-forget-about-me">The Breakfast Bunch</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_764_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/in-this-together/comments/index_with_likes' id='song_763'>
+													<div class='cell_container' title='In This Together – '>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#in-this-together">In This Together</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#in-this-together">0:52</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#in-this-together"></a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#in-this-together">The Breakfast Bunch</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_763_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/run-run-run-away/comments/index_with_likes' id='song_762'>
+													<div class='cell_container' title='Run Run Run Away – '>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#run-run-run-away">Run Run Run Away</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#run-run-run-away">0:46</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#run-run-run-away"></a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#run-run-run-away">The Breakfast Bunch</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_762_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/it-s-not-christmas-without-you/comments/index_with_likes' id='song_736'>
+													<div class='cell_container' title="It's Not Christmas Without You – Tori/Cat/Jade/Andre">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#it-s-not-christmas-without-you">It's Not Christmas Without You</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#it-s-not-christmas-without-you">2:32</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#it-s-not-christmas-without-you">Tori/Cat/Jade/Andre</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#it-s-not-christmas-without-you">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_736_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/song-to-you/comments/index_with_likes' id='song_334'>
+													<div class='cell_container' title='Song2You – Andre Harris'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#song-to-you">Song2You</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#song-to-you">2:45</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#song-to-you">Andre Harris</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#song-to-you">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_334_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/favorite-food/comments/index_with_likes' id='song_333'>
+													<div class='cell_container' title='Favorite Food – The Diddly Bops'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#favorite-food">Favorite Food</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#favorite-food">1:54</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#favorite-food">The Diddly Bops</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#favorite-food">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_333_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/give-it-up/comments/index_with_likes' id='song_275'>
+													<div class='cell_container' title='Give It Up – '>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#give-it-up">Give It Up</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#give-it-up">2:43</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#give-it-up"></a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#give-it-up">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_275_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/freak-the-freak-out-2/comments/index_with_likes' id='song_274'>
+													<div class='cell_container' title='Freak The Freak Out – '>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#freak-the-freak-out-2">Freak The Freak Out</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#freak-the-freak-out-2">3:56</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#freak-the-freak-out-2"></a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#freak-the-freak-out-2">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_274_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/forever-baby/comments/index_with_likes' id='song_273'>
+													<div class='cell_container' title='Forever Baby – '>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#forever-baby">Forever Baby</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#forever-baby">0:24</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#forever-baby"></a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#forever-baby">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_273_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/tell-me-that-you-love-me-2/comments/index_with_likes' id='song_220'>
+													<div class='cell_container' title='Tell Me That You Love Me – Andre Harris'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#tell-me-that-you-love-me-2">Tell Me That You Love Me</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#tell-me-that-you-love-me-2">2:44</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#tell-me-that-you-love-me-2">Andre Harris</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#tell-me-that-you-love-me-2">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_220_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/robbie-s-big-toe-2/comments/index_with_likes' id='song_155'>
+													<div class='cell_container' title="Robbie's Big Toe – Robbie Shapiro">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#robbie-s-big-toe-2">Robbie's Big Toe</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#robbie-s-big-toe-2">1:21</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#robbie-s-big-toe-2">Robbie Shapiro</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#robbie-s-big-toe-2">Robbie's Songs</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_155_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/finally-falling/comments/index_with_likes' id='song_103'>
+													<div class='cell_container' title='Finally Falling – Tori Vega/Beck Oliver'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#finally-falling">Finally Falling</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#finally-falling">3:02</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#finally-falling">Tori Vega/Beck Oliver</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#finally-falling">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_103_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/you-re-the-reason/comments/index_with_likes' id='song_76'>
+													<div class='cell_container' title="You're the Reason – Tori Vega">
+														<div class='cell title'>
+															<a href="/the-slap/tunes#you-re-the-reason">You're the Reason</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#you-re-the-reason">2:53</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#you-re-the-reason">Tori Vega</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#you-re-the-reason">You're The Reason</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_76_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class='item asset_item song_item' comments_url='/the-slap/tunes/make-it-shine/comments/index_with_likes' id='song_27'>
+													<div class='cell_container' title='Make it Shine – Tori Vega'>
+														<div class='cell title'>
+															<a href="/the-slap/tunes#make-it-shine">Make it Shine</a>
+														</div>
+														<div class='cell length'>
+															<a href="/the-slap/tunes#make-it-shine">3:07</a>
+														</div>
+														<div class='cell artist'>
+															<a href="/the-slap/tunes#make-it-shine">Tori Vega</a>
+														</div>
+														<div class='cell album'>
+															<a href="/the-slap/tunes#make-it-shine">Hollywood Arts High</a>
+														</div>
+														<div class='cell actions'>
+															<div class='asset_actions' id='song_27_asset_actions'>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div id='comments_holder'></div>
+								</div>
+								<script type='text/javascript'>
+									var activePlaylist = [{"artist":"Victoria Justice","title":"Here's 2 Us","duration":201,"albumImageUrl":"/the-slap/images/staticassets/images/6938293_large.jpg","url":"/the-slap/images/staticassets/songs/here-s-to-us_original.mp3"},
+									{"artist":"Victoria and Ariana","title":"LA Boyz ","duration":179,"albumImageUrl":"/the-slap/images/staticassets/images/6938291_large.jpg","url":"/the-slap/images/staticassets/songs/la-boyz_original.mp3"},
+									{"artist":"Victoria Justice","title":"Bad Boys","duration":197,"albumImageUrl":"/the-slap/images/staticassets/images/6938279_large.jpg","url":"/the-slap/images/staticassets/songs/bad-boys_original.mp3"},
+									{"artist":"Elizabeth Gillies","title":"You Don't Know Me","duration":174,"albumImageUrl":"/the-slap/images/staticassets/images/6963792_large.jpg","url":"/the-slap/images/staticassets/songs/you-don-t-know-me-3_original.mp3"},
+									{"artist":"Victoria Justice","title":"Faster Than The Boyz","duration":194,"albumImageUrl":"/the-slap/images/staticassets/images/6938264_large.jpg","url":"/the-slap/images/staticassets/songs/faster-than-the-boyz_original.mp3"},
+									{"artist":"Dr. Rhapsody","title":"5 Fingaz ","duration":115,"albumImageUrl":"/the-slap/images/staticassets/images/5606907_large.png","url":"/the-slap/images/staticassets/songs/5-fingaz_original.mp3"},
+									{"artist":"Victorious","title":"Shut Up 'N Dance","duration":109,"albumImageUrl":"/the-slap/images/staticassets/images/5441507_large.png","url":"/the-slap/images/staticassets/songs/shut-up-n-dance_original.mp3"},
+									{"artist":"Tori and Jade","title":"Take A Hint","duration":126,"albumImageUrl":"/the-slap/images/staticassets/images/5302635_large.png","url":"/the-slap/images/staticassets/songs/take-a-hint_original.mp3"},
+									{"artist":"Andre and Victoria","title":"Countdown","duration":119,"albumImageUrl":"/the-slap/images/staticassets/images/5205591_large.png","url":"/the-slap/images/staticassets/songs/countdown_original.mp3"},
+									{"artist":"Victorious Cast","title":"Don't You Forget About Me","duration":250,"albumImageUrl":"/the-slap/images/staticassets/images/5068356_large.png","url":"/the-slap/images/staticassets/songs/don-t-you-forget-about-me_original.mp3"},
+									{"artist":"","title":"In This Together","duration":52,"albumImageUrl":"/the-slap/images/staticassets/images/5068342_large.png","url":"/the-slap/images/staticassets/songs/in-this-together_original.mp3"},
+									{"artist":"","title":"Run Run Run Away","duration":46,"albumImageUrl":"/the-slap/images/staticassets/images/5068339_large.png","url":"/the-slap/images/staticassets/songs/run-run-run-away_original.mp3"},
+									{"artist":"Tori/Cat/Jade/Andre","title":"It's Not Christmas Without You","duration":152,"albumImageUrl":"/the-slap/images/staticassets/images/4714601_large.jpg","url":"/the-slap/images/staticassets/songs/it-s-not-christmas-without-you_original.mp3"},
+									{"artist":"Andre Harris","title":"Song2You","duration":165,"albumImageUrl":"/the-slap/images/staticassets/images/2038304_large.png","url":"/the-slap/images/staticassets/songs/song-to-you_original.mp3"},
+									{"artist":"The Diddly Bops","title":"Favorite Food","duration":114,"albumImageUrl":"/the-slap/images/staticassets/images/2038277_large.png","url":"/the-slap/images/staticassets/songs/favorite-food_original.mp3"},
+									{"artist":"","title":"Give It Up","duration":163,"albumImageUrl":"/the-slap/images/staticassets/images/1677910_large.png","url":"/the-slap/images/staticassets/songs/give-it-up_original.mp3"},
+									{"artist":"","title":"Freak The Freak Out","duration":236,"albumImageUrl":"/the-slap/images/staticassets/images/1675896_large.png","url":"/the-slap/images/staticassets/songs/freak-the-freak-out-2_original.mp3"},
+									{"artist":"","title":"Forever Baby","duration":24,"albumImageUrl":"/the-slap/images/staticassets/images/1675861_large.png","url":"/the-slap/images/staticassets/songs/forever-baby_original.mp3"},
+									{"artist":"Andre Harris","title":"Tell Me That You Love Me","duration":164,"albumImageUrl":"/the-slap/images/staticassets/images/1327734_large.png","url":"/the-slap/images/staticassets/songs/tell-me-that-you-love-me-2_original.mp3"},
+									{"artist":"Robbie Shapiro","title":"Robbie's Big Toe","duration":81,"albumImageUrl":"/the-slap/images/staticassets/images/771558_large.png","url":"/the-slap/images/staticassets/songs/robbie-s-big-toe-2_original.mp3"},
+									{"artist":"Tori Vega/Beck Oliver","title":"Finally Falling","duration":182,"albumImageUrl":"/the-slap/images/staticassets/images/121131_large.jpg","url":"/the-slap/images/staticassets/songs/finally-falling_original.mp3"},
+									{"artist":"Tori Vega","title":"You're the Reason","duration":173,"albumImageUrl":"/the-slap/images/staticassets/images/85957_large.jpg","url":"/the-slap/images/staticassets/songs/you-re-the-reason_original.mp3"},
+									{"artist":"Tori Vega","title":"Make it Shine","duration":187,"albumImageUrl":"/the-slap/images/staticassets/images/23488_large.jpg","url":"/the-slap/images/staticassets/songs/make-it-shine_original.mp3"}];
+								</script>
+							</div>
+						</div>
+						<div id='content_footer'></div>
+					</div>
+					<div id='sidebar_container'>
+						<div id='sidebar_header'>
+							<div class='title'></div>
+						</div>
+						<div id='sidebar_content'>
+							<div class='module_container the_games'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='list_container' id='sidebar_game_container'>
+											<div class='game_of_months_title_container'></div>
+											<ul class='list game_of_months jcarousel-skin-tango'>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7367786_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/cats-heartbreaker-game" title="Heartbreaker Game"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7255379_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/sinjin-sock-hop" title="Sinjin Sock Puppet Game"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/7094958_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/skate-with-cat-game" title="Skate with Cat promo"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/6890337_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/jades-zombie-smasher-game" title="Jade's Zombie Smasher"></a></div>
+												</li>
+												<li class='item' style="background-image: url('/the-slap/images/staticassets/game_of_month_images/6799490_small.png')">
+													<div class='link default_link'><a href="/the-slap/games/wankos-warehouse-game" title="Wanko's Warehouse"></a></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+							<div class='module_container the_tunes'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='sidebar_songs_container'>
+											<a href="/the-slap/tunes#here-s-to-us" style="background-image: url(/the-slap/images/staticassets/images/6938293_sidebar.jpg)">Here's 2 Us</a>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+							<div class='hottest_pages module_container'>
+								<div class='module_header'>
+									<div class='module_title'>
+									</div>
+									<div class='module_controls'>
+										<div class='button_backward'></div>
+										<div class='button_forward'></div>
+									</div>
+								</div>
+								<div class='module_body_container'>
+									<div class='module_body'>
+										<div class='hottest_pages_links_container'>
+											<a href="/the-slap/profiles/tori-vega" title="Tori Vega"><img alt="Tori Vega" src="/the-slap/images/staticassets/unprocessed_images/146931_original.jpg" /></a>
+											<a href="/the-slap/profiles/andre-harris" title="Andre Harris"><img alt="Andre Harris" src="/the-slap/images/staticassets/unprocessed_images/146930_original.jpg" /></a>
+											<a href="/the-slap/profiles/trina-vega" title="Trina Vega"><img alt="Trina Vega" src="/the-slap/images/staticassets/unprocessed_images/146929_original.jpg" /></a>
+											<a href="/the-slap/profiles/robbie-shapiro" title="Robbie Shapiro"><img alt="Robbie Shapiro" src="/the-slap/images/staticassets/unprocessed_images/146928_original.jpg" /></a>
+											<a href="/the-slap/profiles/cat-valentine" title="Cat Valentine"><img alt="Cat Valentine" src="/the-slap/images/staticassets/unprocessed_images/146927_original.jpg" /></a>
+											<a href="/the-slap/profiles/beck-oliver" title="Beck Oliver"><img alt="Beck Oliver" src="/the-slap/images/staticassets/unprocessed_images/146926_original.jpg" /></a>
+											<a href="/the-slap/profiles/jade-west" title="Jade West"><img alt="Jade West" src="/the-slap/images/staticassets/unprocessed_images/146925_original.jpg" /></a>
+											<a href="/the-slap/profiles/rex-powers" title="Rex Powers"><img alt="Rex Powers" src="/the-slap/images/staticassets/unprocessed_images/146924_original.jpg" /></a>
+											<a href="/the-slap/profiles/sinjin-van-cleef" title="Sinjin Van Cleef"><img alt="Sinjin Van Cleef" src="/the-slap/images/staticassets/unprocessed_images/948376_original.jpg" /></a>
+											<a href="/the-slap/profiles/erwin-sikowitz" title="Erwin Sikowitz"><img alt="Erwin Sikowitz" src="/the-slap/images/staticassets/unprocessed_images/1219697_original.jpg" /></a>
+											<a href="/the-slap/profiles/lane-alexander" title="Lane Alexander"><img alt="Lane Alexander" src="/the-slap/images/staticassets/unprocessed_images/4108536_original.png" /></a>
+											<a href="/the-slap/profiles/festus" title="Festus"><img alt="Festus" src="/the-slap/images/staticassets/unprocessed_images/5635405_original.jpg" /></a>
+										</div>
+									</div>
+									<div class='module_body_footer'>
+									</div>
+								</div>
+								<div class='module_footer'></div>
+							</div>
+						</div>
+						<div id='sidebar_footer'></div>
+					</div>
+				</div>
+				<div id='body_shadow_right'></div>
+			</div>
+			<div id='body_shadow_bottom'></div>
+			<div id='footer_container'>
+				<div id='footer'>
+					<div id='footer_nav'>
+						<div class='link_block top_links'>
+							<a href="/the-slap/">THE SLAP HOME</a>
+							<a href="/the-slap/faq">FAQ/ABOUT US</a>
+						</div>
+						<div class='link_block'>
+							<a href="/the-slap/">HOME</a>
+							<a href="/the-slap/profiles">PROFILES</a>
+							<a href="/the-slap/clips">CLIPS</a>
+							<a href="/the-slap/pix">PIX</a>
+							<a href="/the-slap/tunes">TUNES</a>
+							<a href="/the-slap/games">GAMES</a>
+						</div>
+						<div class='link_block'>
+							<a href="http://www.nick.com/legal/nickelodeon-privacy-policy/" rel="external">Privacy Policy/Your California Privacy Rights (updated 2/9/2016)</a>
+							<a href="http://www.nick.com%2Fclub/parents-terms-of-use.html" rel="external">Terms of Use</a>
+						</div>
+						<div class='link_block'>
+							<a href="http://www.nick.com/info/copyright.html" rel="external">Copyright Compliance Policy</a>
+							<a href="http://www.nick.com/info/safety-guide.html" rel="external">Safety Guide</a>
+						</div>
+						<div class='link_block'></div>
+						<div class='link_block'>
+							&copy; Copyright 2017 Viacom International Inc. All Rights Reserved
+						</div>
+						<div class='link_block'>
+							<div class='friends_title'>
+								Friends of Victorious
+							</div>
+							<div class='friends_container'>
+								<a href="http://www.icarly.com"><img alt="SplashFace" src="/the-slap/images/friends/logo_splashface.gif" /></a>
+								<a href="http://www.icarly.com"><img alt="iCarly" src="/the-slap/images/friends/logo_icarly.png" /></a>
+								<a href="http://www.nick.com"><img alt="Nick" src="/the-slap/images/friends/logo_nick_com.png" /></a>
+								<a href="http://www.nick.com"><img alt="Nickelodean Kids &amp; Teens" src="/the-slap/images/friends/logo_nick_kids_teens.gif" /></a>
+								<a href="http://www.icarly.com"><img alt="SplashFace" src="/the-slap/images/friends/logo_zaplook.gif" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
-
 
