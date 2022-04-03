@@ -127,12 +127,13 @@
 											var player;
 											function onYouTubeIframeAPIReady()
 											{
-												player = new YT.player('iframe_placeholder', {
+												player = new YT.Player('iframe_placeholder', {
 													height: '321',
 													width: '570',
 													videoId: 'NFzHQ03FlkA',
 													playerVars: {
-														'playsinline': 1
+														'playsinline': 1,
+														'modestbranding': 1
 													},
 													events: {
 														'onReady': onPlayerReady,
