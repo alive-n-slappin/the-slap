@@ -110,13 +110,58 @@
 								<div class='player_container'>
 									<div class='videoContainer' id='video_player'>
 										<div id="iframe_temp"></div>
-										<script type="text/javascript">
+
+										<script id="youtube-iframe-api-script">
 											console.log("a")
 											var tag = document.createElement('script');
 
 											tag.src = "https://www.youtube.com/iframe_api";
-											var firstScriptTag = document.getElementsByTagName('script')[0];
-											firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);
+											var firstScriptTag = document.getElementsById('youtube-iframe-api-script');
+											firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+											var section = {
+												start: 17240,
+												end: 17404
+											};
+											
+											var player;
+											function onYoutubeIframeAPIReady()
+											{
+												console.log("b")
+												player = new YT.player('iframe_temp', {
+													height: '321',
+													width: '570',
+													videoId: 'NFzHQ03FlkA',
+													playerVars: {
+														'playsinline': 1
+													},
+													events: {
+														'onReady': onPlayerReady,
+														'onStateChange': onPlayerStateChange
+													}
+												});
+											}
+
+											function onPlayerReady(event)
+											{
+												player.seekTo(section.start);
+												//player.playVideo();
+											}
+
+											function onPlayerStateChange(event)
+											{
+												if (event.data == YT.PlayerState.PLAYING)
+												{
+													var duration = section.end - section.start;
+													setTimeout(restartVideoSection, duration * 1000);
+												}
+											}
+
+											function restartVideoSection()
+											{
+												player.stopVideo();
+												player.seekTo(section.start);
+											}
 										</script>
 										
 										<!--<iframe width="570" height="321" style="border:none;"
