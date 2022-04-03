@@ -118,14 +118,13 @@
 											var firstScriptTag = document.getElementsByTagName('script')[0];
 											firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);
 
-											console.log("a2")
 											var section = {
 												start: 17240,
 												end: 17404
 											};
-
+											console.log("a2")
 											var player;
-											window.onYoutubeIframeAPIReady = function()
+											function onYoutubeIframeAPIReady()
 											{
 												console.log("b")
 												player = new YT.player('iframe_temp', {
