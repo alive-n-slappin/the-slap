@@ -118,10 +118,7 @@
 											var firstScriptTag = document.getElementById('youtube-iframe-api-script');
 											firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-											var section = {
-												start: 17240,
-												end: 17404
-											};
+											var startTime = 17240
 											
 											var player;
 											function onYouTubeIframeAPIReady()
@@ -132,7 +129,8 @@
 													videoId: 'NFzHQ03FlkA',
 													playerVars: {
 														'playsinline': 1,
-														'modestbranding': 1
+														'modestbranding': 1,
+														'end': 17404
 													},
 													events: {
 														'onReady': onPlayerReady,
@@ -141,25 +139,23 @@
 												});
 											}
 
+											function resetVideo()
+											{
+												player.seekTo(startTime);
+												player.pauseVideo();
+											}
+
 											function onPlayerReady(event)
 											{
-												player.seekTo(section.start);
-												player.pauseVideo()
+												resetVideo();
 											}
 
 											function onPlayerStateChange(event)
 											{
-												if (event.data == YT.PlayerState.PLAYING)
+												if (event.data == YT.PlayerState.ENDED)
 												{
-													var duration = section.end - section.start;
-													setTimeout(restartVideoSection, duration * 1000);
+													resetVideo();
 												}
-											}
-
-											function restartVideoSection()
-											{
-												player.stopVideo();
-												player.seekTo(section.start);
 											}
 										</script>
 										
