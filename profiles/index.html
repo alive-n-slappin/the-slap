@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns:esi='http://www.edge-delivery.org/esi/1.0' xmlns='http://www.w3.org/1999/xhtml'>
 	<head>
@@ -65,11 +63,7 @@
 							<div id='content_callout_tab'>
 								<div id='content_callout'>
 									<div id='banner_ad'>
-										<script type='text/javascript'>
-											//<![CDATA[
-											  mtvn.btg.Controller.placeAd({size:'728x90',contentType:"adi",keyValues:"!category=expand;!category=vic",sections:zone});
-											//]]>
-										</script>
+
 									</div>
 								</div>
 							</div>
@@ -95,7 +89,6 @@
 											<div class='form_container'>
 												<form action="/search" method="get">
 													<input id="type" name="type" type="hidden" value="Character" />
-													<!-- / = label_tag :q, 'site.label.search'.t -->
 													<div class='input_container'>
 														<input id="character_search_field" name="q" size="15" type="text" />
 													</div>
@@ -121,7 +114,9 @@
 												Hot Profiles
 											</div>
 										</div>
-										<ul class='list character_list'>
+
+										<!-- Profile List #1 -->
+										<ul class='list character_list' id="character_list_1" style="display: block;">
 											<li class='character_item even item' id='character_3'>
 												<div class='photo_container'>
 													<div class='photo'>
@@ -156,6 +151,7 @@
 													</div>
 												</div>
 											</li>
+
 											<li class='character_item item odd' id='character_1'>
 												<div class='photo_container'>
 													<div class='photo'>
@@ -190,6 +186,7 @@
 													</div>
 												</div>
 											</li>
+
 											<li class='character_item even item' id='character_2'>
 												<div class='photo_container'>
 													<div class='photo'>
@@ -224,6 +221,7 @@
 													</div>
 												</div>
 											</li>
+
 											<li class='character_item item odd' id='character_6'>
 												<div class='photo_container'>
 													<div class='photo'>
@@ -258,6 +256,7 @@
 													</div>
 												</div>
 											</li>
+
 											<li class='character_item even item' id='character_7'>
 												<div class='photo_container'>
 													<div class='photo'>
@@ -293,10 +292,287 @@
 												</div>
 											</li>
 										</ul>
+
+										<!-- Profile List #2 -->
+										<ul class='list character_list' id="character_list_2" style="display: none;">
+											<li class='character_item even item' id='character_4'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Beck" src="/the-slap/images/staticassets/profile_images/beck.jpg" />
+													</div>
+													<a href="/the-slap/profiles/beck-oliver">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/beck-oliver">Beck Oliver</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/beck-oliver">I wish I could call a restaurant to deliver one pack of gum to me. I don't have time to go to the store before my date tonight. </a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/beck-oliver">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/908886.gif" /></div>
+																<div class='mood_word'>
+																	Mint-less
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/beck-oliver">Go</a>
+													</div>
+												</div>
+											</li>
+
+											<li class='character_item item odd' id='character_8'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Jade" src="/the-slap/images/staticassets/profile_images/jade.jpg" />
+													</div>
+													<a href="/the-slap/profiles/jade-west">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/jade-west">Jade West</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/jade-west">What's so hard to understand about a bunless, meatless, dairyless cheeseburger??? Get it together Inside-Out Burger!</a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/jade-west">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/1404950.gif" /></div>
+																<div class='mood_word'>
+																	wazzed
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/jade-west">Go</a>
+													</div>
+												</div>
+											</li>
+
+											<li class='character_item even item' id='character_5'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Rex" src="/the-slap/images/staticassets/profile_images/rex.jpg" />
+													</div>
+													<a href="/the-slap/profiles/rex-powers">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/rex-powers">Rex Powers</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/rex-powers">How come I never get cast in any Hollywood Arts plays? They're overlooking pure leading man material here! </a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/rex-powers">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/908820.gif" /></div>
+																<div class='mood_word'>
+																	offended
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/rex-powers">Go</a>
+													</div>
+												</div>
+											</li>
+
+											<li class='character_item item odd' id='character_9'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Sinjin" src="/the-slap/images/staticassets/profile_images/sinjin.jpg" />
+													</div>
+													<a href="/the-slap/profiles/sinjin-van-cleef">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/sinjin-van-cleef">Sinjin Van Cleef</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/sinjin-van-cleef">Just got back from my man-date with Beck!!! We had a great time. I hope we can do it again soon!</a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/sinjin-van-cleef">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/908882.gif" /></div>
+																<div class='mood_word'>
+																	psyched
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/sinjin-van-cleef">Go</a>
+													</div>
+												</div>
+											</li>
+
+											<li class='character_item even item' id='character_10'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Sikowitz" src="/the-slap/images/staticassets/profile_images/sikowitz.jpg" />
+													</div>
+													<a href="/the-slap/profiles/erwin-sikowitz">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/erwin-sikowitz">Sikowitz</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/erwin-sikowitz">This week I challenge you to say YES to everything!!! May you all have adventures worthy of a hit sitcom's series finale!</a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/erwin-sikowitz">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/13.gif" /></div>
+																<div class='mood_word'>
+																	victorious
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/erwin-sikowitz">Go</a>
+													</div>
+												</div>
+											</li>
+										</ul>
+
+										<!-- Profile List #3 -->
+										<ul class='list character_list' id="character_list_3" style="display: none;">
+											<li class='character_item even item' id='character_11'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Lane" src="/the-slap/images/staticassets/profile_images/lane.jpg" />
+													</div>
+													<a href="/the-slap/profiles/lane-alexander">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/lane-alexander">Lane Alexander</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/lane-alexander">I love all the gifts you guys gave me this year! Except the used exercise VHS. Thanks but no thanks. </a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/lane-alexander">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/4710356.gif" /></div>
+																<div class='mood_word'>
+																	merry
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/lane-alexander">Go</a>
+													</div>
+												</div>
+											</li>
+
+											<li class='character_item item odd' id='character_12'>
+												<div class='photo_container'>
+													<div class='photo'>
+														<img alt="Festus" src="/the-slap/images/staticassets/profile_images/festus.png" />
+													</div>
+													<a href="/the-slap/profiles/festus">
+														<div class='photo_frame'></div>
+													</a>
+												</div>
+												<div class='meta_data'>
+													<div class='cell name'>
+														<a href="/the-slap/profiles/festus">Festus</a>
+													</div>
+													<div class='cell status'>
+														<a href="/the-slap/profiles/festus">Free lunch for whoever remembered my birthday yesterday!!! Oh that's right, no one remembered! No free lunches for anyone!</a>
+													</div>
+													<div class='cell mood'>
+														<a href="/the-slap/profiles/festus">
+															<div class='mood_container'>
+																<div class='mood_title'>
+																	Mood
+																</div>
+																<div class='icon'><img alt="" src="/the-slap/images/staticassets/unprocessed_images/emojis/9.gif" /></div>
+																<div class='mood_word'>
+																	sad
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class='go_button_container'>
+														<a href="/the-slap/profiles/festus">Go</a>
+													</div>
+												</div>
+											</li>
+										</ul>
+
 										<div class='list_footer'></div>
 										<div class='pagination_container'>
-											<div class="pagination" id="characters_pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/the-slap/profiles?page=2" rel="next">2</a> <a href="/the-slap/profiles?page=3">3</a> <a href="/the-slap/profiles?page=2" class="next_page" rel="next">Next &raquo;</a></div>
+											<div class="pagination" id="characters_pagination">
+												<span class="disabled prev_page">&laquo; Previous</span> 
+												<a onclick="showPageOne()">1</a> 
+												<a onclick="showPageTwo()">2</a> 
+												<a onclick="showPageThree()">3</a> 
+												<a class="disabled next_page" rel="next">Next &raquo;</a></div>
 											<div class='loading hidden'></div>
+											<script>
+												function showPageOne()
+												{
+													document.getElementById('character_list_1').style.display = 'block';
+													document.getElementById('character_list_2').style.display = 'none';
+													document.getElementById('character_list_3').style.display = 'none';
+												}
+												function showPageTwo()
+												{
+													document.getElementById('character_list_1').style.display = 'none';
+													document.getElementById('character_list_2').style.display = 'block';
+													document.getElementById('character_list_3').style.display = 'none';
+												}
+												function showPageThree()
+												{
+													document.getElementById('character_list_1').style.display = 'none';
+													document.getElementById('character_list_2').style.display = 'none';
+													document.getElementById('character_list_3').style.display = 'block';
+												}
+											</script>
 										</div>
 									</div>
 									<script type='text/javascript'>
