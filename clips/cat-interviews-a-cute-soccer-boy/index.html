@@ -109,7 +109,7 @@
 								</div>
 								<div class='player_container'>
 									<div class='videoContainer' id='video_player'>
-										<div id="iframe_temp"></div>
+										<div id="iframe_placeholder"></div>
 
 										<script id="youtube-iframe-api-script">
 											console.log("a")
@@ -125,10 +125,9 @@
 											};
 											
 											var player;
-											function onYoutubeIframeAPIReady()
+											function onYouTubeIframeAPIReady()
 											{
-												console.log("b")
-												player = new YT.player('iframe_temp', {
+												player = new YT.player('iframe_placeholder', {
 													height: '321',
 													width: '570',
 													videoId: 'NFzHQ03FlkA',
@@ -140,6 +139,7 @@
 														'onStateChange': onPlayerStateChange
 													}
 												});
+												console.log("b")
 											}
 
 											function onPlayerReady(event)
