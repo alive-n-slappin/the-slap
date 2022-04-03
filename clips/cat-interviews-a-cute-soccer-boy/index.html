@@ -109,9 +109,54 @@
 								</div>
 								<div class='player_container'>
 									<div class='videoContainer' id='video_player'>
-										<iframe width="570" height="321" style="border:none;"
+										<script>
+											var tag = document.createElement('script');
+
+											tag.src = "https://www.youtube.com/iframe_api";
+											var firstScriptTag = document.getElementsByTagName('script')[0];
+											firstScriptTag.parentNode.insertBefore(tag,firstScriptTag)
+
+											var section = {
+												start: 17240,
+												end: 17404
+											};
+
+											var player;
+											function onYoutubeIframeAPIReady(){
+												player = new YT.player(
+													'player',
+													{
+														height: '321',
+														width: '570',
+														videoId: 'NFzHQ03FlkA',
+														events: {
+															'onReady': onPlayerReady,
+															'onStateChange': onPlayerStateChange
+														}
+													}
+												);
+											}
+
+											function onPlayerReady(event){
+												player.seekTo(section.start);
+												player.playVideo();
+											}
+
+											function onPlayerStateChange(event){
+												if (event.data == YT.PlayerState.PLAYING){
+													var duration = section.end - section.start;
+													setTimeout(restartVideoSection, duration * 1000);
+												}
+											}
+
+											function restartVideoSection(){
+												player.seekTo(section.start);
+											}
+										</script>
+										
+										<!--<iframe width="570" height="321" style="border:none;"
 											src="https://www.youtube.com/embed/NFzHQ03FlkA?start=17239&end=17404">
-										</iframe>
+										</iframe>-->
 									</div>
 									<div class='fancy_info_block'>
 										<div class='row uploaded_by'>
