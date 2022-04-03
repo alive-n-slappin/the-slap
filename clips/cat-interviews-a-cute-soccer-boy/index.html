@@ -141,7 +141,7 @@
 											function onPlayerReady(event)
 											{
 												player.seekTo(section.start);
-												player.playVideo();
+												//player.playVideo();
 											}
 
 											function onPlayerStateChange(event)
@@ -155,6 +155,7 @@
 
 											function restartVideoSection()
 											{
+												player.stopVideo();
 												player.seekTo(section.start);
 											}
 										</script>
