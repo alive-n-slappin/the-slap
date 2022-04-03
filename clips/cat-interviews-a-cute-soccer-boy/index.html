@@ -124,18 +124,18 @@
 											var player;
 											function onYoutubeIframeAPIReady()
 											{
-												player = new YT.player(
-													'video_player',
-													{
-														height: '321',
-														width: '570',
-														videoId: 'NFzHQ03FlkA',
-														events: {
-															'onReady': onPlayerReady,
-															'onStateChange': onPlayerStateChange
-														}
+												player = new YT.player('video_player', {
+													height: '321',
+													width: '570',
+													videoId: 'NFzHQ03FlkA',
+													playerVars: {
+														'playsinline': 1
+													},
+													events: {
+														'onReady': onPlayerReady,
+														'onStateChange': onPlayerStateChange
 													}
-												);
+												});
 											}
 
 											function onPlayerReady(event)
