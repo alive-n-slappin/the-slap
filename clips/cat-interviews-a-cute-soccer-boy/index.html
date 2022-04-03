@@ -112,7 +112,6 @@
 										<div id="iframe_placeholder"></div>
 
 										<script id="youtube-iframe-api-script">
-											console.log("a")
 											var tag = document.createElement('script');
 
 											tag.src = "https://www.youtube.com/iframe_api";
@@ -133,20 +132,20 @@
 													videoId: 'NFzHQ03FlkA',
 													playerVars: {
 														'playsinline': 1,
-														'modestbranding': 1
+														'modestbranding': 1,
+														'controls': 0
 													},
 													events: {
 														'onReady': onPlayerReady,
 														'onStateChange': onPlayerStateChange
 													}
 												});
-												console.log("b")
 											}
 
 											function onPlayerReady(event)
 											{
 												player.seekTo(section.start);
-												//player.playVideo();
+												player.pauseVideo()
 											}
 
 											function onPlayerStateChange(event)
