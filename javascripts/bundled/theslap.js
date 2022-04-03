@@ -8178,3 +8178,50 @@ $(document).ready(function() {
 //});
 
 });
+
+
+
+// Youtube Iframe API
+var section = {
+	start: 17240,
+	end: 17404
+};
+
+var player;
+function onYoutubeIframeAPIReady()
+{
+	console.log("b")
+	player = new YT.player('iframe_temp', {
+		height: '321',
+		width: '570',
+		videoId: 'NFzHQ03FlkA',
+		playerVars: {
+			'playsinline': 1
+		},
+		events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange
+		}
+	});
+}
+
+function onPlayerReady(event)
+{
+	player.seekTo(section.start);
+	//player.playVideo();
+}
+
+function onPlayerStateChange(event)
+{
+	if (event.data == YT.PlayerState.PLAYING)
+	{
+		var duration = section.end - section.start;
+		setTimeout(restartVideoSection, duration * 1000);
+	}
+}
+
+function restartVideoSection()
+{
+	player.stopVideo();
+	player.seekTo(section.start);
+}
