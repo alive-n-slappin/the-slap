@@ -111,6 +111,7 @@
 									<div class='videoContainer' id='video_player'>
 										<div id="iframe_temp"></div>
 										<script>
+											console.log("a")
 											var tag = document.createElement('script');
 
 											tag.src = "https://www.youtube.com/iframe_api";
@@ -123,8 +124,9 @@
 											};
 
 											var player;
-											window.onYoutubeIframeAPIReady = function()
+											function onYoutubeIframeAPIReady()
 											{
+												console.log("b")
 												player = new YT.player('iframe_temp', {
 													height: '321',
 													width: '570',
