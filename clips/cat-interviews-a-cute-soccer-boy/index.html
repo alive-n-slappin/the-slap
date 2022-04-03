@@ -109,59 +109,9 @@
 								</div>
 								<div class='player_container'>
 									<div class='videoContainer' id='video_player'>
-										<div id="iframe_placeholder"></div>
-
-										<script id="youtube-iframe-api-script">
-											var tag = document.createElement('script');
-
-											tag.src = "https://www.youtube.com/iframe_api";
-											var firstScriptTag = document.getElementById('youtube-iframe-api-script');
-											firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-											var startTime = 17240
-											
-											var player;
-											function onYouTubeIframeAPIReady()
-											{
-												player = new YT.Player('iframe_placeholder', {
-													height: '321',
-													width: '570',
-													videoId: 'NFzHQ03FlkA',
-													playerVars: {
-														'playsinline': 1,
-														'modestbranding': 1,
-														'end': 17404
-													},
-													events: {
-														'onReady': onPlayerReady,
-														'onStateChange': onPlayerStateChange
-													}
-												});
-											}
-
-											function resetVideo()
-											{
-												player.seekTo(startTime);
-												player.pauseVideo();
-											}
-
-											function onPlayerReady(event)
-											{
-												resetVideo();
-											}
-
-											function onPlayerStateChange(event)
-											{
-												if (event.data == YT.PlayerState.ENDED)
-												{
-													resetVideo();
-												}
-											}
-										</script>
-										
-										<!--<iframe width="570" height="321" style="border:none;"
-											src="https://www.youtube.com/embed/NFzHQ03FlkA?start=17239&end=17404">
-										</iframe>-->
+										<iframe width="570" height="321" style="border:none;"
+											src="https://www.youtube.com/embed/NFzHQ03FlkA?start=17239&end=17404&modestbranding=1">
+										</iframe>
 									</div>
 									<div class='fancy_info_block'>
 										<div class='row uploaded_by'>
