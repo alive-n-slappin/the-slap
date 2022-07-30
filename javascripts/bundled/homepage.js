@@ -589,14 +589,10 @@ $(document).ready(function() {
     // TODO: $(".jcarousel-list li:only-child").closest(".jcarousel-container").find(".jcarousel-next, .jcarousel-prev").hide();
 });
 
-$(document).ready(function()
+window.onload = function()
 {
     var c = document.getElementById("make_rex_speak_container");
     var ctx = c.getContext("2d");
-    var img = new Image();
-    img.src = '/site/talk_widget/images/rex.jpg';
-    img.onload = function (e)
-    {
-        ctx.drawImage(img, 0, 0);
-    }
-});
+    var img = document.getElementById("rex_image");
+    ctx.drawImage(img, 0, 0, 218, 279);
+}
