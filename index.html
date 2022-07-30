@@ -432,22 +432,14 @@
 									</li>
 								</ul>
 							</div>
+
+							<canvas id='make_rex_speak_container' class='talk_widget' style='width:218px; height:279px; overflow:hidden'></canvas>
+							<!--
 							<div id='make_rex_speak_container'>
 								<object data='/site/swf/make_rex_say_stuff.swf' height='275' id='make_rex_speak' type='application/x-shockwave-flash' width='217'>
 									<param name='movie' value='/site/swf/make_rex_say_stuff.swf' />
 									<param name='wmode' value='transparent' />
 
-									<canvas class='talk_widget' style='width:218px; height:279px; overflow:hidden'></canvas>
-									<script>
-										window.onload = function()
-										{
-											var c = document.getElementsByClassName("talk_widget");
-											var ctx = c.getContext("2d");
-											var img = '/site/talk_widget/images/rex.jpg';
-											ctx.drawImage(img);
-										}
-									</script>
-									<!--
 									<div class='talk_widget' style='width:218px; height:279px; overflow:hidden'>
 										<img alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
 										<audio src='/site/talk_widget/audio/cupcake.mp4'>
@@ -465,9 +457,9 @@
 											//]]>
 										</script>
 									</div>
-								-->
 								</object>
 							</div>
+							-->
 							<div class='list_container' id='game_of_months_container'>
 								<div class='game_of_months_title_container'></div>
 								<ul class='list game_of_months jcarousel-skin-tango'>
