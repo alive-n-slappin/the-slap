@@ -433,8 +433,24 @@
 								</ul>
 							</div>
 
-							<img id='rex_image' alt='Make Rex Say Stuff' src='' /> <!-- Image for rex widget canvas -->
-							<canvas id='make_rex_speak_container' class='talk_widget' width='218px' height='279px' style='width:217px; height:275px; overflow:hidden'></canvas>
+							<canvas id='make_rex_speak_container' class='talk_widget' width='218px' height='279px' style='width:217px; height:275px; overflow:hidden'>
+								<!-- Fallback image -->
+								<img id='rex_image' alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
+								<audio src='/site/talk_widget/audio/cupcake.mp4'>
+									Whatever it takes, cupcake.
+								</audio>
+								<audio src='/site/talk_widget/audio/smell.mp4'>
+									Can I smell it?
+								</audio>
+								<audio src='/site/talk_widget/audio/stop.mp4'>
+									Stop clicking on me!
+								</audio>
+								<script type='text/javascript'>
+									//<![CDATA[
+									  $(function(){$('.talk_widget').click(function(){$('audio',this)[Math.floor(Math.random()*$('audio',this).length)].play()})});
+									//]]>
+								</script>
+							</canvas>
 							<!--
 							<div id='make_rex_speak_container'>
 								<object data='/site/swf/make_rex_say_stuff.swf' height='275' id='make_rex_speak' type='application/x-shockwave-flash' width='217'>
