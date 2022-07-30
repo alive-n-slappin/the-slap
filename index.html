@@ -437,9 +437,16 @@
 									<param name='movie' value='/site/swf/make_rex_say_stuff.swf' />
 									<param name='wmode' value='transparent' />
 
-									<canvas class='talk_widget' style='width:218px; height:279px; overflow:hidden'>
-										<img alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
-									</canvas>
+									<canvas class='talk_widget' style='width:218px; height:279px; overflow:hidden'></canvas>
+									<script>
+										window.onload = function()
+										{
+											var c = document.getElementsByClassName("talk_widget");
+											var ctx = c.getContext("2d");
+											var img = '/site/talk_widget/images/rex.jpg';
+											ctx.drawImage(img);
+										}
+									</script>
 									<!--
 									<div class='talk_widget' style='width:218px; height:279px; overflow:hidden'>
 										<img alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
@@ -464,25 +471,25 @@
 							<div class='list_container' id='game_of_months_container'>
 								<div class='game_of_months_title_container'></div>
 								<ul class='list game_of_months jcarousel-skin-tango'>
-									<li class='item' style="background-image: url('/site/images/staticassets/game_of_month_images/7367786_original.png')">
+									<li class='item' style="background-image: url('/site/images/game_of_month_images/7367786/original.png')">
 										<div class='link default_link'><a href="/site/games/cats-heartbreaker-game" title="Heartbreaker Game"></a></div>
 									</li>
-									<li class='item' style="background-image: url('/site/images/staticassets/game_of_month_images/7255379_original.png')">
+									<li class='item' style="background-image: url('/site/images/game_of_month_images/7255379/original.png')">
 										<div class='link default_link'><a href="/site/games/sinjin-sock-hop" title="Sinjin Sock Puppet Game"></a></div>
 									</li>
-									<li class='item' style="background-image: url('/site/images/staticassets/game_of_month_images/7094958_original.png')">
+									<li class='item' style="background-image: url('/site/images/game_of_month_images/7094958/original.png')">
 										<div class='link default_link'><a href="/site/games/skate-with-cat-game" title="Skate with Cat promo"></a></div>
 									</li>
-									<li class='item' style="background-image: url('/site/images/staticassets/game_of_month_images/6890337_original.png')">
+									<li class='item' style="background-image: url('/site/images/game_of_month_images/6890337/original.png')">
 										<div class='link default_link'><a href="/site/games/jades-zombie-smasher-game" title="Jade's Zombie Smasher"></a></div>
 									</li>
-									<li class='item' style="background-image: url('/site/images/staticassets/game_of_month_images/6799490_original.png')">
+									<li class='item' style="background-image: url('/site/images/game_of_month_images/6799490/original.png')">
 										<div class='link default_link'><a href="/site/games/wankos-warehouse-game" title="Wanko's Warehouse"></a></div>
 									</li>
 								</ul>
 							</div>
-							<div id='photos_highlight_container' style='background-image: url("/site/images/staticassets/unprocessed_images/7268026_original.png")'>
-								<a href="/site/my/profile" style='background-image: url("/site/images/staticassets/unprocessed_images/7268025_original.png")'>Avatar wendeshia</a>
+							<div id='photos_highlight_container' style='background-image: url("/site/images/unprocessed_images/7268026/original.png")'>
+								<a href="/site/my/profile" style='background-image: url("/site/images/unprocessed_images/7268025/original.png")'>Avatar wendeshia</a>
 							</div>
 							<div id='what_is_theslap_container'>
 								<a href="/site/faq">What is The Slap</a>
