@@ -594,7 +594,5 @@ $(document).ready(function()
     var c = document.getElementById("make_rex_speak_container");
     var ctx = c.getContext("2d");
     var img = document.getElementById("rex_image");
-    ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, c.width, c.height);
-
-    console.log("aaaaaa!");
+    ctx.drawImage(img, 0, 0);
 });
