@@ -589,11 +589,12 @@ $(document).ready(function() {
     // TODO: $(".jcarousel-list li:only-child").closest(".jcarousel-container").find(".jcarousel-next, .jcarousel-prev").hide();
 });
 
-window.onload = function()
+$(document).ready(function()
 {
     var c = document.getElementById("make_rex_speak_container");
     var ctx = c.getContext("2d");
     var img = document.getElementById("rex_image");
     ctx.drawImage(img, 0, 0);
+
     console.log("aaaaaa!");
-}
+});
