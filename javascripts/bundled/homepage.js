@@ -593,6 +593,10 @@ $(document).ready(function()
 {
     var c = document.getElementById("make_rex_speak_container");
     var ctx = c.getContext("2d");
-    var img = '/site/talk_widget/images/rex.jpg';
-    ctx.drawImage(img, 0, 0);
+    var img = new Image();
+    img.src = '/site/talk_widget/images/rex.jpg';
+    img.onload = function (e)
+    {
+        ctx.drawImage(img, 0, 0);
+    }
 });
