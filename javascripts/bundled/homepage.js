@@ -595,4 +595,5 @@ window.onload = function()
     var ctx = c.getContext("2d");
     var img = document.getElementById("rex_image");
     ctx.drawImage(img, 0, 0);
+    console.log("aaaaaa!");
 }
