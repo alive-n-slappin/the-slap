@@ -588,3 +588,11 @@ $(document).ready(function() {
     // Hide prev/next buttons if only one child
     // TODO: $(".jcarousel-list li:only-child").closest(".jcarousel-container").find(".jcarousel-next, .jcarousel-prev").hide();
 });
+
+window.onload = function()
+{
+    var c = document.getElementById("make_rex_speak_container");
+    var ctx = c.getContext("2d");
+    var img = '/site/talk_widget/images/rex.jpg';
+    ctx.drawImage(img, 0, 0);
+}
