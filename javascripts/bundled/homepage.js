@@ -593,8 +593,12 @@ $(document).ready(function()
 {
     var c = document.getElementById("make_rex_speak_container");
     var ctx = c.getContext("2d");
-    var img = document.getElementById("rex_image");
-    ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, c.width, c.height);
+    var img = new Image();
+    img.src = "/site/talk_widget/images/rex.jpg";
+    //document.getElementById("rex_image");
 
-    console.log("aaaaaa!");
+    $(img).ready(function()
+    {
+        ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, c.width, c.height);
+    });
 });
