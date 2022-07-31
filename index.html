@@ -257,7 +257,7 @@
 									<li class='item' style="background-image: url('/site/images/unprocessed_images/7358855/original.png')">
 										<div class='link default_link'><a href="/site/galleries/132/slideshow%23http%3A//staticassets.www.theslap.com/images/7358731/large.jpg" title="Victori-Yes!!"></a></div>
 									</li>
-									<li class='item' style="background-image: url('/site/images/unprocessed_images/4840250_original.png')">
+									<li class='item' style="background-image: url('/site/images/unprocessed_images/4840250/original.png')">
 										<div class='link default_link'><a href="/site/bizarre-blabbing-blog" title="Bizarre Blabbing "></a></div>
 									</li>
 									<li class='item' style="background-image: url('/site/images/unprocessed_images/7151332/original.png')">
@@ -433,30 +433,29 @@
 								</ul>
 							</div>
 
-							<!--
-							<canvas id='make_rex_speak_container' class='talk_widget' width='651px' height='825px' style='width:217px; height:275px; overflow:hidden'>
-								Fallback image
-								<img id='rex_image' alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
-								<audio src='/site/talk_widget/audio/cupcake.mp4'>
-									Whatever it takes, cupcake.
-								</audio>
-								<audio src='/site/talk_widget/audio/smell.mp4'>
-									Can I smell it?
-								</audio>
-								<audio src='/site/talk_widget/audio/stop.mp4'>
-									Stop clicking on me!
-								</audio>
-								<script type='text/javascript'>
-									//<![CDATA[
-									  $(function(){$('.talk_widget').click(function(){$('audio',this)[Math.floor(Math.random()*$('audio',this).length)].play()})});
-									//]]>
-								</script>
-							</canvas>
-							-->
-
-
-							
 							<div id='make_rex_speak_container'>
+								<canvas width='651px' height='825px' style='width:217px; height:275px; overflow:hidden'>
+									<!--Fallback content-->
+									<div class='talk_widget' style='width:218px; height:279px; overflow:hidden'>
+										<img id='rex_image' alt='Make Rex Say Stuff' src='/site/talk_widget/images/rex.jpg' />
+										<audio src='/site/talk_widget/audio/cupcake.mp4'>
+											Whatever it takes, cupcake.
+										</audio>
+										<audio src='/site/talk_widget/audio/smell.mp4'>
+											Can I smell it?
+										</audio>
+										<audio src='/site/talk_widget/audio/stop.mp4'>
+											Stop clicking on me!
+										</audio>
+										<script type='text/javascript'>
+											//<![CDATA[
+											  $(function(){$('.talk_widget').click(function(){$('audio',this)[Math.floor(Math.random()*$('audio',this).length)].play()})});
+											//]]>
+										</script>
+									</div>
+								</canvas>
+
+								<!--
 								<object data='/site/swf/make_rex_say_stuff.swf' height='275' id='make_rex_speak' type='application/x-shockwave-flash' width='217'>
 									<param name='movie' value='/site/swf/make_rex_say_stuff.swf' />
 									<param name='wmode' value='transparent' />
@@ -479,8 +478,8 @@
 										</script>
 									</div>
 								</object>
+								-->
 							</div>
-							
 
 							<div class='list_container' id='game_of_months_container'>
 								<div class='game_of_months_title_container'></div>
